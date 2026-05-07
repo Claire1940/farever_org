@@ -107,8 +107,8 @@ export default function Navigation({ navPreviewData, wikiLinks }: NavigationProp
 						<div className="w-10 h-10 bg-[hsl(var(--nav-theme))] rounded-lg flex items-center justify-center font-bold text-xl">
 							L
 						</div>
-						<span className="font-bold text-lg hidden sm:inline">Lucid Blocks</span>
-						<span className="font-bold text-lg sm:hidden">LB</span>
+						<span className="font-bold text-lg hidden sm:inline">Farever</span>
+						<span className="font-bold text-lg sm:hidden">F</span>
 					</Link>
 
 					{/* Desktop Navigation */}
