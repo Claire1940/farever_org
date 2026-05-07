@@ -11,12 +11,12 @@
     }
   },
   "nav": {
-    "guides": "Guides",
-    "crafting": "Fabrication",
-    "items": "Objets",
-    "biomes": "Biomes",
-    "building": "Construction",
-    "support": "Support"
+    "release": "Release",
+    "guide": "Guide",
+    "classes": "Classes",
+    "weapons": "Weapons",
+    "multiplayer": "Multiplayer",
+    "charts": "Charts"
   },
   "common": {
     "home": "Accueil",

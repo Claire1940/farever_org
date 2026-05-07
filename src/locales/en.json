@@ -10,7 +10,14 @@
       "twitterDescription": "Farever guides for release details, classes, builds, dungeons, loot routes, roadmap updates, and system requirements on Steam."
     }
   },
-  "nav": {},
+  "nav": {
+    "release": "Release",
+    "guide": "Guide",
+    "classes": "Classes",
+    "weapons": "Weapons",
+    "multiplayer": "Multiplayer",
+    "charts": "Charts"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -880,125 +887,125 @@
     "disclaimer": "Not affiliated with Shiro Games."
   },
   "pages": {
-    "guides": {
-      "title": "Farever Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced Progression strategies. Master survival and crafting.",
-      "metaTitle": "Farever Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Farever guides covering beginner tips, Progression system, survival strategies, and expert tactics for mastering the surreal sandbox.",
-      "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the Progression crafting system. Learn everything from first steps to advanced techniques.",
-      "why": "Why read guides?",
+    "release": {
+      "title": "Farever Release",
+      "description": "Launch coverage for release timing, Steam access, pricing, regions, and platform scope.",
+      "metaTitle": "Farever Release - Date, Steam Access, and Price",
+      "metaDescription": "Track Farever release timing, Early Access status, Steam pricing, regional rollout details, and platform availability.",
+      "categoryLabel": "RELEASE",
+      "whatIs": "What is Release?",
+      "whatIsDescription": "This category tracks launch status, store updates, Early Access details, regional pricing, and platform-related changes.",
+      "why": "Why read release updates?",
       "whySteps": {
-        "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the Progression system and avoid common beginner mistakes",
-        "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to survive and thrive in the surreal world",
-        "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for exploration and crafting"
+        "step1Title": "Plan Entry Timing",
+        "step1Description": "See when updates go live so you can schedule sessions around major patches and unlock windows.",
+        "step2Title": "Track Cost and Access",
+        "step2Description": "Compare current Steam pricing, package notes, and region-level differences before purchasing.",
+        "step3Title": "Avoid Launch Confusion",
+        "step3Description": "Use one place for release facts so download, account setup, and server selection stay straightforward."
       },
       "featured": "Featured & Essential",
-      "all": "All Guides"
+      "all": "All Release Articles"
     },
-    "crafting": {
-      "title": "Farever Crafting",
-      "description": "Master the Progression fusion system with essence mechanics, recipes, and crafting strategies for powerful items.",
-      "metaTitle": "Farever Crafting - Progression System & Recipes",
-      "metaDescription": "Master Farever Progression crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
-      "categoryLabel": "CRAFTING SYSTEM",
-      "whatIs": "What is Crafting?",
-      "whatIsDescription": "The Progression system is a unique essence-driven fusion mechanic where you combine up to six items to discover new recipes. No fixed crafting menus—experimentation is key.",
-      "why": "Why master crafting?",
+    "guide": {
+      "title": "Farever Guide",
+      "description": "Practical progression guides for early game routing, dungeon entry, class growth, and upgrade priorities.",
+      "metaTitle": "Farever Guide - Beginner Routes and Progression",
+      "metaDescription": "Read Farever guides for first-session routing, quest flow, dungeon preparation, and efficient progression planning.",
+      "categoryLabel": "GUIDE",
+      "whatIs": "What is Guide?",
+      "whatIsDescription": "This category collects step-by-step walkthroughs for leveling flow, quest milestones, and route decisions from beginner to midgame.",
+      "why": "Why use guides?",
       "whySteps": {
-        "step1Title": "Unlock Powerful Items",
-        "step1Description": "Discover essential tools, weapons, and mobility gear through fusion",
-        "step2Title": "Understand Essences",
-        "step2Description": "Learn how item essences combine to create predictable results",
-        "step3Title": "Optimize Resources",
-        "step3Description": "Use dilution mechanics to maximize output from cheap materials"
+        "step1Title": "Start Faster",
+        "step1Description": "Follow a clean opening route so your first hours produce stable levels, gear, and unlocks.",
+        "step2Title": "Reduce Wasted Runs",
+        "step2Description": "Use tested activity order and objective priorities instead of repeating low-value loops.",
+        "step3Title": "Scale Into Harder Content",
+        "step3Description": "Prepare for dungeons and bosses with clearer build checkpoints and material goals."
       },
       "featured": "Featured & Essential",
-      "all": "All Crafting Guides"
+      "all": "All Guide Articles"
     },
-    "items": {
-      "title": "Farever Items",
-      "description": "Detailed item guides covering tools, weapons, mobility gear, and storage solutions with crafting recipes and usage tips.",
-      "metaTitle": "Farever Items - Tools, Weapons & Gear Guide",
-      "metaDescription": "Complete item database for Farever including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
-      "categoryLabel": "ITEMS & EQUIPMENT",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for tools, weapons, mobility gear, and functional items. Learn crafting recipes, usage strategies, and optimal combinations.",
-      "why": "Why check item guides?",
+    "classes": {
+      "title": "Farever Classes",
+      "description": "Class-focused coverage for role fit, talent direction, team synergy, and solo progression comfort.",
+      "metaTitle": "Farever Classes - Role Picks and Build Direction",
+      "metaDescription": "Compare Farever classes by role, survivability, damage profile, and team value to choose your best long-term path.",
+      "categoryLabel": "CLASSES",
+      "whatIs": "What are Classes?",
+      "whatIsDescription": "This category explains each class identity, key strengths, weaknesses, and how class choices affect your build and party role.",
+      "why": "Why compare classes?",
       "whySteps": {
-        "step1Title": "Learn Crafting Recipes",
-        "step1Description": "Discover how to craft essential tools and weapons using Progression",
-        "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the best items for your playstyle and progression stage",
-        "step3Title": "Improve Survival",
-        "step3Description": "Equip mobility gear and weapons to navigate the dangerous world"
+        "step1Title": "Pick the Right Role",
+        "step1Description": "Match class style to your preferred pacing, positioning, and combat responsibility.",
+        "step2Title": "Build With Intention",
+        "step2Description": "Choose talents and gear paths that fit one class plan instead of splitting resources too early.",
+        "step3Title": "Improve Team Composition",
+        "step3Description": "Coordinate class coverage for cleaner dungeon clears and better survivability in longer fights."
       },
       "featured": "Featured & Essential",
-      "all": "All Items"
+      "all": "All Classes Articles"
     },
-    "biomes": {
-      "title": "Farever Biomes",
-      "description": "Explore world regions, environmental features, resource locations, and survival tips for each biome.",
-      "metaTitle": "Farever Biomes - World Regions & Exploration",
-      "metaDescription": "Explore Farever biomes including Frontier Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
-      "categoryLabel": "WORLD REGIONS",
-      "whatIs": "What are Biomes?",
-      "whatIsDescription": "Guides to different world regions, environmental features, resource distribution, and danger zones. Learn what to expect and how to prepare for each area.",
-      "why": "Why explore biomes?",
+    "weapons": {
+      "title": "Farever Weapons",
+      "description": "Weapon analysis for move sets, stat scaling, upgrade value, and class-specific loadout synergy.",
+      "metaTitle": "Farever Weapons - Arsenal, Upgrades, and Loadouts",
+      "metaDescription": "Browse Farever weapon guides covering archetypes, skill interaction, upgrade routes, and loadout planning for each role.",
+      "categoryLabel": "WEAPONS",
+      "whatIs": "What are Weapons?",
+      "whatIsDescription": "This category focuses on weapon families, handling profiles, and how each choice changes damage windows, safety, and rotation flow.",
+      "why": "Why study weapons?",
       "whySteps": {
-        "step1Title": "Find Resources",
-        "step1Description": "Locate rare materials and essences specific to each region",
-        "step2Title": "Avoid Dangers",
-        "step2Description": "Understand environmental hazards and hostile creatures",
-        "step3Title": "Plan Exploration",
-        "step3Description": "Prepare the right tools and gear for each biome type"
+        "step1Title": "Find Better Synergy",
+        "step1Description": "Pair weapon behavior with your class toolkit so cooldown cycles and movement remain consistent.",
+        "step2Title": "Upgrade Efficiently",
+        "step2Description": "Prioritize materials for weapons that improve your current role instead of chasing every drop.",
+        "step3Title": "Handle Boss Mechanics",
+        "step3Description": "Use the right range, speed, and commitment profile for safer execution in difficult encounters."
       },
       "featured": "Featured & Essential",
-      "all": "All Biomes"
+      "all": "All Weapons Articles"
     },
-    "building": {
-      "title": "Farever Building",
-      "description": "Master Base Camp personal dimensions, base building, storage management, and creative construction techniques.",
-      "metaTitle": "Farever Building - Base Camp & Base Construction",
-      "metaDescription": "Master Farever building with Base Camp personal dimensions, base construction, storage solutions, and creative building techniques.",
-      "categoryLabel": "BUILDING & BASES",
-      "whatIs": "What is Building?",
-      "whatIsDescription": "Guides to the Base Camp personal dimension system, base construction, storage management, and creative building. Learn to create your safe haven in the surreal world.",
-      "why": "Why build bases?",
+    "multiplayer": {
+      "title": "Farever Multiplayer",
+      "description": "Co-op and MMO systems coverage including party setup, role coordination, social tools, and session planning.",
+      "metaTitle": "Farever Multiplayer - Co-op, Party Roles, and Social Systems",
+      "metaDescription": "Learn Farever multiplayer fundamentals: party size, role coordination, server region setup, and co-op progression flow.",
+      "categoryLabel": "MULTIPLAYER",
+      "whatIs": "What is Multiplayer?",
+      "whatIsDescription": "This category covers party structure, shared progression patterns, matchmaking flow, and practical co-op setup for repeated activities.",
+      "why": "Why read multiplayer guides?",
       "whySteps": {
-        "step1Title": "Create Safe Spaces",
-        "step1Description": "Establish secure bases for storage and crafting operations",
-        "step2Title": "Manage Resources",
-        "step2Description": "Organize materials efficiently with storage solutions",
-        "step3Title": "Unlock Base Camp",
-        "step3Description": "Access personal pocket dimensions for ultimate convenience"
+        "step1Title": "Build Better Parties",
+        "step1Description": "Assign clear class roles so damage, sustain, and control responsibilities are balanced.",
+        "step2Title": "Improve Session Stability",
+        "step2Description": "Use region and invite setup practices that keep latency and reconnect issues low.",
+        "step3Title": "Clear Content Faster",
+        "step3Description": "Coordinate routing and cooldown timing to convert teamwork into reliable dungeon progress."
       },
       "featured": "Featured & Essential",
-      "all": "All Building Guides"
+      "all": "All Multiplayer Articles"
     },
-    "support": {
-      "title": "Farever Support",
-      "description": "Technical support, platform compatibility, performance optimization, and troubleshooting for common issues.",
-      "metaTitle": "Farever Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for Farever including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
-      "categoryLabel": "TECHNICAL SUPPORT",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, crash fixes, and common issues. Get help with Steam Deck, multiplayer questions, and settings.",
-      "why": "Why check support?",
+    "charts": {
+      "title": "Farever Charts",
+      "description": "Player activity and trend tracking with chart-based snapshots for engagement, momentum, and patch impact.",
+      "metaTitle": "Farever Charts - Player Count and Trend Tracking",
+      "metaDescription": "Track Farever charts with player activity snapshots, trend comparisons, and patch-period momentum analysis.",
+      "categoryLabel": "CHARTS",
+      "whatIs": "What is Charts?",
+      "whatIsDescription": "This category summarizes player-count and trend data to help you understand population shifts, peak windows, and update impact.",
+      "why": "Why follow charts?",
       "whySteps": {
-        "step1Title": "Fix Technical Issues",
-        "step1Description": "Resolve crashes, performance problems, and compatibility issues",
-        "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings for best experience on your platform",
-        "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about Steam Deck, controller support, and system requirements"
+        "step1Title": "Monitor Game Momentum",
+        "step1Description": "Track daily and weekly movement to understand whether activity is rising, stable, or cooling.",
+        "step2Title": "Time Your Sessions",
+        "step2Description": "Use peak-hour patterns to schedule co-op content when party formation is easier.",
+        "step3Title": "Read Patch Impact",
+        "step3Description": "Compare trend changes before and after updates to spot which releases shift player behavior."
       },
       "featured": "Featured & Essential",
-      "all": "All Support Articles"
+      "all": "All Charts Articles"
     }
   }
 }
