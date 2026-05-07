@@ -102,43 +102,43 @@
       },
       {
         "icon": "TrendingUp",
-        "title": "Farever Dungeons and Bosses",
-        "description": "Instance flow, boss checkpoints, and group readiness"
+        "title": "Farever Dungeons Instances and Bosses",
+        "description": "Instance roles, boss pacing, and clean-run planning"
       },
       {
         "icon": "Star",
-        "title": "Farever Loot and Drops",
-        "description": "Targeted farming routes and high-value drop planning"
+        "title": "Farever Loot and Drop Tables",
+        "description": "Drop source planning for gear, mounts, and materials"
       },
       {
         "icon": "ClipboardCheck",
-        "title": "Farever Crafting Jobs",
-        "description": "Job paths, recipes, materials, and upgrade value"
+        "title": "Farever Crafting Jobs and Recipes",
+        "description": "Professions, recipe progression, and material priorities"
       },
       {
         "icon": "MessageCircle",
-        "title": "Farever Gear and Rarity",
-        "description": "Item tiers, slot priorities, and what to keep or salvage"
+        "title": "Farever Gear Items and Rarity Guide",
+        "description": "Item categories, rarity tiers, and role-fit selection"
       },
       {
         "icon": "Gamepad2",
-        "title": "Farever Mounts Pets Gliders",
-        "description": "Mobility collectibles, acquisition paths, and utility"
+        "title": "Farever Mounts Pets and Gliders",
+        "description": "Traversal rewards, cosmetic systems, and practical value"
       },
       {
         "icon": "Settings",
-        "title": "Farever Solo and Co-op",
-        "description": "Party setup, server choice, and multiplayer progression"
+        "title": "Farever Solo and Co-op Multiplayer Guide",
+        "description": "Solo routes, party flow, and MMO-style shared zones"
       },
       {
         "icon": "Clock",
-        "title": "Farever Roadmap Updates",
-        "description": "Current phase priorities and upcoming content direction"
+        "title": "Farever Roadmap and Upcoming Content",
+        "description": "Launch scope, planned classes, regions, and PvP features"
       },
       {
         "icon": "Shield",
-        "title": "Farever System Performance",
-        "description": "PC requirements, optimization steps, and stability checks"
+        "title": "Farever System Requirements and Performance Guide",
+        "description": "PC specs, graphics targets, and stability checklist"
       }
     ]
   },
@@ -409,122 +409,122 @@
     "lucidBlocksFarmingAndGrowth": {
       "title": "Farever Dungeons Instances and Bosses",
       "displayType": "mixedCards",
-      "intro": "Dungeon progress is where role clarity and build readiness get tested. Enter with a plan for pacing, checkpoints, and boss mechanics.",
+      "intro": "Instances are where progression checks happen. Use this module to understand dungeon flow, party expectations, and boss preparation before entering harder content.",
       "sections": [
         {
-          "name": "Pre-run readiness",
-          "description": "Validate potion stock, repair state, role assignments, and core cooldown coverage before starting high-value runs."
+          "name": "What makes instances different",
+          "description": "Open-world exploration rewards route flexibility, while instances focus on enclosed combat runs with structured enemy packs and clear boss goals."
         },
         {
-          "name": "Instance pacing",
-          "description": "Clear in controlled pulls instead of rushing packs. Consistent pacing prevents wipe cascades and preserves resources."
+          "name": "Dungeon role planning",
+          "description": "Before entering, decide who handles frontline pressure, who provides sustain, and who focuses on burst windows to avoid chaotic overlaps."
         },
         {
-          "name": "Boss pattern adaptation",
-          "description": "Identify the first repeatable mechanic quickly, then assign movement priorities around that pattern."
+          "name": "Boss preparation checklist",
+          "description": "Enter with repaired gear, stocked consumables, and class skills mapped to survival and damage windows instead of only burst output."
         },
         {
-          "name": "Reward conversion",
-          "description": "Immediately convert dungeon rewards into targeted upgrades so each run increases the next clear threshold."
+          "name": "Progression value after clears",
+          "description": "Boss and instance rewards feed gear growth, job crafting, and weapon upgrades that improve your next dungeon threshold."
         }
       ],
       "growthMilestones": [
-        "Finish first clean dungeon run with no wipe chain",
-        "Clear one boss with planned role rotations",
-        "Link dungeon drops to build upgrade priorities",
-        "Scale into harder instances with stable timing"
+        "Clear one starter instance with assigned party roles",
+        "Defeat your first boss without panic cooldown overlap",
+        "Convert one full run of drops into build upgrades",
+        "Move into a harder instance with planned mechanics"
       ]
     },
     "lucidBlocksBestEarlyUnlocks": {
       "title": "Farever Loot and Drop Tables",
       "displayType": "priorityCards",
-      "intro": "Loot planning is faster when you separate mandatory upgrades from optional chase items and farm with clear targets.",
+      "intro": "Loot routing is easier when you track drop source, rarity, and build value. Use this structure to target weapon upgrades, crafting materials, and collectible rewards efficiently.",
       "priorities": [
         {
-          "name": "Core progression materials",
+          "name": "Monster drop routing",
           "priority": "Core",
-          "description": "Prioritize materials that unblock immediate gear upgrades and class-defining craft steps."
+          "description": "Use enemy-specific drop lists to map where core upgrade materials and common crafting components come from."
         },
         {
-          "name": "Role-specific weapon drops",
+          "name": "Boss reward targeting",
           "priority": "High",
-          "description": "Farm weapons that directly reinforce your current build loop before branching into off-role options."
+          "description": "Prioritize bosses that can drop role-defining weapons, rare materials, or progression items linked to your current class setup."
         },
         {
-          "name": "Boss utility drops",
+          "name": "Mount and glider chase drops",
           "priority": "High",
-          "description": "Target drops that solve survival or mobility bottlenecks in your next dungeon bracket."
+          "description": "Track collectible rewards separately so mobility or cosmetic goals do not interrupt your core gear progression route."
         },
         {
-          "name": "Crafting conversion items",
+          "name": "Material farming loops",
           "priority": "High",
-          "description": "Collect components that turn common materials into high-value upgrades through your active job path."
+          "description": "Build repeatable loops for materials tied to your active job recipes so dungeon rewards and crafting progress stay in sync."
         },
         {
-          "name": "Collection extras",
+          "name": "Database cross-checking",
           "priority": "Medium",
-          "description": "Pursue cosmetic or long-tail collection pieces after your combat baseline is fully stable."
+          "description": "When planning targeted farms, cross-check drop sources in available item databases to avoid wasting runs on wrong locations."
         },
         {
-          "name": "Market awareness picks",
+          "name": "Priority-first looting",
           "priority": "Medium",
-          "description": "Track frequently requested drops so group farming sessions can deliver value for all party members."
+          "description": "Farm progression-critical loot first, then shift time into optional collection goals once your class baseline is stable."
         }
       ]
     },
     "lucidBlocksAchievementTracker": {
       "title": "Farever Crafting Jobs and Recipes",
       "displayType": "achievementGrid",
-      "intro": "Jobs convert gathered materials into progression power. Choose one main route early, then add secondary specializations.",
+      "intro": "Crafting jobs support combat progression by converting field materials and dungeon rewards into stronger gear. Start with one profession path, then expand into secondary jobs.",
       "groups": [
         {
-          "name": "Starter Crafting Routes",
+          "name": "Core Job Paths",
           "achievements": [
             {
-              "title": "Blacksmithing Foundations",
-              "description": "Craft baseline gear upgrades for frontline and hybrid builds."
+              "title": "Blacksmithing",
+              "description": "Best for players who want steady weapon and armor upgrades tied to frontline or hybrid class builds."
             },
             {
-              "title": "Cooking Utility",
-              "description": "Prepare recovery and utility consumables for longer dungeon sessions."
+              "title": "Cooking",
+              "description": "Supports long dungeon sessions through consumables that improve sustain and smooth repeated runs."
             },
             {
-              "title": "Alchemy Prep",
-              "description": "Build stock of combat consumables for boss attempts and route farming."
+              "title": "Alchemy",
+              "description": "Creates potion-style support items and utility consumables that help during boss attempts and instance progression."
             }
           ]
         },
         {
-          "name": "Material Planning",
+          "name": "Recipe and Material Discipline",
           "achievements": [
             {
-              "title": "Common Material Loop",
-              "description": "Create repeatable gathering routes for always-needed base components."
+              "title": "Recipe Progression",
+              "description": "Advance one recipe chain at a time so each craft directly contributes to your next role upgrade."
             },
             {
-              "title": "Rare Component Routing",
-              "description": "Reserve rare drops for major upgrades instead of low-impact crafts."
+              "title": "Material Requirement Mapping",
+              "description": "Track required components before farming so dungeon, loot, and gathering routes feed active crafting goals."
             },
             {
-              "title": "Batch Craft Windows",
-              "description": "Craft in batches between activity loops to reduce downtime."
+              "title": "Profession Level Planning",
+              "description": "Keep your job level aligned with your content tier to unlock stronger recipes without stalled progression."
             }
           ]
         },
         {
-          "name": "Recipe Efficiency",
+          "name": "Early Job Recommendations",
           "achievements": [
             {
-              "title": "Role-first Crafting",
-              "description": "Prioritize recipes that directly improve your active class role."
+              "title": "Main Job First",
+              "description": "Choose one main profession that directly improves your current class role before splitting resources."
             },
             {
-              "title": "Upgrade Sequencing",
-              "description": "Chain recipes so each craft unlocks or improves the next tier."
+              "title": "Combat-to-Crafting Loop",
+              "description": "Use dungeon and exploration drops to sustain your main job path and avoid idle crafting bottlenecks."
             },
             {
-              "title": "Session-end Conversion",
-              "description": "Convert farmed materials into upgrades before ending each run."
+              "title": "Secondary Job Timing",
+              "description": "Add secondary jobs after your primary gear lane is stable to avoid slowing core build progression."
             }
           ]
         }
@@ -533,130 +533,130 @@
     "lucidBlocksSingleplayerAndPlatformFAQ": {
       "title": "Farever Gear Items and Rarity Guide",
       "displayType": "accordion",
-      "intro": "Item decisions are easier when you evaluate slot impact, rarity value, and whether each piece supports your current role.",
+      "intro": "Item decisions are easier when you evaluate category, rarity, and practical build impact instead of chasing item color alone.",
       "faqs": [
         {
-          "question": "What gear slots should I prioritize first?",
-          "answer": "Start with slots that directly impact survivability and core damage uptime for your role."
+          "question": "Which item categories should I track first?",
+          "answer": "Start with weapons, armor, consumables, and core crafting materials because they directly affect combat readiness and upgrade flow."
         },
         {
-          "question": "How should I treat rarity early on?",
-          "answer": "Use rarity as a hint, then confirm whether stats and effects match your build before investing."
+          "question": "How should I evaluate rarity in early progression?",
+          "answer": "Use rarity as a quick filter, then confirm stat fit, class requirements, and skill synergy before committing upgrade resources."
         },
         {
-          "question": "When should I replace a lower-rarity favorite?",
-          "answer": "Replace it once a new item improves your real combat loop instead of only raising item level."
+          "question": "Are all high-rarity items immediate upgrades?",
+          "answer": "Not always. A lower-rarity piece can outperform a higher-rarity item if it better supports your role stats and combat rhythm."
         },
         {
-          "question": "Should I keep off-role gear?",
-          "answer": "Keep a small reserve for role swaps, but avoid filling storage with speculative pieces."
+          "question": "What items are worth keeping for later?",
+          "answer": "Keep role-flex weapons, useful trinkets, and key recipe components, then salvage low-impact duplicates to free inventory space."
         },
         {
-          "question": "What is the best salvage rule?",
-          "answer": "Salvage duplicates and low-impact gear after locking your core combat set and utility backups."
+          "question": "How should I organize gear decisions per class?",
+          "answer": "Prioritize pieces that reinforce your active class strengths, then maintain a small backup set for party role switches."
         }
       ]
     },
     "lucidBlocksSteamDeckAndController": {
       "title": "Farever Mounts Pets and Gliders",
       "displayType": "accordion",
-      "intro": "Mobility companions and traversal collectibles improve route speed, exploration safety, and overall session efficiency.",
+      "intro": "Mounts, pets, and gliders support movement comfort and collection goals. Treat them as traversal and cosmetic systems that complement core progression.",
       "faqs": [
         {
-          "question": "How do mounts improve progression?",
-          "answer": "They shorten travel time between activity hubs and reduce downtime across long exploration loops."
+          "question": "How do mounts affect daily gameplay?",
+          "answer": "Mounts reduce travel time across open-world routes, helping you rotate between exploration tasks, dungeons, and gathering loops faster."
         },
         {
-          "question": "What is the practical value of pets?",
-          "answer": "Pets are primarily collectible flavor and can also improve session flow through utility-oriented support effects."
+          "question": "What is the role of pets in progression?",
+          "answer": "Pets are mostly collectible companions, with occasional utility value depending on your route and play goals."
         },
         {
-          "question": "When should I chase glider upgrades?",
-          "answer": "Prioritize gliders once your core combat baseline is stable and map traversal becomes your main bottleneck."
+          "question": "When should I prioritize glider unlocks?",
+          "answer": "Focus on gliders when vertical exploration starts limiting your route efficiency and your combat baseline is already stable."
         },
         {
-          "question": "Are these systems only cosmetic?",
-          "answer": "Many rewards are cosmetic, while select options also influence travel comfort and route efficiency."
+          "question": "Are these systems purely cosmetic?",
+          "answer": "Many rewards are cosmetic, but traversal-oriented options can still improve route execution and session efficiency."
         },
         {
-          "question": "What is a balanced collection strategy?",
-          "answer": "Focus first on mobility gains that help your daily routes, then pursue cosmetic completion goals."
+          "question": "What is the best collection order?",
+          "answer": "Unlock mobility benefits first for daily use, then target pets and rare cosmetics as long-term collection goals."
         }
       ]
     },
     "lucidBlocksSettingsAndAccessibility": {
       "title": "Farever Solo and Co-op Multiplayer Guide",
       "displayType": "settingCards",
-      "intro": "Farever supports both independent progression and party-based play. Choose the mode that matches your time budget and combat goals.",
+      "intro": "Farever supports both solo progression and cooperative multiplayer. Choose your format by objective, schedule, and preferred role pressure.",
       "settings": [
         {
-          "name": "Solo Progression",
+          "name": "Solo-friendly progression",
           "type": "Play Mode",
-          "description": "Great for controlled pacing, focused build tuning, and uninterrupted route optimization."
+          "description": "Solo runs are viable when you keep upgrades focused, play around survivability, and follow repeatable activity loops."
         },
         {
-          "name": "Co-op Party Runs",
+          "name": "Co-op dungeon flow",
           "type": "Play Mode",
-          "description": "Best for faster dungeon clears, role specialization, and shared learning of difficult mechanics."
+          "description": "Party play improves clear speed and consistency by splitting roles across damage, sustain, and control responsibilities."
         },
         {
-          "name": "Server Region Selection",
+          "name": "Shared world and MMO spaces",
           "type": "Network Setup",
-          "description": "Coordinate region choice with friends before sessions to keep latency predictable for action combat."
+          "description": "Public zones and shared activities reward group coordination, especially when route planning and class roles are aligned."
         },
         {
-          "name": "Role Assignment",
+          "name": "Party preparation basics",
           "type": "Team Setup",
-          "description": "Assign frontline, support, and damage responsibilities before entering difficult instances."
+          "description": "Coordinate server region, assign responsibilities, and align dungeon objectives before entering harder instance content."
         }
       ]
     },
     "lucidBlocksUpdatesAndPatchNotes": {
       "title": "Farever Roadmap and Upcoming Content",
       "displayType": "timeline",
-      "intro": "Early Access roadmap momentum matters for planning long-term builds, job investments, and group progression goals.",
+      "intro": "The Early Access roadmap is a core planning signal for long-term builds, class investment, and group progression targets.",
       "entries": [
         {
-          "title": "Current Early Access Foundation",
+          "title": "Early Access launch scope",
           "type": "Live Phase",
-          "description": "Focus remains on launch stability, class balance passes, and core progression tuning."
+          "description": "Current content includes core classes, open-world exploration, dungeons, jobs, crafting systems, and progression fundamentals."
         },
         {
-          "title": "Upcoming Content Expansion",
+          "title": "Planned expansion pillars",
           "type": "Roadmap",
-          "description": "Future updates target additional areas, encounter depth, and broader progression pathways."
+          "description": "Upcoming updates are expected to expand regions, class depth, dungeon variety, social systems, and endgame progression lanes."
         },
         {
-          "title": "System Evolution and Community Feedback",
+          "title": "Long-term feature direction",
           "type": "Ongoing",
-          "description": "Roadmap priorities continue to evolve through active player feedback and live gameplay data."
+          "description": "Roadmap discussions consistently reference new classes, factions, guild support, PvP options, and broader community-facing features."
         }
       ]
     },
     "lucidBlocksCrashFixAndTroubleshooting": {
       "title": "Farever System Requirements and Performance Guide",
       "displayType": "steps",
-      "intro": "Use this quick process to confirm compatibility, improve frame stability, and reduce launch or session disruptions.",
+      "intro": "Use this checklist to confirm PC compatibility, improve performance consistency, and reduce instability during Early Access sessions.",
       "steps": [
         {
-          "title": "Validate minimum and recommended specs",
-          "description": "Compare your CPU, GPU, RAM, and storage against Steam requirements before performance tuning."
+          "title": "Check official PC requirements",
+          "description": "Review minimum and recommended CPU, GPU, RAM, OS, and storage targets from the Steam listing before deep optimization."
         },
         {
-          "title": "Update graphics and platform drivers",
-          "description": "Current drivers improve shader handling and reduce common rendering or stutter issues."
+          "title": "Match settings to your hardware tier",
+          "description": "Tune graphics options by GPU class and monitor frame stability in combat zones where particle load and enemy counts are higher."
         },
         {
-          "title": "Optimize in-game graphics settings",
-          "description": "Lower high-impact settings first, then raise individual options gradually after stable performance."
+          "title": "Keep drivers and runtime updated",
+          "description": "Update graphics drivers and core platform components regularly to reduce stutter, crashes, and shader-related instability."
         },
         {
-          "title": "Pick the nearest server region",
-          "description": "Latency directly impacts combat responsiveness, so region selection matters as much as local frame rate."
+          "title": "Control network latency factors",
+          "description": "Pick the nearest server region and use a stable connection because latency directly affects dodge timing and skill responsiveness."
         },
         {
-          "title": "Re-test after each major patch",
-          "description": "Patch-level changes can alter performance behavior, so repeat a short benchmark run after updates."
+          "title": "Use a repeatable troubleshooting flow",
+          "description": "If performance drops after patches, retest settings in a fixed scenario, then adjust one variable at a time for clean diagnosis."
         }
       ]
     }
