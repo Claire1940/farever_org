@@ -7,7 +7,6 @@ import {
   BookOpen,
   Check,
   ChevronDown,
-  ClipboardCheck,
   Clock,
   Eye,
   ExternalLink,
@@ -18,8 +17,6 @@ import {
   Package,
   Settings,
   Sparkles,
-  Star,
-  TrendingUp,
 } from "lucide-react";
 import Link from "next/link";
 import { useMessages } from "next-intl";
@@ -920,7 +917,10 @@ export default function HomePageClient({
                   className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
                 >
                   <div className="flex items-center gap-2 mb-3">
-                    <TrendingUp className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+                    <DynamicIcon
+                      name={s.icon || "TrendingUp"}
+                      className="w-5 h-5 text-[hsl(var(--nav-theme-light))]"
+                    />
                     <h3 className="font-bold">
                       <LinkedTitle
                         linkData={
@@ -984,7 +984,10 @@ export default function HomePageClient({
                   className="p-6 bg-white/5 border border-border rounded-xl hover:border-[hsl(var(--nav-theme)/0.5)] transition-colors"
                 >
                   <div className="flex items-center gap-2 mb-3">
-                    <Star className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+                    <DynamicIcon
+                      name={p.icon || "Star"}
+                      className="w-5 h-5 text-[hsl(var(--nav-theme-light))]"
+                    />
                     <span
                       className={`text-xs px-2 py-1 rounded-full border ${p.priority === "Core" ? "bg-[hsl(var(--nav-theme)/0.18)] border-[hsl(var(--nav-theme)/0.5)] text-[hsl(var(--nav-theme-light))]" : p.priority === "High" ? "bg-[hsl(var(--nav-theme-light)/0.12)] border-[hsl(var(--nav-theme-light)/0.4)] text-[hsl(var(--nav-theme-light))]" : "bg-[hsl(var(--nav-theme)/0.1)] border-[hsl(var(--nav-theme)/0.3)]"}`}
                     >
@@ -1037,7 +1040,10 @@ export default function HomePageClient({
                   className="p-6 bg-white/5 border border-border rounded-xl"
                 >
                   <div className="flex items-center gap-2 mb-4">
-                    <ClipboardCheck className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
+                    <DynamicIcon
+                      name={group.icon || "ClipboardCheck"}
+                      className="w-5 h-5 text-[hsl(var(--nav-theme-light))]"
+                    />
                     <h3 className="font-bold text-lg">
                       <LinkedTitle
                         linkData={

@@ -101,24 +101,24 @@
         "description": "Regions, landmarks, traversal routes, and discovery pacing"
       },
       {
-        "icon": "TrendingUp",
-        "title": "Farever Dungeons Instances and Bosses",
-        "description": "Instance roles, boss pacing, and clean-run planning"
+        "title": "Farever Dungeons, Instances, and Bosses",
+        "description": "Track dungeon and boss entries with role-focused clear goals",
+        "icon": "TrendingUp"
       },
       {
-        "icon": "Star",
-        "title": "Farever Loot and Drop Tables",
-        "description": "Drop source planning for gear, mounts, and materials"
+        "title": "Farever Loot Sources and Drop Tables",
+        "description": "Find drop rates for monsters, bosses, gathering nodes, and vaults",
+        "icon": "Star"
       },
       {
-        "icon": "ClipboardCheck",
         "title": "Farever Crafting Jobs and Recipes",
-        "description": "Professions, recipe progression, and material priorities"
+        "description": "Compare professions, recipe counts, and practical early crafts",
+        "icon": "ClipboardCheck"
       },
       {
-        "icon": "MessageCircle",
         "title": "Farever Gear Items and Rarity Guide",
-        "description": "Item categories, rarity tiers, and role-fit selection"
+        "description": "Use category and rarity filters to keep only useful upgrades",
+        "icon": "MessageCircle"
       },
       {
         "icon": "Gamepad2",
@@ -407,153 +407,279 @@
       ]
     },
     "lucidBlocksFarmingAndGrowth": {
-      "title": "Farever Dungeons Instances and Bosses",
+      "title": "Farever Dungeons, Instances, and Bosses",
       "displayType": "mixedCards",
-      "intro": "Instances are where progression checks happen. Use this module to understand dungeon flow, party expectations, and boss preparation before entering harder content.",
+      "intro": "Farever Early Access lists ten instance encounters split into five dungeons and five boss fights. Use this tracker to plan clear order, assign party jobs, and prepare for higher-difficulty modes when they launch.",
       "sections": [
         {
-          "name": "What makes instances different",
-          "description": "Open-world exploration rewards route flexibility, while instances focus on enclosed combat runs with structured enemy packs and clear boss goals."
+          "name": "Nost Mire · Dungeon",
+          "description": "Run a repeatable combat route with pack control, resource checks, and a boss finish that supports steady gear progression.",
+          "icon": "TrendingUp"
         },
         {
-          "name": "Dungeon role planning",
-          "description": "Before entering, decide who handles frontline pressure, who provides sustain, and who focuses on burst windows to avoid chaotic overlaps."
+          "name": "The Abyss · Dungeon",
+          "description": "Focus on fixed encounter pacing instead of open-world roaming to practice rotations and coordination under pressure.",
+          "icon": "Shield"
         },
         {
-          "name": "Boss preparation checklist",
-          "description": "Enter with repaired gear, stocked consumables, and class skills mapped to survival and damage windows instead of only burst output."
+          "name": "The Hivetree · Dungeon",
+          "description": "Push through bee-region encounters to progress linked materials, instance rewards, and boss readiness.",
+          "icon": "Home"
         },
         {
-          "name": "Progression value after clears",
-          "description": "Boss and instance rewards feed gear growth, job crafting, and weapon upgrades that improve your next dungeon threshold."
+          "name": "The Kobold Mine · Dungeon",
+          "description": "Farm kobold-focused routes for cave progression items and dungeon reward loops that feed crafting jobs.",
+          "icon": "Hammer"
+        },
+        {
+          "name": "The Sunken City · Dungeon",
+          "description": "Clear underwater ruin objectives for a different encounter rhythm and expanded route variety beyond open-world camps.",
+          "icon": "Eye"
+        },
+        {
+          "name": "Carbygenus · Boss",
+          "description": "Use this encounter for pattern learning, burst-window discipline, and rare reward targeting with coordinated roles.",
+          "icon": "Star"
+        },
+        {
+          "name": "Honeysabath · Boss",
+          "description": "Track clears to stabilize bee-region progression and validate survivability setups before harder content.",
+          "icon": "Sparkles"
+        },
+        {
+          "name": "Monster Chuck · Boss",
+          "description": "Treat this fight as a mechanical step-up where timing and sustained execution matter more than one-shot attempts.",
+          "icon": "AlertTriangle"
+        },
+        {
+          "name": "Mukshi · Boss",
+          "description": "Keep this boss in your progression sheet as a milestone encounter for build consistency and team rhythm.",
+          "icon": "Gamepad2"
+        },
+        {
+          "name": "Ratzar · Boss",
+          "description": "Prioritize this clear for kobold-route progression and boss-specific drops tied to weapon and glider goals.",
+          "icon": "Settings"
+        },
+        {
+          "name": "Heroic and Challenge Modes · Difficulty Roadmap",
+          "description": "Plan long-term build upgrades around future difficulty tiers so current farming choices still pay off later.",
+          "icon": "Clock"
         }
       ],
       "growthMilestones": [
-        "Clear one starter instance with assigned party roles",
-        "Defeat your first boss without panic cooldown overlap",
-        "Convert one full run of drops into build upgrades",
-        "Move into a harder instance with planned mechanics"
+        "Clear at least two dungeons with assigned role responsibilities",
+        "Record first-kill notes for all five listed boss encounters",
+        "Convert instance drops into one measurable build upgrade path",
+        "Prepare a loadout plan for Heroic and Challenge mode entry"
       ]
     },
     "lucidBlocksBestEarlyUnlocks": {
-      "title": "Farever Loot and Drop Tables",
+      "title": "Farever Loot Sources and Drop Tables",
       "displayType": "priorityCards",
-      "intro": "Loot routing is easier when you track drop source, rarity, and build value. Use this structure to target weapon upgrades, crafting materials, and collectible rewards efficiently.",
+      "intro": "Use source-first farming routes when you already know the item you want. This table summary maps monsters, bosses, gathering nodes, and vault rewards so loot runs stay efficient and repeatable.",
       "priorities": [
         {
-          "name": "Monster drop routing",
+          "name": "AncientThyme and Ore_Copper Gathering",
           "priority": "Core",
-          "description": "Use enemy-specific drop lists to map where core upgrade materials and common crafting components come from."
+          "description": "Gatherables supply stable baseline materials: AncientThymePetal and CopperOre at 100%, plus SparkSample around 25% for early crafting loops.",
+          "icon": "BookOpen"
         },
         {
-          "name": "Boss reward targeting",
+          "name": "Bee and Boar Monster Routes",
+          "priority": "Core",
+          "description": "Bee and Boar routes provide high-volume crafting drops with rare mounts at 0.10%, supporting both progression and collection goals in one loop.",
+          "icon": "Package"
+        },
+        {
+          "name": "Crab, Kobold, and Manfish Material Pools",
           "priority": "High",
-          "description": "Prioritize bosses that can drop role-defining weapons, rare materials, or progression items linked to your current class setup."
+          "description": "Farm seafood, fang, scale, and glider materials by target family so recipe ingredients and mobility collection stay aligned.",
+          "icon": "ArrowRight"
         },
         {
-          "name": "Mount and glider chase drops",
+          "name": "Crabgantua Boss Drops (lv 8)",
           "priority": "High",
-          "description": "Track collectible rewards separately so mobility or cosmetic goals do not interrupt your core gear progression route."
+          "description": "Target this boss for 1.0% weapon and mount rewards, including Shield_OrbitWater and Mount_Crab_Blue.",
+          "icon": "Star"
         },
         {
-          "name": "Material farming loops",
+          "name": "Nepsilon Boss Drops (lv 5)",
           "priority": "High",
-          "description": "Build repeatable loops for materials tied to your active job recipes so dungeon rewards and crafting progress stay in sync."
+          "description": "Run Nepsilon for early 1.0% boss rewards such as Halos_Totem, DA_Water, and Glider_FlyingFish_Orange.",
+          "icon": "Sparkles"
         },
         {
-          "name": "Database cross-checking",
+          "name": "King Ratsar Boss Drops (lv 10)",
+          "priority": "High",
+          "description": "Farm for Daggers_DuplicatePoison, GA_Craft, and Glider_Bat_WhiteBlack to support rogue builds and collectible goals.",
+          "icon": "Shield"
+        },
+        {
+          "name": "Vault_Z1_1 Guaranteed Reward",
           "priority": "Medium",
-          "description": "When planning targeted farms, cross-check drop sources in available item databases to avoid wasting runs on wrong locations."
+          "description": "Track this vault for guaranteed Gold and Glider_FlyingFish_Red when you need predictable progression payout.",
+          "icon": "Clock"
         },
         {
-          "name": "Priority-first looting",
+          "name": "Vault_Z1_2 Guaranteed Reward",
           "priority": "Medium",
-          "description": "Farm progression-critical loot first, then shift time into optional collection goals once your class baseline is stable."
+          "description": "Use this vault route for guaranteed Gold and Mount_Crab_Yellow to lock in collection progress without RNG variance.",
+          "icon": "Gamepad2"
         }
       ]
     },
     "lucidBlocksAchievementTracker": {
       "title": "Farever Crafting Jobs and Recipes",
       "displayType": "achievementGrid",
-      "intro": "Crafting jobs support combat progression by converting field materials and dungeon rewards into stronger gear. Start with one profession path, then expand into secondary jobs.",
+      "intro": "Farever recipe progression is centered on six professions. Compare each job by role, recipe count, and early-value crafts so your material farming feeds the right build upgrades.",
       "groups": [
         {
-          "name": "Core Job Paths",
+          "name": "Blacksmith · 21 Recipes",
           "achievements": [
             {
-              "title": "Blacksmithing",
-              "description": "Best for players who want steady weapon and armor upgrades tied to frontline or hybrid class builds."
+              "title": "Main role",
+              "description": "Metal gear, ingots, plates, and weapon/armor support for frontline progression."
             },
             {
-              "title": "Cooking",
-              "description": "Supports long dungeon sessions through consumables that improve sustain and smooth repeated runs."
+              "title": "Early value",
+              "description": "Strong first pick for Warrior-style paths and durability-focused upgrades."
             },
             {
-              "title": "Alchemy",
-              "description": "Creates potion-style support items and utility consumables that help during boss attempts and instance progression."
+              "title": "Example crafts",
+              "description": "CopperIngot (lv 1), BronzeIngot (lv 3), Alloy_Z1 (lv 4), and Chest_RKobold_FigAss (lv 1)."
             }
-          ]
+          ],
+          "icon": "Hammer"
         },
         {
-          "name": "Recipe and Material Discipline",
+          "name": "Outfitter · 20 Recipes",
           "achievements": [
             {
-              "title": "Recipe Progression",
-              "description": "Advance one recipe chain at a time so each craft directly contributes to your next role upgrade."
+              "title": "Main role",
+              "description": "Cloth and leather gear, bags, back pieces, and soft armor support lanes."
             },
             {
-              "title": "Material Requirement Mapping",
-              "description": "Track required components before farming so dungeon, loot, and gathering routes feed active crafting goals."
+              "title": "Early value",
+              "description": "Reliable for bag upgrades and light-armor users who need faster inventory scaling."
             },
             {
-              "title": "Profession Level Planning",
-              "description": "Keep your job level aligned with your content tier to unlock stronger recipes without stalled progression."
+              "title": "Example crafts",
+              "description": "Bag_Z2 (lv 3), Back_RCrimson_AssCle_Craft (lv 5), and Feet gear crafts at lv 1-3."
             }
-          ]
+          ],
+          "icon": "Package"
         },
         {
-          "name": "Early Job Recommendations",
+          "name": "Jeweler · 32 Recipes",
           "achievements": [
             {
-              "title": "Main Job First",
-              "description": "Choose one main profession that directly improves your current class role before splitting resources."
+              "title": "Main role",
+              "description": "Gems, rings, pendants, prospecting, and stat-tuning upgrades for precision builds."
             },
             {
-              "title": "Combat-to-Crafting Loop",
-              "description": "Use dungeon and exploration drops to sustain your main job path and avoid idle crafting bottlenecks."
+              "title": "Early value",
+              "description": "Best for players prioritizing jewelry slots and ore-to-gem conversion value."
             },
             {
-              "title": "Secondary Job Timing",
-              "description": "Add secondary jobs after your primary gear lane is stable to avoid slowing core build progression."
+              "title": "Example crafts",
+              "description": "CopperProspecting (lv 1), CutBeryl (lv 2), AttunedCutBeryl (lv 2), AttunedCutRuby (lv 4)."
             }
-          ]
+          ],
+          "icon": "Sparkles"
+        },
+        {
+          "name": "Alchemist · 35 Recipes",
+          "achievements": [
+            {
+              "title": "Main role",
+              "description": "Elixirs, potions, and utility buffs supporting strength, dexterity, healing, and movement."
+            },
+            {
+              "title": "Early value",
+              "description": "High-impact support profession for dungeon attempts and boss preparation windows."
+            },
+            {
+              "title": "Example crafts",
+              "description": "ElixirOfMinorStrength, ElixirOfMinorDexterity, ElixirOfAbundance, and FastSwimPotion."
+            }
+          ],
+          "icon": "TrendingUp"
+        },
+        {
+          "name": "Cook · 20 Recipes",
+          "achievements": [
+            {
+              "title": "Main role",
+              "description": "Food buffs and practical dishes built from common monster and fishing materials."
+            },
+            {
+              "title": "Early value",
+              "description": "Excellent starter profession for repeatable sustain buffs during leveling routes."
+            },
+            {
+              "title": "Example crafts",
+              "description": "Crab Goulash, Wild Boar Stew, Grilled Mackerel, and Plainswalker Feast."
+            }
+          ],
+          "icon": "BookOpen"
+        },
+        {
+          "name": "Enchanter · 33 Recipes",
+          "achievements": [
+            {
+              "title": "Main role",
+              "description": "Enchant papers, powders, formulas, and scroll support for gear scaling."
+            },
+            {
+              "title": "Early value",
+              "description": "Strong for players who want stat formulas and later weapon enchant depth."
+            },
+            {
+              "title": "Example crafts",
+              "description": "EnchantPaper_Z1, EnchantPowder_Z1, EnchantConcentrate_Z1, and Magic Formula: Strength."
+            }
+          ],
+          "icon": "ClipboardCheck"
         }
       ]
     },
     "lucidBlocksSingleplayerAndPlatformFAQ": {
       "title": "Farever Gear Items and Rarity Guide",
       "displayType": "accordion",
-      "intro": "Item decisions are easier when you evaluate category, rarity, and practical build impact instead of chasing item color alone.",
+      "intro": "Use category, rarity, class, slot, and level filters to decide what to equip, craft, sell, or keep. Farever item coverage includes weapons, armor, consumables, components, gems, mounts, gliders, and upgrade currencies.",
       "faqs": [
         {
-          "question": "Which item categories should I track first?",
-          "answer": "Start with weapons, armor, consumables, and core crafting materials because they directly affect combat readiness and upgrade flow."
+          "question": "How should I filter Farever weapons for quick upgrades?",
+          "answer": "Filter by class, level bracket, and rarity first, then choose weapon families that match your skill rotations and role pressure."
         },
         {
-          "question": "How should I evaluate rarity in early progression?",
-          "answer": "Use rarity as a quick filter, then confirm stat fit, class requirements, and skill synergy before committing upgrade resources."
+          "question": "What is the best way to evaluate armor and gear slots?",
+          "answer": "Compare slot relevance and stat direction before rarity color so each replacement improves your active build instead of just item score."
         },
         {
-          "question": "Are all high-rarity items immediate upgrades?",
-          "answer": "Not always. A lower-rarity piece can outperform a higher-rarity item if it better supports your role stats and combat rhythm."
+          "question": "Which consumables are worth carrying into dungeons?",
+          "answer": "Keep healing, movement, and primary-stat consumables ready so attempts stay stable during long pulls and boss mechanics."
         },
         {
-          "question": "What items are worth keeping for later?",
-          "answer": "Keep role-flex weapons, useful trinkets, and key recipe components, then salvage low-impact duplicates to free inventory space."
+          "question": "How should I handle crafting components while leveling?",
+          "answer": "Keep materials linked to your active professions and near-term recipes, then clear excess components that do not feed current goals."
         },
         {
-          "question": "How should I organize gear decisions per class?",
-          "answer": "Prioritize pieces that reinforce your active class strengths, then maintain a small backup set for party role switches."
+          "question": "When should I keep gems and jewelry instead of selling them?",
+          "answer": "Save cuts and attuned gems that align with your planned stat path, especially when they support gear you will keep for multiple tiers."
+        },
+        {
+          "question": "Are mounts and gliders always worth keeping?",
+          "answer": "Yes. Treat them as collection and traversal rewards because many are rare drops or guaranteed vault unlocks."
+        },
+        {
+          "question": "How do I spend currencies and upgrade items efficiently?",
+          "answer": "Invest gold and upgrade resources only in items that support your current class setup, profession lane, or immediate progression target."
+        },
+        {
+          "question": "Do job tools matter if they are not combat gear?",
+          "answer": "They do. Gathering and crafting tools unlock the loops that supply your gear, consumables, and upgrade materials."
         }
       ]
     },
