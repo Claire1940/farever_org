@@ -4,7 +4,7 @@ import type { Metadata } from 'next'
 import { buildLanguageAlternates } from '@/lib/i18n-utils'
 import { type Locale } from '@/i18n/routing'
 import HomePageClient from './HomePageClient'
-import type { ModuleLinkMap } from '@/lib/buildModuleLinkMap'
+import { buildModuleLinkMap } from '@/lib/buildModuleLinkMap'
 
 interface PageProps {
   params: Promise<{ locale: string }>
@@ -59,9 +59,8 @@ export default async function HomePage({ params }: PageProps) {
   // lucide-react icons are rendered in HomePageClient module sections.
   // 服务器端获取最新文章数据
   const latestArticles = await getLatestArticles(locale as Language, 30)
-  // Home page modules use plain headings and avoid internal URL links.
-  // The module components apply theme colors through hsl(var(--nav-theme)) in HomePageClient.
-  const moduleLinkMap = {} as ModuleLinkMap
+  // Module titles and rows use this map to link to best-matching articles.
+  const moduleLinkMap = await buildModuleLinkMap(locale as Language)
   const organizationStructuredData = {
     "@context": "https://schema.org",
     "@type": "Organization",

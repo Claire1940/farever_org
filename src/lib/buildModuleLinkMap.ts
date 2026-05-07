@@ -35,25 +35,25 @@ const MODULE_FIELDS: Record<string, { field: string; nameKey: string }> = {
 // Extra semantic keywords per module to boost matching for h2 titles
 // These supplement the module title text when matching against articles
 const MODULE_EXTRA_KEYWORDS: Record<string, string[]> = {
-  lucidBlocksBeginnerGuide: ['guide', 'mastering', 'progression', 'crafting', 'starter'],
-  lucidBlocksApotheosisCrafting: ['apotheosis', 'fusion', 'essence'],
-  lucidBlocksToolsAndWeapons: ['crafting recipes', 'frost pick', 'osmium', 'azrael', 'faith wand'],
-  lucidBlocksStorageAndInventory: ['chest', 'cache cube', 'cabinet', 'storage'],
-  lucidBlocksQualiaAndBaseBuilding: ['qualia', 'clonaqualia', 'personal dimensions'],
-  lucidBlocksWorldRegions: ['tiamana', 'leyline', 'biomes', 'regions'],
-  lucidBlocksCreaturesAndEnemies: ['survival', 'combat', 'surreal creatures'],
-  lucidBlocksMobilityGear: ['bee glider', 'hookshot', 'glider', 'movement'],
-  lucidBlocksFarmingAndGrowth: ['seed', 'farming', 'growth', 'material', 'progression', 'crafting'],
-  lucidBlocksBestEarlyUnlocks: ['early', 'osmium', 'frost pick', 'starter', 'progression'],
-  lucidBlocksAchievementTracker: ['achievement', 'tiamana', 'leyline'],
-  lucidBlocksSingleplayerAndPlatformFAQ: ['multiplayer', 'platform', 'co op'],
-  lucidBlocksSteamDeckAndController: ['steam deck', 'controller', 'proton'],
-  lucidBlocksSettingsAndAccessibility: ['full screen', 'controls', 'display'],
-  lucidBlocksUpdatesAndPatchNotes: ['update', 'patch', 'fix'],
-  lucidBlocksCrashFixAndTroubleshooting: ['crash', 'vulkan', 'troubleshooting', 'full screen', 'controls', 'gameplay'],
+  lucidBlocksBeginnerGuide: ['steam early access', 'download', 'launch pricing', 'server region', 'pc'],
+  lucidBlocksApotheosisCrafting: ['beginner guide', 'map awareness', 'class first', 'materials', 'upgrade cycles'],
+  lucidBlocksToolsAndWeapons: ['classes', 'warrior', 'cleric', 'mage', 'rogue', 'party role'],
+  lucidBlocksStorageAndInventory: ['best class', 'role picks', 'co-op anchor', 'ranged pressure', 'melee'],
+  lucidBlocksQualiaAndBaseBuilding: ['builds', 'playstyles', 'weapon synergy', 'cooldown sequencing', 'support utility'],
+  lucidBlocksWorldRegions: ['weapons', 'arsenal', 'catalyst sets', 'duel sets', 'hybrid support'],
+  lucidBlocksCreaturesAndEnemies: ['combat', 'spacing', 'cooldown discipline', 'boss phase shifts', 'party roles'],
+  lucidBlocksMobilityGear: ['map', 'exploration', 'siagarta', 'route planning', 'vertical pathing', 'hazard routing'],
+  lucidBlocksFarmingAndGrowth: ['dungeons', 'instances', 'bosses', 'nost mire', 'hivetree', 'ratzar'],
+  lucidBlocksBestEarlyUnlocks: ['loot sources', 'drop tables', 'boss drops', 'vault rewards', 'gathering routes'],
+  lucidBlocksAchievementTracker: ['crafting jobs', 'recipes', 'blacksmith', 'jeweler', 'alchemist', 'enchanter'],
+  lucidBlocksSingleplayerAndPlatformFAQ: ['gear items', 'rarity', 'weapons', 'consumables', 'gems', 'currencies'],
+  lucidBlocksSteamDeckAndController: ['mounts', 'pets', 'gliders', 'companions', 'collection rewards', 'cosmetic shop'],
+  lucidBlocksSettingsAndAccessibility: ['solo', 'co-op multiplayer', '4-player party', 'regional server', 'difficulty scaling'],
+  lucidBlocksUpdatesAndPatchNotes: ['roadmap', 'upcoming content', 'world expansion', 'character growth', 'social systems', '1.0'],
+  lucidBlocksCrashFixAndTroubleshooting: ['system requirements', 'performance', 'hardware targets', '1080p', 'fps', 'checklist'],
 }
 
-const FILLER_WORDS = ['lucid', 'blocks', '2026', '2025', 'complete', 'the', 'and', 'for', 'how', 'with', 'our', 'this', 'your', 'all', 'from', 'learn', 'master']
+const FILLER_WORDS = ['farever', '2026', '2025', 'complete', 'the', 'and', 'for', 'how', 'with', 'our', 'this', 'your', 'all', 'from', 'learn', 'master']
 
 function normalize(text: string): string {
   return text
@@ -77,9 +77,9 @@ function matchScore(queryText: string, article: ArticleWithType, extraKeywords?:
 
   let score = 0
 
-  // Exact phrase match in title (stripped of "Lucid Blocks")
-  const strippedQuery = normalizedQuery.replace(/lucid blocks?\s*/g, '').trim()
-  const strippedTitle = normalizedTitle.replace(/lucid blocks?\s*/g, '').trim()
+  // Exact phrase match in title (stripped of the site/theme name)
+  const strippedQuery = normalizedQuery.replace(/farever\s*/g, '').trim()
+  const strippedTitle = normalizedTitle.replace(/farever\s*/g, '').trim()
   if (strippedQuery.length > 3 && strippedTitle.includes(strippedQuery)) {
     score += 100
   }
