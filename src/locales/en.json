@@ -123,22 +123,22 @@
       {
         "icon": "Gamepad2",
         "title": "Farever Mounts Pets and Gliders",
-        "description": "Traversal rewards, cosmetic systems, and practical value"
+        "description": "Collection goals, rare drop mounts, glider routes, and cosmetic rewards"
       },
       {
         "icon": "Settings",
         "title": "Farever Solo and Co-op Multiplayer Guide",
-        "description": "Solo routes, party flow, and MMO-style shared zones"
+        "description": "Solo progression, 4-player parties, shared loot, and regional servers"
       },
       {
         "icon": "Clock",
         "title": "Farever Roadmap and Upcoming Content",
-        "description": "Launch scope, planned classes, regions, and PvP features"
+        "description": "Launch baseline, world expansion, class growth, and 1.0 direction"
       },
       {
         "icon": "Shield",
         "title": "Farever System Requirements and Performance Guide",
-        "description": "PC specs, graphics targets, and stability checklist"
+        "description": "Minimum and recommended specs, server regions, and FPS targets"
       }
     ]
   },
@@ -686,103 +686,141 @@
     "lucidBlocksSteamDeckAndController": {
       "title": "Farever Mounts Pets and Gliders",
       "displayType": "accordion",
-      "intro": "Mounts, pets, and gliders support movement comfort and collection goals. Treat them as traversal and cosmetic systems that complement core progression.",
+      "intro": "Farever includes broad collection systems for mounts, companions, gliders, and cosmetic rewards. These systems support mobility, exploration routing, and long-term collection goals during Early Access.",
       "faqs": [
         {
-          "question": "How do mounts affect daily gameplay?",
-          "answer": "Mounts reduce travel time across open-world routes, helping you rotate between exploration tasks, dungeons, and gathering loops faster."
+          "question": "What does the launch mount collection include?",
+          "answer": "Launch examples include wolf, deer, skunk, crab, and ladybug variants. Mounts are practical travel tools and collection goals, with item listings tracking movement speed multipliers."
         },
         {
-          "question": "What is the role of pets in progression?",
-          "answer": "Pets are mostly collectible companions, with occasional utility value depending on your route and play goals."
+          "question": "How important are gliders in Farever?",
+          "answer": "Gliders are central to open-world movement. They support cliff traversal, ravine routes, cave exits, and vertical exploration paths where direct ground travel is slower."
         },
         {
-          "question": "When should I prioritize glider unlocks?",
-          "answer": "Focus on gliders when vertical exploration starts limiting your route efficiency and your combat baseline is already stable."
+          "question": "What companions are available at launch?",
+          "answer": "Companion-style collectibles include frogs, grassflopper, buttontail, and tortrock examples. They are identity and collection rewards rather than direct combat power upgrades."
         },
         {
-          "question": "Are these systems purely cosmetic?",
-          "answer": "Many rewards are cosmetic, but traversal-oriented options can still improve route execution and session efficiency."
+          "question": "Can mounts and gliders drop from creature loot tables?",
+          "answer": "Yes. Some creature drops include rare mount or glider rewards with low drop rates, such as 0.10% reward entries, making repeated farming routes valuable for collectors."
         },
         {
-          "question": "What is the best collection order?",
-          "answer": "Unlock mobility benefits first for daily use, then target pets and rare cosmetics as long-term collection goals."
+          "question": "Do vault runs provide guaranteed collection rewards?",
+          "answer": "Several vault reward pools include guaranteed cosmetic collection unlocks like specific gliders or mounts, often paired with gold rewards, so vault routing is a consistent collection method."
+        },
+        {
+          "question": "How does the optional cosmetic shop fit into progression?",
+          "answer": "Shop visuals are optional. Planned cosmetic offerings focus on appearance customization for armor skins, mounts, companions, and gliders without replacing core progression loops."
+        },
+        {
+          "question": "What collection priority is best early on?",
+          "answer": "Prioritize movement value first with mounts and gliders that improve daily route speed, then expand into rare drops and long-horizon vanity collection goals."
         }
       ]
     },
     "lucidBlocksSettingsAndAccessibility": {
       "title": "Farever Solo and Co-op Multiplayer Guide",
       "displayType": "settingCards",
-      "intro": "Farever supports both solo progression and cooperative multiplayer. Choose your format by objective, schedule, and preferred role pressure.",
+      "intro": "Farever supports both solo play and 4-player co-op parties. The same core loop works across formats: explore, clear activities, run instances, defeat bosses, and progress your build.",
       "settings": [
         {
-          "name": "Solo-friendly progression",
+          "name": "Solo-friendly exploration and progression",
           "type": "Play Mode",
-          "description": "Solo runs are viable when you keep upgrades focused, play around survivability, and follow repeatable activity loops."
+          "description": "Solo players can progress smoothly through regions, activities, crafting loops, and build upgrades while choosing their own pace and routing priorities."
         },
         {
-          "name": "Co-op dungeon flow",
+          "name": "4-player party structure",
           "type": "Play Mode",
-          "description": "Party play improves clear speed and consistency by splitting roles across damage, sustain, and control responsibilities."
+          "description": "Party groups can include up to four players, with role splitting across damage, sustain, control, and frontline pressure for faster and safer clears."
         },
         {
-          "name": "Shared world and MMO spaces",
+          "name": "Shared loot, XP, and party rewards",
           "type": "Network Setup",
-          "description": "Public zones and shared activities reward group coordination, especially when route planning and class roles are aligned."
+          "description": "Co-op progression supports shared loot and XP flows, post-fight distribution, party trading windows, and shared completion value in repeatable content."
         },
         {
-          "name": "Party preparation basics",
+          "name": "MMO-style world interaction",
           "type": "Team Setup",
-          "description": "Coordinate server region, assign responsibilities, and align dungeon objectives before entering harder instance content."
+          "description": "Public areas, world layers, chat channels, and region hubs allow players to meet others while exploring without forcing permanent party grouping."
+        },
+        {
+          "name": "Regional server and friend setup",
+          "type": "Team Setup",
+          "description": "Choose the closest region before inviting friends to minimize latency. Current launch regions include Europe, North America, Latin America, Asia, and Mainland China."
+        },
+        {
+          "name": "Scalable activity difficulty",
+          "type": "Activity Flow",
+          "description": "Several activity routes scale by group size so players can approach world objectives solo or with a team and still maintain progress efficiency."
         }
       ]
     },
     "lucidBlocksUpdatesAndPatchNotes": {
       "title": "Farever Roadmap and Upcoming Content",
       "displayType": "timeline",
-      "intro": "The Early Access roadmap is a core planning signal for long-term builds, class investment, and group progression targets.",
+      "intro": "Farever launched with a strong Early Access baseline and a roadmap centered on world growth, deeper classes, more instance challenge layers, social systems, and long-term progression.",
       "entries": [
         {
-          "title": "Early Access launch scope",
+          "title": "Early Access launch baseline",
           "type": "Live Phase",
-          "description": "Current content includes core classes, open-world exploration, dungeons, jobs, crafting systems, and progression fundamentals."
+          "description": "Launch includes four classes, level 20 progression, two regions, ten instance encounters, six jobs, 100+ weapon skills, 150+ gear pieces, and 100+ collection elements."
         },
         {
-          "title": "Planned expansion pillars",
+          "title": "World expansion phase",
           "type": "Roadmap",
-          "description": "Upcoming updates are expected to expand regions, class depth, dungeon variety, social systems, and endgame progression lanes."
+          "description": "Planned updates add new regions such as Peak of Obral and City of Ramburg, plus more factions, dungeons, bosses, world events, and activity types."
         },
         {
-          "title": "Long-term feature direction",
-          "type": "Ongoing",
-          "description": "Roadmap discussions consistently reference new classes, factions, guild support, PvP options, and broader community-facing features."
+          "title": "Instance progression updates",
+          "type": "Roadmap",
+          "description": "Roadmap targets include Heroic Mode, max-level instance modes, additional boss mechanics, challenge modifiers, and more unique completion rewards."
+        },
+        {
+          "title": "Character growth expansion",
+          "type": "Roadmap",
+          "description": "Progression direction includes raising the level cap toward 50, adding classes like Druid and Monk, and introducing deeper talent trees and class skill systems."
+        },
+        {
+          "title": "Collections and job depth",
+          "type": "Roadmap",
+          "description": "Future content plans include fishing, archaeology, more mounts, gliders, critters, toys, and major increases in unique weapons, skills, and gear pieces."
+        },
+        {
+          "title": "Social and PvP systems",
+          "type": "Roadmap",
+          "description": "Upcoming systems include guilds, auction house support, friends tools, duels, PvP regions, instanced battlegrounds, and party quality-of-life features."
+        },
+        {
+          "title": "1.0 release direction",
+          "type": "Planned",
+          "description": "The full release path aims to extend world scale, class variety, instance challenge, seasonal activities, and long-term social progression systems."
         }
       ]
     },
     "lucidBlocksCrashFixAndTroubleshooting": {
       "title": "Farever System Requirements and Performance Guide",
       "displayType": "steps",
-      "intro": "Use this checklist to confirm PC compatibility, improve performance consistency, and reduce instability during Early Access sessions.",
+      "intro": "Use this checklist to match official hardware targets, choose the right server region, and keep stable 1080p performance during Early Access sessions.",
       "steps": [
         {
-          "title": "Check official PC requirements",
-          "description": "Review minimum and recommended CPU, GPU, RAM, OS, and storage targets from the Steam listing before deep optimization."
+          "title": "Confirm operating system and storage baseline",
+          "description": "Farever requires a 64-bit Windows setup and at least 25 GB free storage. Keep additional free space for patch downloads and update extraction."
         },
         {
-          "title": "Match settings to your hardware tier",
-          "description": "Tune graphics options by GPU class and monitor frame stability in combat zones where particle load and enemy counts are higher."
+          "title": "Check CPU, RAM, and GPU tier fit",
+          "description": "Minimum targets are around i7 6700K or Ryzen 5 5500, 16 GB RAM, and RTX 3060 or RX 5600 XT. Recommended targets move to 32 GB RAM with RTX 4060 or RX 7600 class GPUs."
         },
         {
-          "title": "Keep drivers and runtime updated",
-          "description": "Update graphics drivers and core platform components regularly to reduce stutter, crashes, and shader-related instability."
+          "title": "Use the official FPS expectations",
+          "description": "Minimum profile targets 1080p at 30 FPS and recommended profile targets 1080p at 60 FPS. Tune quality settings according to these baseline expectations."
         },
         {
-          "title": "Control network latency factors",
-          "description": "Pick the nearest server region and use a stable connection because latency directly affects dodge timing and skill responsiveness."
+          "title": "Choose the nearest server region",
+          "description": "Available regions include Europe, North America, Latin America, Asia, and Mainland China. Picking the closest region improves latency and party responsiveness."
         },
         {
-          "title": "Use a repeatable troubleshooting flow",
-          "description": "If performance drops after patches, retest settings in a fixed scenario, then adjust one variable at a time for clean diagnosis."
+          "title": "Apply a repeatable performance checklist",
+          "description": "If frame pacing drops, lower the highest-cost graphics options first, close background workloads, retest in a fixed combat route, and adjust one setting group at a time."
         }
       ]
     }
