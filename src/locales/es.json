@@ -1,27 +1,27 @@
 {
   "seo": {
     "home": {
-      "title": "Wiki de Lucid Blocks - Fabricación, biomas y logros",
-      "description": "La Wiki de Lucid Blocks cubre fabricación, biomas, criaturas, objetos, logros, finales y consejos de supervivencia para la aventura surrealista de sandbox de vóxeles en Steam.",
-      "keywords": "Lucid Blocks, Lucid Blocks wiki, fabricación, biomas, logros, supervivencia, Steam",
-      "ogTitle": "Wiki de Lucid Blocks - Fabricación, biomas y logros",
-      "ogDescription": "La Wiki de Lucid Blocks cubre fabricación, biomas, criaturas, objetos, logros, finales y consejos de supervivencia para la aventura surrealista de sandbox de vóxeles en Steam.",
-      "twitterTitle": "Wiki de Lucid Blocks - Fabricación, biomas y logros",
-      "twitterDescription": "La Wiki de Lucid Blocks cubre fabricación, biomas, criaturas, objetos, logros y consejos de supervivencia para el sandbox surrealista de vóxeles en Steam."
+      "title": "Farever - Lanzamiento, Builds, Mazmorras y Roadmap",
+      "description": "Guías de Farever para detalles de lanzamiento, clases, builds, mazmorras, rutas de botín, profesiones de artesanía, actualizaciones del roadmap y ajustes de rendimiento para Steam Early Access.",
+      "keywords": "Farever, guía de Farever, builds de Farever, clases de Farever, mazmorras de Farever, roadmap de Farever, requisitos del sistema de Farever",
+      "ogTitle": "Farever - Lanzamiento, Builds, Mazmorras y Roadmap",
+      "ogDescription": "Guías de Farever para detalles de lanzamiento, clases, builds, mazmorras, rutas de botín, profesiones de artesanía, actualizaciones del roadmap y ajustes de rendimiento para Steam Early Access.",
+      "twitterTitle": "Farever - Lanzamiento, Builds, Mazmorras y Roadmap",
+      "twitterDescription": "Guías de Farever para detalles de lanzamiento, clases, builds, mazmorras, rutas de botín, actualizaciones del roadmap y requisitos del sistema en Steam."
     }
   },
   "nav": {
-    "release": "Release",
-    "guide": "Guide",
-    "classes": "Classes",
-    "weapons": "Weapons",
-    "multiplayer": "Multiplayer",
-    "charts": "Charts"
+    "release": "Lanzamiento",
+    "guide": "Guía",
+    "classes": "Clases",
+    "weapons": "Armas",
+    "multiplayer": "Multijugador",
+    "charts": "Tablas"
   },
   "common": {
     "home": "Inicio",
     "more": "Más",
-    "playNow": "Juega en Steam",
+    "playNow": "Jugar en Steam",
     "switchLanguage": "Cambiar idioma",
     "switchTheme": "Cambiar tema",
     "lightMode": "Modo claro",
@@ -34,721 +34,800 @@
     "articlesComingSoon": "Artículos próximamente"
   },
   "hero": {
-    "badge": "__PROTECTED_c0b0161c__ Sandbox de supervivencia de vóxeles",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explora biomas oníricos, fusiona objetos con Apotheosis, construye libremente y sobrevive a criaturas extrañas en este sandbox surrealista de mundo abierto en Steam.",
-    "getFreeCodesCTA": "Explorar guía de fabricación",
-    "playOnSteamCTA": "Jugar en Steam",
+    "badge": "RPG de acción cooperativo en línea",
+    "title": "Farever",
+    "description": "Farever es un RPG de acción multijugador en línea ambientado en un vibrante mundo abierto de fantasía. Explora Siagarta, completa mazmorras, fabrica equipo poderoso, crea tu propio estilo de clase y sigue el roadmap de Early Access.",
+    "getFreeCodesCTA": "Leer guías de Farever",
+    "playOnSteamCTA": "Ver Farever en Steam",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Jugadores en línea"
+        "value": "400K+",
+        "label": "Lista de deseos"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Pico de CCU"
+        "value": "6,239",
+        "label": "Jugando ahora"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Reseñas positivas"
+        "value": "481",
+        "label": "Reseñas en Steam"
       },
       "stat4": {
-        "value": "12 de mar. de 2026",
-        "label": "Fecha de lanzamiento"
+        "value": "73%",
+        "label": "Reseñas positivas"
       }
     }
   },
   "gameFeature": {
-    "title": "Jugabilidad de Lucid Blocks",
-    "description": "Explora biomas surrealistas, fusiona objetos con Apotheosis y sobrevive a criaturas extrañas en este sandbox de vóxeles onírico en Steam."
+    "title": "Jugabilidad de Farever",
+    "description": "Explora Siagarta, combina habilidades de clase con armas, completa mazmorras con amigos y define tu progresión a través de trabajos, artesanía y mejoras de equipo."
   },
   "tools": {
-    "title": "Lucid Blocks",
-    "titleHighlight": "Recursos",
-    "subtitle": "Todo lo que necesitas para explorar, fabricar y sobrevivir en Lucid Blocks",
+    "title": "Farever",
+    "titleHighlight": "Navegación de módulos",
+    "subtitle": "Salta a cada tema principal: detalles de lanzamiento, clases, builds, mazmorras, botín, roadmap y rendimiento del sistema.",
     "cards": [
       {
         "icon": "BookOpen",
-        "title": "Guía para principiantes",
-        "description": "Primeros pasos, exploración y progresión inicial"
+        "title": "Lanzamiento de Farever Early Access",
+        "description": "Fecha de lanzamiento, plataforma, precio de salida y detalles de acceso"
       },
       {
         "icon": "Sparkles",
-        "title": "Fabricación de Apotheosis",
-        "description": "Sistema de fusión libre y recetas iniciales"
+        "title": "Guía para principiantes de Farever",
+        "description": "Prioridades de la primera sesión, flujo de progresión y objetivos iniciales"
       },
       {
         "icon": "Hammer",
-        "title": "Herramientas y armas",
-        "description": "Pico de escarcha, Azrael, __PROTECTED_6a765cb2__ y más"
+        "title": "Guía de clases de Farever",
+        "description": "Roles de Clérigo, Mago, Pícaro, Guerrero y estilos de juego"
       },
       {
         "icon": "Package",
-        "title": "Almacenamiento e inventario",
-        "description": "Cubos de suministros, gabinetes y almacenamiento de Qualia"
+        "title": "Mejores elecciones de clase en Farever",
+        "description": "Recomendaciones basadas en roles para jugadores en solitario y cooperativo"
       },
       {
         "icon": "Home",
-        "title": "Qualia y construcción de bases",
-        "description": "Qualia personal y configuración de la base"
+        "title": "Builds y estilos de juego de Farever",
+        "description": "Direcciones de builds por clase, rol y preferencia de combate"
       },
       {
         "icon": "Eye",
-        "title": "Regiones del mundo",
-        "description": "Fog Meadow, Ciénaga de la Esencia y más"
+        "title": "Armas y arsenal de Farever",
+        "description": "Familias de armas, sinergia de habilidades y estructura de equipamiento"
       },
       {
         "icon": "AlertTriangle",
-        "title": "Criaturas y enemigos",
-        "description": "Maniquíes, arañas y cómo sobrevivir"
+        "title": "Guía de combate de Farever",
+        "description": "Esquiva, flujo de enfriamientos, posicionamiento y ejecución en equipo"
       },
       {
         "icon": "ArrowRight",
-        "title": "Equipo de movilidad",
-        "description": "__PROTECTED_6a765cb2__, Guante planeador, __PROTECTED_163b9bec__"
+        "title": "Mapa y exploración de Farever",
+        "description": "Regiones, puntos de interés, rutas de viaje y ritmo de descubrimiento"
       },
       {
-        "icon": "TrendingUp",
-        "title": "Cultivo y crecimiento",
-        "description": "Progresión de semillas y recolección de materiales"
+        "title": "Mazmorras, instancias y jefes de Farever",
+        "description": "Sigue las entradas de mazmorras y jefes con objetivos de completado centrados en roles",
+        "icon": "TrendingUp"
       },
       {
-        "icon": "Star",
-        "title": "Mejores desbloqueos iniciales",
-        "description": "Mejoras prioritarias para la primera hora"
+        "title": "Fuentes de botín y tablas de drop de Farever",
+        "description": "Encuentra tasas de drop de monstruos, jefes, nodos de recolección y bóvedas",
+        "icon": "Star"
       },
       {
-        "icon": "ClipboardCheck",
-        "title": "Seguimiento de logros",
-        "description": "Los 19 logros y condiciones de Steam"
+        "title": "Trabajos de artesanía y recetas de Farever",
+        "description": "Compara profesiones, conteo de recetas y artesanías iniciales prácticas",
+        "icon": "ClipboardCheck"
       },
       {
-        "icon": "MessageCircle",
-        "title": "Preguntas frecuentes del modo un jugador",
-        "description": "Preguntas sobre plataformas, precio, cooperativo e idiomas"
+        "title": "Guía de objetos de equipo y rareza de Farever",
+        "description": "Usa filtros de categoría y rareza para conservar solo las mejoras útiles",
+        "icon": "MessageCircle"
       },
       {
         "icon": "Gamepad2",
-        "title": "Steam Deck y controles",
-        "description": "Configuración de Proton 9.0.4 y consejos para el control"
+        "title": "Monturas, mascotas y planeadores de Farever",
+        "description": "Objetivos de colección, monturas de drop raro, rutas de planeador y recompensas cosméticas"
       },
       {
         "icon": "Settings",
-        "title": "Ajustes y accesibilidad",
-        "description": "Ocultar manos, __PROTECTED_38625270__ y opciones de pantalla"
+        "title": "Guía multijugador en solitario y cooperativo de Farever",
+        "description": "Progresión en solitario, grupos de 4 jugadores, botín compartido y servidores regionales"
       },
       {
         "icon": "Clock",
-        "title": "Actualizaciones y notas del parche",
-        "description": "Correcciones recientes y notas de la hoja de ruta"
+        "title": "Roadmap y contenido futuro de Farever",
+        "description": "Base de lanzamiento, expansión del mundo, crecimiento de clases y dirección hacia la 1.0"
       },
       {
         "icon": "Shield",
-        "title": "Solución de cierres inesperados",
-        "description": "Verificación de __PROTECTED_38625270__, ruta de registros y reporte de errores"
+        "title": "Requisitos del sistema y guía de rendimiento de Farever",
+        "description": "Especificaciones mínimas y recomendadas, regiones de servidores y objetivos de FPS"
       }
     ]
   },
   "modules": {
     "lucidBlocksBeginnerGuide": {
-      "title": "Guía para principiantes de Lucid Blocks",
+      "title": "Lanzamiento y descarga de Farever en Early Access",
       "displayType": "steps",
-      "intro": "Comienza aprendiendo cómo se conectan la exploración, la fusión y la progresión. Lucid Blocks premia la experimentación, por lo que el progreso temprano proviene de recolectar materiales inusuales, probar combinaciones y desbloquear tu Qualia personal.",
+      "intro": "Farever ya está disponible en Steam Early Access, y esta sección ofrece el resumen de lanzamiento más rápido para jugadores nuevos y recurrentes.",
       "steps": [
         {
-          "title": "Explora antes de comprometerte",
-          "description": "Camina hacia el exterior, mina bloques comunes y conserva cualquier botín extraño que encuentres. El progreso inicial se trata menos de misiones fijas y más de descubrir en qué se pueden convertir los materiales."
+          "title": "Comprueba el estado actual del lanzamiento",
+          "description": "El juego ya está disponible en Steam Early Access para PC, con actualizaciones de servicio en vivo durante el periodo de acceso."
         },
         {
-          "title": "Desbloquea tu Qualia personal pronto",
-          "description": "Tu Qualia personal es uno de los hitos iniciales más importantes. Te brinda un lugar confiable para reagruparte y construir a su alrededor."
+          "title": "Revisa los precios de lanzamiento por región",
+          "description": "El precio varía según la región monetaria. Consulta tu tienda de Steam para confirmar el precio local actual y las promociones de lanzamiento."
         },
         {
-          "title": "Usa Osmio para progresar rápido al inicio",
-          "description": "El Osmio es uno de los materiales iniciales más útiles. Una ruta inicial popular es combinar Osmio con palos para fabricar un Pico de Escarcha para minar rápido."
+          "title": "Confirma la configuración de la plataforma y la cuenta",
+          "description": "Se requiere una cuenta de Steam y la instalación en PC. Mantén tu cliente actualizado para evitar problemas de emparejamiento y discrepancias de versión."
         },
         {
-          "title": "Registra las buenas fusiones",
-          "description": "Lleva un registro de las combinaciones exitosas en tu diario. Lucid Blocks tiene muchas rutas de fusión posibles, por lo que anotar los resultados útiles ahorra mucho tiempo."
+          "title": "Elige la región de servidor más cercana",
+          "description": "Elegir la región más cercana reduce la latencia, mejora la capacidad de respuesta en combate y estabiliza el juego en grupo en contenido instanciado."
         }
       ],
       "quickTips": [
-        "Apotheosis no requiere una lista de recetas fija.",
-        "La generación de mundo infinito significa que moverte hacia arriba o hacia lo profundo puede revelar materiales completamente diferentes.",
-        "Las herramientas de movimiento y el equipo de utilidad se convierten en una gran mejora de calidad de vida una vez que comienzas a desbloquearlos.",
-        "Perderse al principio es normal, pero las herramientas útiles, el almacenamiento y las opciones de movimiento crecen como bola de nieve rápidamente una vez que tus primeras buenas fusiones empiezan a funcionar."
+        "Utiliza la página de la tienda de Steam como fuente principal para actualizaciones de precios y paquetes.",
+        "Si hay una oferta de lanzamiento activa, compra dentro de la ventana de cuenta atrás visible en tu región.",
+        "Coordina la región del servidor con tus amigos antes de crear tu primera sesión de grupo.",
+        "Mantén los controladores de gráficos actualizados antes del primer lanzamiento para evitar problemas de compilación de sombreadores."
       ]
     },
     "lucidBlocksApotheosisCrafting": {
-      "title": "Artesanía de Apotheosis en Lucid Blocks",
+      "title": "Guía para principiantes de Farever",
       "displayType": "cards",
-      "intro": "Apotheosis es el sistema de fusión sin restricciones del juego. En lugar de memorizar un libro de recetas tradicional, combinas materiales, observas el resultado y construyes tu propio conocimiento de artesanía con el tiempo.",
+      "intro": "El progreso inicial en Farever es más fluido cuando sigues un ciclo sencillo: explorar, luchar, recolectar, fabricar y luego avanzar hacia contenido más difícil.",
       "cards": [
         {
-          "name": "Fusión de forma libre",
-          "description": "Apotheosis te permite fusionar diferentes objetos sin necesidad de seguir una lista de recetas fija."
+          "name": "Empieza con conocimiento del mapa",
+          "description": "Aprende rutas de viaje, puntos de recuperación seguros y caminos de regreso rápido antes de encadenar encuentros difíciles."
         },
         {
-          "name": "Múltiples resultados útiles",
-          "description": "Diferentes materiales suelen orientarse hacia ciertos resultados. Los descubrimientos de la comunidad muestran que insumos similares pueden derivar en herramientas prácticas, almacenamiento o mejoras de combate."
+          "name": "Comprométete primero con una clase",
+          "description": "Céntrate en una clase y un rol durante tus primeras horas para que tus decisiones de equipo y habilidades sean eficientes."
         },
         {
-          "name": "Artesanía basada en el diario",
-          "description": "La mejor manera de aprender Apotheosis es registrar tus combinaciones exitosas. Tu diario se convertirá rápidamente en tu propia referencia de artesanía."
+          "name": "Alterna actividades para obtener materiales",
+          "description": "Alterna eventos de mundo abierto, incursiones en mazmorras y rutas de recolección para mantener el progreso tanto en combate como en fabricación."
         },
         {
-          "name": "Fusiones iniciales probadas por la comunidad",
-          "description": "Ejemplos iniciales populares incluyen Osmio más Palo para un Pico de Escarcha, Palo más Apéndice de Tungsteno para Azrael, y Azrael más Magnetita para el Estoque de Zarcillo."
+          "name": "Mejora en ciclos cortos",
+          "description": "Aplica pequeñas mejoras con frecuencia en lugar de esperar a los objetos perfectos. Las ganancias constantes importan más que los picos raros."
         }
       ],
       "milestones": [
-        "Fusionar un objeto",
-        "Fusionar una alimaña",
-        "Fusionar un artefacto divino"
+        "Completa tu primera cadena de actividades del mundo",
+        "Termina tu primera limpieza de mazmorra",
+        "Fabrica tu primera mejora de equipo significativa"
       ]
     },
     "lucidBlocksToolsAndWeapons": {
-      "title": "Herramientas y armas de Lucid Blocks",
+      "title": "Guía de clases de Farever",
       "displayType": "itemCards",
-      "intro": "Lucid Blocks mezcla equipo de utilidad oficial con armas iniciales descubiertas por la comunidad. La mejor configuración suele ser una mezcla de minería rápida, travesía segura y una opción de combate confiable.",
+      "intro": "Farever se lanza con cuatro clases principales. Elige según la responsabilidad del rol, la comodidad de posicionamiento y el ritmo que disfrutes en el combate.",
       "items": [
         {
-          "name": "Pico de Escarcha",
-          "type": "Herramienta de minería",
-          "description": "Un pico inicial rápido y económico hecho de Osmio y Palo. Los jugadores lo usan para acelerar la recolección inicial de materiales."
+          "name": "Guerrero",
+          "type": "Primera línea",
+          "description": "Control cuerpo a cuerpo duradero con presión constante. Ideal para jugadores que buscan un enfrentamiento directo y una supervivencia estable."
         },
         {
-          "name": "Azrael",
-          "type": "Arma inicial",
-          "description": "Una ruta práctica para un arma inicial fabricada con un Palo y un Apéndice de Tungsteno."
+          "name": "Clérigo",
+          "type": "Apoyo",
+          "description": "Enfoque en utilidad de equipo y sostenibilidad. Fuerte en contenido grupal donde el tiempo y las rotaciones de apoyo definen la consistencia del combate."
         },
         {
-          "name": "Estoque de Zarcillo",
-          "type": "Arma mejorada",
-          "description": "Una continuación más fuerte creada al combinar Azrael con Magnetita. Es una de las rutas de combate inicial-media más útiles compartidas por los jugadores."
+          "name": "Mago",
+          "type": "DPS a distancia",
+          "description": "Daño basado en hechizos desde la distancia. Recompensa el espaciado limpio y la secuenciación de tiempos de reutilización para un daño seguro y de alto impacto."
         },
         {
-          "name": "__PROTECTED_6a765cb2__",
-          "type": "Herramienta de movilidad",
-          "description": "Un objeto de travesía oficial que mejora enormemente el movimiento y la exploración vertical."
+          "name": "Pícaro",
+          "type": "DPS móvil",
+          "description": "Ráfaga cuerpo a cuerpo rápida con altas exigencias de movimiento. Ideal para jugadores agresivos que pueden gestionar ventanas de riesgo."
         },
         {
-          "name": "__PROTECTED_163b9bec__",
-          "type": "Herramienta de movilidad",
-          "description": "Un objeto de movimiento oficial que ayuda a cubrir terreno de forma más segura y eficiente."
+          "name": "Prioridad de clase en solitario",
+          "type": "Recomendación",
+          "description": "El Guerrero es el punto de partida más fácil para la progresión en solitario debido a su juego permisivo en primera línea y su estabilidad inicial."
         },
         {
-          "name": "Varita de Bola",
-          "type": "Arma de utilidad",
-          "description": "Un objeto de utilidad a distancia oficial que expande tus opciones de combate y acertijos."
-        },
-        {
-          "name": "Equipo de buceo",
-          "type": "Equipo de travesía",
-          "description": "Un objeto de utilidad oficial para llegar a áreas que de otro modo ralentizarían la exploración."
-        },
-        {
-          "name": "Explosivos",
-          "type": "Daño de utilidad",
-          "description": "Destacados oficialmente como parte del conjunto de herramientas principal y útiles para atravesar amenazas u obstáculos."
+          "name": "Prioridad de clase en grupo",
+          "type": "Recomendación",
+          "description": "El Clérigo y el Guerrero forman la base de dúo para principiantes más fiable antes de escalar a composiciones de equipo especializadas."
         }
       ]
     },
     "lucidBlocksStorageAndInventory": {
-      "title": "Almacenamiento e inventario de Lucid Blocks",
+      "title": "Mejores clases y roles en Farever",
       "displayType": "solutionCards",
-      "intro": "La presión del inventario comienza temprano en Lucid Blocks, por lo que construir almacenamiento debería ser uno de tus primeros objetivos. Ya destacan varias soluciones probadas por jugadores reales.",
+      "intro": "Elige clases según el objetivo en lugar de seguir una lista de niveles universal. La mejor opción cambia según tu rol y el contexto del grupo.",
       "solutions": [
         {
-          "name": "Cubo de Almacenamiento",
-          "role": "Almacenamiento tipo cofre",
-          "description": "Los Cubos de Almacenamiento son una de las soluciones prácticas más tempranas y los jugadores los tratan como el contenedor principal tipo cofre del juego."
+          "name": "Mejor base para principiantes",
+          "role": "Guerrero",
+          "description": "Su gran capacidad de supervivencia y su flujo de combate directo hacen del Guerrero la primera elección más estable para los nuevos jugadores."
         },
         {
-          "name": "Gabinete",
-          "role": "Almacenamiento de base simple",
-          "description": "Los gabinetes son otra opción de almacenamiento confirmada. Una receta inicial compartida usa 1 de Madera cortada y 1 de Cuerda."
+          "name": "Mejor ancla cooperativa",
+          "role": "Clérigo",
+          "description": "El Clérigo aumenta la consistencia del equipo mediante la sostenibilidad y la utilidad de apoyo, especialmente en encuentros largos de mazmorras."
         },
         {
-          "name": "Qualia personal",
-          "role": "Centro de almacenamiento a largo plazo",
-          "description": "Una vez desbloqueada, tu Qualia personal se convierte en un lugar natural para organizar materiales, fabricar en paz y expandir la configuración de tu base."
+          "name": "Mejor presión a distancia",
+          "role": "Mago",
+          "description": "El Mago destaca cuando tu equipo necesita un daño seguro y ráfagas potentes a distancia durante las mecánicas de los jefes."
         },
         {
-          "name": "Seguimiento en el diario",
-          "role": "Eficiencia de inventario",
-          "description": "Registrar combinaciones útiles en tu diario reduce el desperdicio de materiales y facilita mucho la gestión del inventario."
+          "name": "Mejor cuerpo a cuerpo de alto ritmo",
+          "role": "Pícaro",
+          "description": "El Pícaro es ideal para jugadores cómodos con una ejecución intensiva en movilidad y ventanas de tiempo agresivas."
         }
       ],
       "managementTips": [
-        "Prioriza una opción de almacenamiento confiable antes de acumular botines raros.",
-        "Construye alrededor de tu Qualia personal una vez que esté disponible.",
-        "Mantén separados los materiales de artesanía, las herramientas de combate y el equipo de movimiento para que las mejoras sean más fáciles de planificar.",
-        "Usa tu diario como parte de la gestión del inventario, no solo para descubrir recetas."
+        "Para inicios en solitario, prioriza la durabilidad y la capacidad de recuperación antes que el daño máximo.",
+        "Para dúos, combina la estabilidad de primera línea con la cobertura de apoyo para limpiezas más fluidas.",
+        "Para grupos completos, diversifica los roles para evitar solapamientos en los tiempos de reutilización.",
+        "Reevalúa tu rol después de cada hito importante de equipo en lugar de hacerlo en cada partida."
       ]
     },
     "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Qualia y construcción de bases en Lucid Blocks",
+      "title": "Farever Builds and Playstyles",
       "displayType": "cards",
-      "intro": "La Qualia es uno de los hitos de progresión más importantes en Lucid Blocks. Te brinda un espacio personal para reagruparte, almacenar materiales y convertir gradualmente el progreso de exploración en una verdadera base de operaciones.",
+      "intro": "Build strength in Farever comes from class identity, weapon synergy, skill sequencing, and stat discipline working together.",
       "cards": [
         {
-          "name": "Qualia personal",
-          "description": "Desbloquear una Qualia es un hito inicial que te da un lugar más confiable al cual regresar mientras exploras el mundo exterior."
+          "name": "Bruiser control builds",
+          "description": "Frontline setups that trade burst for uptime, using mitigation and sustained pressure to hold space in group fights."
         },
         {
-          "name": "Construcción centrada en el almacenamiento",
-          "description": "Muchos jugadores comienzan usando su Qualia como un centro de almacenamiento antes de convertirla en una base más grande con espacios organizados para artesanía y construcción."
+          "name": "Ranged burst builds",
+          "description": "High-output casting patterns focused on cooldown timing, spacing, and safe windows during boss phases."
         },
         {
-          "name": "Construcción creativa de hogares",
-          "description": "Lucid Blocks admite la construcción creativa, y los jugadores ya están usando los espacios de Qualia para crear casas y diseños personalizados."
+          "name": "Mobility pressure builds",
+          "description": "Fast melee patterns that chain movement skills into burst opportunities while avoiding overcommitment."
         },
         {
-          "name": "Centro de progresión",
-          "description": "Una base sólida te ayuda a separar el botín de exploración, los materiales de artesanía, las semillas, las herramientas y el equipo de movilidad para planificar mejor tus próximas mejoras."
+          "name": "Support utility builds",
+          "description": "Team-first configurations that stabilize encounters through sustain, mitigation, and utility skill cadence."
         }
       ],
       "highlights": [
-        "Entrar en una qualia",
-        "Almacenar materiales de forma segura",
-        "Expandir de la utilidad a la decoración",
-        "Usar el espacio de la base para apoyar la artesanía y el cultivo"
+        "Match weapon families to your role goal",
+        "Stack stats that reinforce your combat loop",
+        "Use defensive tools before overloading damage slots",
+        "Refine one build path at a time for clear upgrades"
       ]
     },
     "lucidBlocksWorldRegions": {
-      "title": "Regiones del mundo de Lucid Blocks",
+      "title": "Farever Weapons and Arsenal Guide",
       "displayType": "regionCards",
-      "intro": "Lucid Blocks utiliza generación de mundo infinito, por lo que los jugadores siguen descubriendo nuevos entornos y estructuras. Algunos lugares con nombre ya aparecen en los logros y en las discusiones de la comunidad.",
+      "intro": "Weapon choice changes how each class feels. Focus on handling profile, skill synergy, and encounter type when building an arsenal.",
       "regions": [
         {
-          "name": "Fog Meadow",
-          "type": "Área destacada por la comunidad",
-          "description": "Fog Meadow ya es conocida entre los jugadores como un área tensa asociada con amenazas ocultas y encuentros peligrosos."
+          "name": "Close-range weapon sets",
+          "type": "Frontline Arsenal",
+          "description": "Best for sustained pressure and control in melee lanes. Pair with durability and recovery-focused stats."
         },
         {
-          "name": "Línea ley de Tiamana",
-          "type": "Punto de referencia de descubrimiento",
-          "description": "La línea ley de tiamana es lo suficientemente importante como para tener su propio hito de logro, lo que la convierte en uno de los descubrimientos mundiales con nombre más claros hasta ahora."
+          "name": "Ranged catalyst sets",
+          "type": "Caster Arsenal",
+          "description": "Supports spacing-heavy combat with strong burst windows and flexible utility between cooldown cycles."
         },
         {
-          "name": "Clonaqualia",
-          "type": "Espacio de construcción",
-          "description": "Los jugadores ya están usando Clonaqualia como un lugar para construir casas, almacenar materiales y experimentar con diseños más permanentes."
+          "name": "High-tempo duel sets",
+          "type": "Mobile Arsenal",
+          "description": "Fast execution profile for players who prefer short commit windows and active positional control."
         },
         {
-          "name": "Ciénaga de Esencia",
-          "type": "Área de recolección",
-          "description": "La Ciénaga de Esencia está siendo compartida por los jugadores como una ubicación útil para recolectar recursos, especialmente para luchar contra slimes y ganar experiencia."
+          "name": "Hybrid support sets",
+          "type": "Team Arsenal",
+          "description": "Balanced loadouts that maintain utility uptime while preserving enough personal damage to contribute."
         }
       ]
     },
     "lucidBlocksCreaturesAndEnemies": {
-      "title": "Criaturas y enemigos de Lucid Blocks",
+      "title": "Farever Combat Guide",
       "displayType": "creatureCards",
-      "intro": "Lucid Blocks mezcla criaturas surreales con peligros reales. Las descripciones oficiales y las publicaciones de la comunidad apuntan a un mundo lleno de vida extraña, amenazas hostiles y algunos encuentros destacados que los jugadores recuerdan rápidamente.",
+      "intro": "Winning harder encounters is less about raw stats and more about timing discipline, positioning, and coordinated cooldown use.",
       "creatures": [
         {
-          "name": "Maniquíes",
-          "role": "Enemigo hostil",
-          "description": "Los maniquíes son uno de los enemigos nombrados oficialmente en el mundo y parte del catálogo de amenazas surreales del juego."
+          "name": "Open with spacing checks",
+          "role": "Core Technique",
+          "description": "Start each pull by reading enemy reach and movement speed before committing high-cooldown skills."
         },
         {
-          "name": "Geles blandos",
-          "role": "Enemigo hostil",
-          "description": "Los geles blandos son otro tipo de enemigo nombrado oficialmente y ayudan a definir el extraño estilo biológico del juego."
+          "name": "Dodge before burst",
+          "role": "Core Technique",
+          "description": "Avoid avoidable damage first, then convert recovery windows into safe burst cycles."
         },
         {
-          "name": "Seres de dimensiones superiores",
-          "role": "Enemigo hostil",
-          "description": "Estos seres se presentan como parte del catálogo de enemigos más abstractos e inquietantes del mundo."
+          "name": "Preserve one emergency tool",
+          "role": "Core Technique",
+          "description": "Keep one defensive cooldown or mobility option for unexpected mechanics and late-phase pressure spikes."
         },
         {
-          "name": "Arañas colosales",
-          "role": "Amenaza mayor",
-          "description": "Las arañas son uno de los enemigos más temidos de inmediato en las discusiones de la comunidad y son claramente un peligro memorable."
+          "name": "Respect boss phase shifts",
+          "role": "Boss Discipline",
+          "description": "When phase behavior changes, reset spacing and re-establish role positioning before re-engaging."
         },
         {
-          "name": "__PROTECTED_26ee183b__",
-          "role": "Criatura con nombre",
-          "description": "__PROTECTED_26ee183b__ es lo suficientemente notable como para tener su propio logro, lo que lo convierte en uno de los encuentros con criaturas nombradas más claros del juego."
+          "name": "Coordinate party roles",
+          "role": "Group Execution",
+          "description": "Call defensive rotations and target priority to avoid overlapping mistakes in multi-wave fights."
         },
         {
-          "name": "Alimañas adorables",
-          "role": "Criatura interactuable",
-          "description": "Las alimañas no solo son parte de la progresión de fusión, también se les puede cambiar el nombre, dándoles un papel más personal que a los enemigos estándar."
-        },
-        {
-          "name": "Criatura blasfema",
-          "role": "Amenaza de élite",
-          "description": "La criatura blasfema está vinculada a un logro de combate dedicado, lo que la marca como un encuentro enemigo significativo."
+          "name": "Track stamina and cooldown rhythm",
+          "role": "Consistency",
+          "description": "Stable clears come from rhythm control, not constant aggression. Plan tempo around reliable resource windows."
         }
       ]
     },
     "lucidBlocksMobilityGear": {
-      "title": "Equipo de movilidad de Lucid Blocks",
+      "title": "Farever Map and Exploration Guide",
       "displayType": "itemCards",
-      "intro": "Las mejoras de movimiento son uno de los mayores saltos en la calidad de vida en Lucid Blocks. Una vez que desbloqueas tus primeras herramientas de travesía, la exploración se vuelve más rápida, segura y mucho más gratificante.",
+      "intro": "Exploration efficiency in Siagarta depends on route planning, vertical traversal awareness, and consistent return loops for upgrades.",
       "items": [
         {
-          "name": "__PROTECTED_6a765cb2__",
-          "type": "Herramienta de travesía",
-          "description": "El gancho es uno de los hitos de movimiento más claros del juego y tiene su propio logro dedicado."
+          "name": "Primary region loops",
+          "type": "Route Planning",
+          "description": "Build repeatable loops between activities, gathering points, and recovery hubs to reduce idle travel time."
         },
         {
-          "name": "Guante planeador",
-          "type": "Movilidad aérea",
-          "description": "El guante planeador permite un viaje mucho más fluido y es otro hito importante de progresión con su propio logro."
+          "name": "Landmark-based navigation",
+          "type": "Orientation",
+          "description": "Use distinct terrain markers and settlement anchors to keep route memory reliable across long sessions."
         },
         {
-          "name": "__PROTECTED_163b9bec__",
-          "type": "Herramienta de travesía",
-          "description": "Los planeadores abeja se destacan oficialmente como parte del conjunto de herramientas de movimiento del juego para cubrir terreno de manera más eficiente."
+          "name": "Vertical pathing",
+          "type": "Traversal",
+          "description": "Prioritize movement tools that shorten climbs and descents, especially near event-dense terrain."
         },
         {
-          "name": "Varita de Bola",
-          "type": "Equipo de utilidad",
-          "description": "Las varitas de bola son una de las herramientas especiales destacadas oficialmente y expanden la forma en que te mueves o interactúas con el mundo."
+          "name": "Cave and side-path sweeps",
+          "type": "Discovery",
+          "description": "Secondary paths frequently contain valuable materials and shortcut opportunities for future runs."
         },
         {
-          "name": "Equipo de buceo",
-          "type": "Equipo de exploración",
-          "description": "El equipo de buceo figura oficialmente como parte del conjunto de utilidad principal para llegar a áreas que de otro modo serían más difíciles de explorar."
+          "name": "Underwater and hazard routing",
+          "type": "Risk Control",
+          "description": "Approach hazard zones with planned entry and exit points so failed attempts do not waste progression time."
         },
         {
-          "name": "Explosivos",
-          "type": "Daño de utilidad",
-          "description": "Los explosivos están destacados oficialmente y vinculados a un hito de logro, lo que los hace parte de la progresión de utilidad principal del juego."
+          "name": "Session-end consolidation",
+          "type": "Optimization",
+          "description": "Finish each route near a crafting or storage hub to immediately convert gathered resources into progression."
         }
       ],
       "unlockMilestones": [
-        "Dominar un gancho",
-        "Volar con el guante planeador",
-        "Empuñar una varita de proyectiles",
-        "Empuñar un explosivo"
+        "Map two repeatable exploration loops",
+        "Establish one fast-return route to core hubs",
+        "Integrate side-path farming into regular travel",
+        "End runs with direct upgrade conversion"
       ]
     },
     "lucidBlocksFarmingAndGrowth": {
-      "title": "Cultivo y crecimiento en Lucid Blocks",
+      "title": "Mazmorras, instancias y jefes de Farever",
       "displayType": "mixedCards",
-      "intro": "El crecimiento es parte de la progresión real en Lucid Blocks. El cultivo no se trata solo de plantar y cosechar, sino también de establecer rutas de materiales repetibles que mantengan el flujo de tus herramientas, armas y opciones de artesanía.",
+      "intro": "Farever Early Access enumera diez encuentros de instancia divididos en cinco mazmorras y cinco combates contra jefes. Usa este rastreador para planificar el orden de limpieza, asignar tareas al grupo y prepararte para los modos de mayor dificultad cuando se lancen.",
       "sections": [
         {
-          "name": "Progresión de semillas",
-          "description": "Plantar y fertilizar semillas es un hito real en el juego, y cosechar una nuez completamente crecida es parte de la misma ruta de crecimiento."
+          "name": "Nost Mire · Mazmorra",
+          "description": "Realiza una ruta de combate repetible con control de grupos, comprobaciones de recursos y un final con jefe que favorece una progresión constante de equipo.",
+          "icon": "TrendingUp"
         },
         {
-          "name": "Recolección de materiales",
-          "description": "Un ciclo práctico de recolección inicial es crear Cápsulas de Mercurio, que generan pequeños slimes que sueltan zarcillos y viscosidad para materiales de artesanía repetibles."
+          "name": "El Abismo · Mazmorra",
+          "description": "Céntrate en un ritmo de encuentro fijo en lugar de deambular por el mundo abierto para practicar rotaciones y coordinación bajo presión.",
+          "icon": "Shield"
         },
         {
-          "name": "Sustento de herramientas",
-          "description": "La recolección de recursos se vuelve mucho más fuerte una vez que puedes reunir consistentemente Osmio, fragmentos de vidrio, plantas y materiales de slime para artesanías posteriores."
+          "name": "El Árbol Colmena · Mazmorra",
+          "description": "Avanza a través de los encuentros de la región de las abejas para progresar en materiales vinculados, recompensas de instancia y preparación para jefes.",
+          "icon": "Home"
         },
         {
-          "name": "Rutina de base",
-          "description": "La mejor configuración de cultivo apoya más que solo la comida. Debería abastecer tu almacenamiento, herramientas de movimiento, mejoras de armas y futuros experimentos de fusión."
+          "name": "La Mina Kobold · Mazmorra",
+          "description": "Farmea rutas centradas en kobolds para obtener objetos de progresión de cuevas y ciclos de recompensas de mazmorra que alimentan los trabajos de artesanía.",
+          "icon": "Hammer"
+        },
+        {
+          "name": "La Ciudad Sumergida · Mazmorra",
+          "description": "Completa objetivos en ruinas submarinas para un ritmo de encuentro diferente y una mayor variedad de rutas más allá de los campamentos de mundo abierto.",
+          "icon": "Eye"
+        },
+        {
+          "name": "Carbygenus · Jefe",
+          "description": "Usa este encuentro para aprender patrones, disciplina en ventanas de ráfaga y búsqueda de recompensas raras con roles coordinados.",
+          "icon": "Star"
+        },
+        {
+          "name": "Honeysabath · Jefe",
+          "description": "Rastrea las limpiezas para estabilizar la progresión en la región de las abejas y validar configuraciones de supervivencia antes del contenido más difícil.",
+          "icon": "Sparkles"
+        },
+        {
+          "name": "Monster Chuck · Jefe",
+          "description": "Trata este combate como un paso adelante en mecánica donde el tiempo y la ejecución sostenida importan más que los intentos de un solo golpe.",
+          "icon": "AlertTriangle"
+        },
+        {
+          "name": "Mukshi · Jefe",
+          "description": "Mantén a este jefe en tu hoja de progresión como un encuentro hito para la consistencia de la build y el ritmo del equipo.",
+          "icon": "Gamepad2"
+        },
+        {
+          "name": "Ratzar · Jefe",
+          "description": "Prioriza esta limpieza para la progresión de la ruta kobold y los botines específicos de jefe vinculados a objetivos de armas y planeadores.",
+          "icon": "Settings"
+        },
+        {
+          "name": "Modos Heroico y Desafío · Hoja de ruta de dificultad",
+          "description": "Planifica mejoras de build a largo plazo en torno a futuros niveles de dificultad para que las elecciones de farmeo actuales sigan valiendo la pena más adelante.",
+          "icon": "Clock"
         }
       ],
       "growthMilestones": [
-        "Fertilizar una semilla",
-        "Cosechar una nuez completamente crecida",
-        "Crear ciclos de materiales repetibles",
-        "Convertir el cultivo en progresión a largo plazo"
+        "Completa al menos dos mazmorras con responsabilidades de rol asignadas",
+        "Registra notas de la primera eliminación para los cinco encuentros con jefes enumerados",
+        "Convierte los botines de instancia en una ruta de mejora de build medible",
+        "Prepara un plan de equipamiento para la entrada en los modos Heroico y Desafío"
       ]
     },
     "lucidBlocksBestEarlyUnlocks": {
-      "title": "Mejores desbloqueos iniciales de Lucid Blocks",
+      "title": "Fuentes de botín y tablas de objetos de Farever",
       "displayType": "priorityCards",
-      "intro": "Los desbloqueos iniciales más fuertes son aquellos que mejoran la seguridad, el almacenamiento y el movimiento. En Lucid Blocks, unas pocas mejoras prácticas pueden hacer que el resto del juego sea mucho más fluido.",
+      "intro": "Usa rutas de farmeo centradas en la fuente cuando ya sepas qué objeto quieres. Este resumen de tabla mapea monstruos, jefes, nodos de recolección y recompensas de bóveda para que las rutas de botín sean eficientes y repetibles.",
       "priorities": [
         {
-          "name": "Qualia personal",
-          "priority": "Esencial",
-          "description": "Tan pronto como obtengas acceso a tu Qualia personal, tu partida se volverá mucho más estable. Actúa como un centro confiable para el almacenamiento, la construcción y el reagrupamiento."
+          "name": "Recolección de AncientThyme y Ore_Copper",
+          "priority": "Core",
+          "description": "Los recolectables suministran materiales base estables: AncientThymePetal y CopperOre al 100%, además de SparkSample alrededor del 25% para los ciclos iniciales de artesanía.",
+          "icon": "BookOpen"
         },
         {
-          "name": "Pico de Escarcha",
-          "priority": "Muy alta",
-          "description": "Una herramienta de minería inicial rápida y barata hecha de Osmio y Palo. Es una de las mejoras más útiles para acelerar la recolección inicial de recursos."
+          "name": "Rutas de monstruos Abeja y Jabalí",
+          "priority": "Core",
+          "description": "Las rutas de Abeja y Jabalí proporcionan botines de artesanía de gran volumen con monturas raras al 0,10%, apoyando tanto los objetivos de progresión como de colección en un solo ciclo.",
+          "icon": "Package"
         },
         {
-          "name": "Cubo de Almacenamiento",
-          "priority": "Muy alta",
-          "description": "La presión del inventario comienza pronto, por lo que obtener tu primer contenedor confiable tipo cofre es una mejora importante de calidad de vida."
+          "name": "Reservas de materiales de Cangrejo, Kobold y Hombre-pez",
+          "priority": "High",
+          "description": "Farmea materiales de mariscos, colmillos, escamas y planeadores por familia objetivo para que los ingredientes de recetas y la colección de movilidad se mantengan alineados.",
+          "icon": "ArrowRight"
         },
         {
-          "name": "__PROTECTED_6a765cb2__",
-          "priority": "Alta",
-          "description": "El gancho es uno de los hitos de movimiento más claros del juego y rápidamente hace que la exploración sea más rápida y segura."
+          "name": "Botín del jefe Crabgantua (niv. 8)",
+          "priority": "High",
+          "description": "Apunta a este jefe para obtener recompensas de armas y monturas al 1,0%, incluyendo Shield_OrbitWater y Mount_Crab_Blue.",
+          "icon": "Star"
         },
         {
-          "name": "Guante planeador",
-          "priority": "Alta",
-          "description": "El guante planeador añade otro gran impulso a la movilidad y hace que el movimiento a larga distancia sea mucho más eficiente."
+          "name": "Botín del jefe Nepsilon (niv. 5)",
+          "priority": "High",
+          "description": "Enfréntate a Nepsilon para obtener recompensas tempranas de jefe al 1,0%, como Halos_Totem, DA_Water y Glider_FlyingFish_Orange.",
+          "icon": "Sparkles"
         },
         {
-          "name": "Varita de proyectiles o bombas",
-          "priority": "Alta",
-          "description": "Una herramienta a distancia o una opción explosiva te brinda una respuesta más segura ante enemigos peligrosos y encuentros tipo desafío."
+          "name": "Botín del jefe King Ratsar (niv. 10)",
+          "priority": "High",
+          "description": "Farmea para obtener Daggers_DuplicatePoison, GA_Craft y Glider_Bat_WhiteBlack para apoyar builds de pícaro y objetivos de colección.",
+          "icon": "Shield"
+        },
+        {
+          "name": "Recompensa garantizada de Vault_Z1_1",
+          "priority": "Medium",
+          "description": "Rastrea esta bóveda para obtener Oro garantizado y Glider_FlyingFish_Red cuando necesites un pago de progresión predecible.",
+          "icon": "Clock"
+        },
+        {
+          "name": "Recompensa garantizada de Vault_Z1_2",
+          "priority": "Medium",
+          "description": "Usa esta ruta de bóveda para obtener Oro garantizado y Mount_Crab_Yellow para asegurar el progreso de la colección sin la varianza del RNG.",
+          "icon": "Gamepad2"
         }
       ]
     },
     "lucidBlocksAchievementTracker": {
-      "title": "Seguimiento de logros de Lucid Blocks",
+      "title": "Trabajos y recetas de artesanía de Farever",
       "displayType": "achievementGrid",
-      "intro": "Lucid Blocks tiene actualmente 19 logros de Steam, y se dividen naturalmente en progresión de exploración, artesanía, movilidad, combate y crecimiento.",
+      "intro": "La progresión de recetas de Farever se centra en seis profesiones. Compara cada trabajo por rol, recuento de recetas y artesanías de valor inicial para que tu recolección de materiales alimente las mejoras de construcción adecuadas.",
       "groups": [
         {
-          "name": "Exploración",
+          "name": "Herrero · 21 recetas",
           "achievements": [
             {
-              "title": "__PROTECTED_c973d4a3__ α",
-              "description": "Entrar en una qualia."
+              "title": "Rol principal",
+              "description": "Equipo de metal, lingotes, placas y soporte de armas/armaduras para la progresión en primera línea."
             },
             {
-              "title": "__PROTECTED_c973d4a3__ γ",
-              "description": "Descubrir una línea ley de tiamana."
+              "title": "Valor inicial",
+              "description": "Excelente primera opción para caminos de estilo Guerrero y mejoras centradas en la durabilidad."
             },
             {
-              "title": "__PROTECTED_c973d4a3__ δ",
-              "description": "Superar un desafío de tiamana."
-            },
-            {
-              "title": "__PROTECTED_c973d4a3__ ε",
-              "description": "Logro oculto."
+              "title": "Artesanías de ejemplo",
+              "description": "CopperIngot (niv 1), BronzeIngot (niv 3), Alloy_Z1 (niv 4) y Chest_RKobold_FigAss (niv 1)."
             }
-          ]
+          ],
+          "icon": "Hammer"
         },
         {
-          "name": "Artesanía e invocación",
+          "name": "Confeccionador · 20 recetas",
           "achievements": [
             {
-              "title": "Apotheosis α",
-              "description": "Fusionar un objeto."
+              "title": "Rol principal",
+              "description": "Equipo de tela y cuero, bolsas, piezas de espalda y soporte de armadura ligera."
             },
             {
-              "title": "Apotheosis β",
-              "description": "Fusionar una alimaña."
+              "title": "Valor inicial",
+              "description": "Fiable para mejoras de bolsas y usuarios de armadura ligera que necesitan un escalado de inventario más rápido."
             },
             {
-              "title": "Apotheosis γ",
-              "description": "Fusionar un artefacto divino."
-            },
-            {
-              "title": "Arcángel β",
-              "description": "Invoca tu fe."
+              "title": "Artesanías de ejemplo",
+              "description": "Bag_Z2 (niv 3), Back_RCrimson_AssCle_Craft (niv 5) y artesanías de equipo para pies en niv 1-3."
             }
-          ]
+          ],
+          "icon": "Package"
         },
         {
-          "name": "Movilidad y utilidad",
+          "name": "Joyero · 32 recetas",
           "achievements": [
             {
-              "title": "Virtud α",
-              "description": "Volar con el guante planeador."
+              "title": "Rol principal",
+              "description": "Gemas, anillos, colgantes, prospección y mejoras de ajuste de estadísticas para construcciones de precisión."
             },
             {
-              "title": "Virtud β",
-              "description": "Dominar un gancho."
+              "title": "Valor inicial",
+              "description": "Ideal para jugadores que priorizan los espacios de joyería y el valor de conversión de mineral a gema."
             },
             {
-              "title": "Arcángel α",
-              "description": "Empuñar una varita de proyectiles."
-            },
-            {
-              "title": "Arcángel γ",
-              "description": "Empuñar un explosivo."
+              "title": "Artesanías de ejemplo",
+              "description": "CopperProspecting (niv 1), CutBeryl (niv 2), AttunedCutBeryl (niv 2), AttunedCutRuby (niv 4)."
             }
-          ]
+          ],
+          "icon": "Sparkles"
         },
         {
-          "name": "Combate y criaturas",
+          "name": "Alquimista · 35 recetas",
           "achievements": [
             {
-              "title": "Masacre de __PROTECTED_26ee183b__",
-              "description": "Derrotar osos burbuja inocentes."
+              "title": "Rol principal",
+              "description": "Elixires, pociones y potenciadores de utilidad que mejoran la fuerza, destreza, curación y movimiento."
             },
             {
-              "title": "Arcángel δ",
-              "description": "Eliminar una criatura blasfema."
+              "title": "Valor inicial",
+              "description": "Profesión de apoyo de alto impacto para intentos de mazmorras y ventanas de preparación para jefes."
             },
             {
-              "title": "__PROTECTED_c973d4a3__ β",
-              "description": "Morir."
-            },
-            {
-              "title": "Dominio γ",
-              "description": "Cambiar el nombre a una alimaña adorable."
+              "title": "Artesanías de ejemplo",
+              "description": "ElixirOfMinorStrength, ElixirOfMinorDexterity, ElixirOfAbundance y FastSwimPotion."
             }
-          ]
+          ],
+          "icon": "TrendingUp"
         },
         {
-          "name": "Crecimiento y cultivo",
+          "name": "Cocinero · 20 recetas",
           "achievements": [
             {
-              "title": "Dominio α",
-              "description": "Fertilizar una semilla."
+              "title": "Rol principal",
+              "description": "Potenciadores de comida y platos prácticos creados a partir de materiales comunes de monstruos y pesca."
             },
             {
-              "title": "Dominio β",
-              "description": "Cosechar una nuez completamente crecida."
+              "title": "Valor inicial",
+              "description": "Excelente profesión inicial para potenciadores de sustento repetibles durante las rutas de subida de nivel."
             },
             {
-              "title": "Dominio δ",
-              "description": "Logro oculto."
+              "title": "Artesanías de ejemplo",
+              "description": "Goulash de cangrejo, Estofado de jabalí, Caballa a la parrilla y Banquete del caminante de las llanuras."
             }
-          ]
+          ],
+          "icon": "BookOpen"
+        },
+        {
+          "name": "Encantador · 33 recetas",
+          "achievements": [
+            {
+              "title": "Rol principal",
+              "description": "Papeles de encantamiento, polvos, fórmulas y soporte de pergaminos para el escalado de equipo."
+            },
+            {
+              "title": "Valor inicial",
+              "description": "Fuerte para jugadores que buscan fórmulas de estadísticas y, más adelante, profundidad en encantamientos de armas."
+            },
+            {
+              "title": "Artesanías de ejemplo",
+              "description": "EnchantPaper_Z1, EnchantPowder_Z1, EnchantConcentrate_Z1 y Fórmula mágica: Fuerza."
+            }
+          ],
+          "icon": "ClipboardCheck"
         }
       ]
     },
     "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Preguntas frecuentes sobre un solo jugador y plataformas de Lucid Blocks",
+      "title": "Guía de objetos de equipo y rareza de Farever",
       "displayType": "accordion",
-      "intro": "Estas son las preguntas principales sobre plataformas y acceso que los jugadores suelen hacer antes de comprar Lucid Blocks.",
+      "intro": "Usa los filtros de categoría, rareza, clase, espacio y nivel para decidir qué equipar, fabricar, vender o conservar. La cobertura de objetos de Farever incluye armas, armaduras, consumibles, componentes, gemas, monturas, planeadores y divisas de mejora.",
       "faqs": [
         {
-          "question": "¿Es Lucid Blocks para un solo jugador?",
-          "answer": "Sí. Lucid Blocks es un juego para un solo jugador."
+          "question": "¿Cómo debo filtrar las armas de Farever para obtener mejoras rápidas?",
+          "answer": "Filtra primero por clase, rango de nivel y rareza, luego elige familias de armas que coincidan con tus rotaciones de habilidades y presión de rol."
         },
         {
-          "question": "¿Está planeado el multijugador o cooperativo?",
-          "answer": "No. No se planea multijugador para el lanzamiento ni para futuras actualizaciones."
+          "question": "¿Cuál es la mejor manera de evaluar los espacios de armadura y equipo?",
+          "answer": "Compara la relevancia del espacio y la dirección de las estadísticas antes que el color de la rareza para que cada reemplazo mejore tu construcción activa en lugar de solo la puntuación del objeto."
         },
         {
-          "question": "¿Dónde puedo jugar Lucid Blocks?",
-          "answer": "Actualmente está disponible en Steam para Windows."
+          "question": "¿Qué consumibles vale la pena llevar a las mazmorras?",
+          "answer": "Mantén listos los consumibles de curación, movimiento y estadísticas principales para que los intentos se mantengan estables durante los enfrentamientos largos y las mecánicas de los jefes."
         },
         {
-          "question": "¿Cuánto cuesta Lucid Blocks?",
-          "answer": "$9.99 en Steam."
+          "question": "¿Cómo debo manejar los componentes de artesanía mientras subo de nivel?",
+          "answer": "Conserva los materiales vinculados a tus profesiones activas y recetas a corto plazo, luego elimina los componentes sobrantes que no contribuyan a tus objetivos actuales."
         },
         {
-          "question": "¿Lucid Blocks es compatible con controles?",
-          "answer": "Sí, pero no se recomienda jugar con control porque los menús no están diseñados para ello."
+          "question": "¿Cuándo debo conservar gemas y joyas en lugar de venderlas?",
+          "answer": "Guarda las gemas talladas y sintonizadas que se alineen con tu ruta de estadísticas planificada, especialmente cuando sirvan de apoyo al equipo que conservarás durante varios niveles."
         },
         {
-          "question": "¿Lucid Blocks funciona en Steam Deck?",
-          "answer": "Sí. Proton 9.0 o 9.0.4 es la configuración recomendada habitualmente para Steam Deck."
+          "question": "¿Vale la pena conservar siempre las monturas y los planeadores?",
+          "answer": "Sí. Considéralos como recompensas de colección y desplazamiento porque muchos son botines raros o desbloqueos de bóveda garantizados."
         },
         {
-          "question": "¿Lucid Blocks funciona en Linux?",
-          "answer": "Sí. Se informa que Proton 9.0 funciona bien para Linux y Steam Deck."
+          "question": "¿Cómo gasto las divisas y mejoro los objetos de manera eficiente?",
+          "answer": "Invierte oro y recursos de mejora solo en objetos que apoyen tu configuración de clase actual, tu rama de profesión o tu objetivo de progresión inmediato."
         },
         {
-          "question": "¿Habrá soporte para Mac o Android?",
-          "answer": "Es posible que sean compatibles en el futuro, pero no son plataformas de lanzamiento actuales."
-        },
-        {
-          "question": "¿Lucid Blocks tiene traducciones?",
-          "answer": "No. Actualmente no hay traducciones planeadas."
-        },
-        {
-          "question": "¿Lucid Blocks seguirá recibiendo actualizaciones?",
-          "answer": "Sí. Se planean algunas actualizaciones de contenido después del lanzamiento, pero no pretenden continuar con un calendario regular indefinido."
+          "question": "¿Importan las herramientas de trabajo si no son equipo de combate?",
+          "answer": "Sí. Las herramientas de recolección y artesanía desbloquean los ciclos que suministran tu equipo, consumibles y materiales de mejora."
         }
       ]
     },
     "lucidBlocksSteamDeckAndController": {
-      "title": "Lucid Blocks en Steam Deck y controles",
+      "title": "Monturas, mascotas y planeadores de Farever",
       "displayType": "accordion",
-      "intro": "Lucid Blocks puede ejecutarse en Steam Deck, pero la configuración predeterminada puede necesitar ajustes. El teclado y el mouse siguen siendo la opción más fluida para los menús y el juego en general.",
+      "intro": "Farever incluye amplios sistemas de colección para monturas, compañeros, planeadores y recompensas cosméticas. Estos sistemas apoyan la movilidad, las rutas de exploración y los objetivos de colección a largo plazo durante el Early Access.",
       "faqs": [
         {
-          "question": "¿Lucid Blocks funciona en Steam Deck?",
-          "answer": "Sí. Proton 9.0 funciona bien, y Proton 9.0.4 es una solución compartida habitualmente para problemas en Steam Deck."
+          "question": "¿Qué incluye la colección de monturas de lanzamiento?",
+          "answer": "Los ejemplos de lanzamiento incluyen variantes de lobo, ciervo, mofeta, cangrejo y mariquita. Las monturas son herramientas de viaje prácticas y objetivos de colección, con listados de objetos que rastrean los multiplicadores de velocidad de movimiento."
         },
         {
-          "question": "¿Qué debo hacer si los controles de Steam Deck no funcionan?",
-          "answer": "Fuerza la compatibilidad y cambia el juego a Proton 9.0.4. Es posible que la configuración predeterminada no acepte correctamente la entrada del control."
+          "question": "¿Qué importancia tienen los planeadores en Farever?",
+          "answer": "Los planeadores son fundamentales para el movimiento en el mundo abierto. Permiten atravesar acantilados, rutas por barrancos, salidas de cuevas y rutas de exploración vertical donde el viaje terrestre directo es más lento."
         },
         {
-          "question": "¿Lucid Blocks es compatible con controles?",
-          "answer": "Sí, pero no se recomienda jugar con control porque los menús del juego no están diseñados para ello."
+          "question": "¿Qué compañeros están disponibles en el lanzamiento?",
+          "answer": "Los coleccionables de tipo compañero incluyen ejemplos como ranas, saltamontes, colabotón y tortarroca. Son recompensas de identidad y colección en lugar de mejoras directas de poder de combate."
         },
         {
-          "question": "¿Es posible el soporte para Linux?",
-          "answer": "Sí. Se informa que Proton 9.0 funciona bien para Linux y Steam Deck."
+          "question": "¿Pueden las monturas y planeadores caer de las tablas de botín de las criaturas?",
+          "answer": "Sí. Algunos botines de criaturas incluyen recompensas raras de monturas o planeadores con tasas de aparición bajas, como entradas de recompensa del 0,10%, lo que hace que las rutas de farmeo repetidas sean valiosas para los coleccionistas."
         },
         {
-          "question": "¿Cuál es la mejor configuración de entrada?",
-          "answer": "El teclado y el mouse son la opción más fluida para la navegación por los menús y el juego general momento a momento."
+          "question": "¿Las incursiones en bóvedas proporcionan recompensas de colección garantizadas?",
+          "answer": "Varios grupos de recompensas de bóvedas incluyen desbloqueos garantizados de colecciones cosméticas, como planeadores o monturas específicos, a menudo combinados con recompensas de oro, por lo que las rutas de bóvedas son un método de colección constante."
+        },
+        {
+          "question": "¿Cómo encaja la tienda cosmética opcional en la progresión?",
+          "answer": "Los visuales de la tienda son opcionales. Las ofertas cosméticas planificadas se centran en la personalización de la apariencia para aspectos de armadura, monturas, compañeros y planeadores sin reemplazar los ciclos de progresión principales."
+        },
+        {
+          "question": "¿Qué prioridad de colección es mejor al principio?",
+          "answer": "Prioriza primero el valor de movimiento con monturas y planeadores que mejoren la velocidad de las rutas diarias, luego expande hacia botines raros y objetivos de colección de vanidad a largo plazo."
         }
       ]
     },
     "lucidBlocksSettingsAndAccessibility": {
-      "title": "Ajustes y accesibilidad de Lucid Blocks",
+      "title": "Guía de Farever para multijugador en solitario y cooperativo",
       "displayType": "settingCards",
-      "intro": "Lucid Blocks ya cuenta con algunos ajustes prácticos y notas de compatibilidad que son importantes de inmediato cuando los jugadores inician el juego por primera vez.",
+      "intro": "Farever admite tanto el juego en solitario como grupos cooperativos de 4 jugadores. El mismo ciclo principal funciona en todos los formatos: explorar, completar actividades, realizar instancias, derrotar jefes y progresar en tu build.",
       "settings": [
         {
-          "name": "Ajustes de pantalla",
-          "type": "Opción de comodidad",
-          "description": "Los ajustes de pantalla incluyen una opción que permite a los jugadores ocultar las manos en pantalla."
+          "name": "Exploración y progresión aptas para solitario",
+          "type": "Play Mode",
+          "description": "Los jugadores en solitario pueden progresar sin problemas a través de regiones, actividades, ciclos de artesanía y mejoras de build mientras eligen su propio ritmo y prioridades de ruta."
         },
         {
-          "name": "Compatibilidad de gráficos",
-          "type": "Requisito del sistema",
-          "description": "Se requiere soporte de __PROTECTED_38625270__ para que los gráficos se rendericen correctamente. Los sistemas sin __PROTECTED_38625270__ pueden sufrir cierres inesperados y errores gráficos graves."
+          "name": "Estructura de grupo de 4 jugadores",
+          "type": "Play Mode",
+          "description": "Los grupos pueden incluir hasta cuatro jugadores, con división de roles entre daño, sustento, control y presión en primera línea para limpiezas más rápidas y seguras."
         },
         {
-          "name": "Preferencia de entrada",
-          "type": "Configuración de control",
-          "description": "Existe soporte para controles, pero el teclado y el mouse brindan una experiencia más fluida porque los menús no están diseñados para el uso de controles."
+          "name": "Botín, XP y recompensas de grupo compartidos",
+          "type": "Network Setup",
+          "description": "La progresión cooperativa admite flujos compartidos de botín y XP, distribución tras el combate, ventanas de intercambio de grupo y valor de finalización compartido en contenido repetible."
         },
         {
-          "name": "Soporte de idiomas",
-          "type": "Localización",
-          "description": "La configuración actual es solo en inglés y no hay traducciones planeadas en este momento."
+          "name": "Interacción con el mundo al estilo MMO",
+          "type": "Team Setup",
+          "description": "Las áreas públicas, las capas del mundo, los canales de chat y los centros regionales permiten a los jugadores conocer a otros mientras exploran sin forzar la formación de grupos permanentes."
+        },
+        {
+          "name": "Configuración de servidores regionales y amigos",
+          "type": "Team Setup",
+          "description": "Elige la región más cercana antes de invitar a amigos para minimizar la latencia. Las regiones de lanzamiento actuales incluyen Europa, Norteamérica, Latinoamérica, Asia y China continental."
+        },
+        {
+          "name": "Dificultad de actividad escalable",
+          "type": "Activity Flow",
+          "description": "Varias rutas de actividad se ajustan según el tamaño del grupo para que los jugadores puedan abordar los objetivos del mundo solos o con un equipo y seguir manteniendo la eficiencia del progreso."
         }
       ]
     },
     "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Actualizaciones y notas del parche de Lucid Blocks",
+      "title": "Hoja de ruta de Farever y contenido próximo",
       "displayType": "timeline",
-      "intro": "Lucid Blocks ya está recibiendo correcciones rápidas post-lanzamiento y pequeñas actualizaciones de usabilidad.",
+      "intro": "Farever se lanzó con una base sólida de Early Access y una hoja de ruta centrada en el crecimiento del mundo, clases más profundas, más capas de desafío en instancias, sistemas sociales y progresión a largo plazo.",
       "entries": [
         {
-          "title": "Actualización 2.8.2",
-          "type": "Actualización de IU",
-          "description": "Se cambió el nombre de \"awaken\" (despertar) a \"exit\" (salir) en el menú principal."
+          "title": "Base de lanzamiento del Early Access",
+          "type": "Live Phase",
+          "description": "El lanzamiento incluye cuatro clases, progresión hasta el nivel 20, dos regiones, diez encuentros de instancia, seis oficios, más de 100 habilidades de armas, más de 150 piezas de equipo y más de 100 elementos de colección."
         },
         {
-          "title": "Pequeño parche para cierres al iniciar",
-          "type": "Hotfix",
-          "description": "Se lanzó un parche dedicado para los jugadores cuyo juego se cerraba inesperadamente al iniciar."
+          "title": "Fase de expansión del mundo",
+          "type": "Roadmap",
+          "description": "Las actualizaciones planificadas añaden nuevas regiones como el Pico de Obral y la Ciudad de Ramburg, además de más facciones, mazmorras, jefes, eventos mundiales y tipos de actividades."
         },
         {
-          "title": "Soporte de contenido post-lanzamiento",
-          "type": "Nota de hoja de ruta",
-          "description": "Se planean algunas actualizaciones de contenido después del lanzamiento, pero no pretenden continuar con un calendario regular indefinido."
+          "title": "Actualizaciones de progresión de instancias",
+          "type": "Roadmap",
+          "description": "Los objetivos de la hoja de ruta incluyen el Modo Heroico, modos de instancia de nivel máximo, mecánicas de jefes adicionales, modificadores de desafío y más recompensas de finalización únicas."
+        },
+        {
+          "title": "Expansión del crecimiento del personaje",
+          "type": "Roadmap",
+          "description": "La dirección de la progresión incluye aumentar el límite de nivel hacia el 50, añadir clases como Druida y Monje, e introducir árboles de talentos y sistemas de habilidades de clase más profundos."
+        },
+        {
+          "title": "Colecciones y profundidad de oficios",
+          "type": "Roadmap",
+          "description": "Los planes de contenido futuro incluyen pesca, arqueología, más monturas, planeadores, criaturas, juguetes y aumentos importantes en armas, habilidades y piezas de equipo únicas."
+        },
+        {
+          "title": "Sistemas sociales y PvP",
+          "type": "Roadmap",
+          "description": "Los próximos sistemas incluyen gremios, soporte para casa de subastas, herramientas de amigos, duelos, regiones PvP, campos de batalla instanciados y funciones de calidad de vida para grupos."
+        },
+        {
+          "title": "Dirección del lanzamiento 1.0",
+          "type": "Planned",
+          "description": "El camino hacia el lanzamiento completo tiene como objetivo ampliar la escala del mundo, la variedad de clases, el desafío de las instancias, las actividades estacionales y los sistemas de progresión social a largo plazo."
         }
       ]
     },
     "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Solución de cierres inesperados y solución de problemas de Lucid Blocks",
+      "title": "Guía de rendimiento y requisitos del sistema de Farever",
       "displayType": "steps",
-      "intro": "La mayoría de los problemas inmediatos de inicio y cierres deben revisarse en un orden sencillo: nivel de parche, soporte de gráficos, compatibilidad de plataforma y registros.",
+      "intro": "Usa esta lista de verificación para cumplir con los objetivos oficiales de hardware, elegir la región de servidor adecuada y mantener un rendimiento estable de 1080p durante las sesiones de Early Access.",
       "steps": [
         {
-          "title": "Instala el último hotfix para cierres inesperados",
-          "description": "Si el juego se cierra al iniciar, actualiza primero y prueba de nuevo con el parche más reciente para cierres al inicio."
+          "title": "Confirma el sistema operativo y la base de almacenamiento",
+          "description": "Farever requiere una configuración de Windows de 64 bits y al menos 25 GB de almacenamiento libre. Mantén espacio libre adicional para las descargas de parches y la extracción de actualizaciones."
         },
         {
-          "title": "Verifica el soporte de __PROTECTED_38625270__",
-          "description": "Lucid Blocks requiere soporte de __PROTECTED_38625270__. Los sistemas sin __PROTECTED_38625270__ pueden sufrir cierres inesperados o problemas graves de renderizado."
+          "title": "Comprueba el ajuste de nivel de CPU, RAM y GPU",
+          "description": "Los objetivos mínimos son aproximadamente i7 6700K o Ryzen 5 5500, 16 GB de RAM y RTX 3060 o RX 5600 XT. Los objetivos recomendados suben a 32 GB de RAM con GPUs de clase RTX 4060 o RX 7600."
         },
         {
-          "title": "Usa Proton 9.0.4 en Steam Deck",
-          "description": "Si la entrada o el comportamiento de inicio en Steam Deck fallan, fuerza la compatibilidad y cambia a Proton 9.0.4."
+          "title": "Usa las expectativas oficiales de FPS",
+          "description": "El perfil mínimo apunta a 1080p a 30 FPS y el perfil recomendado apunta a 1080p a 60 FPS. Ajusta la configuración de calidad de acuerdo con estas expectativas base."
         },
         {
-          "title": "Recopila registros de cierres (logs)",
-          "description": "Abre Ejecutar de Windows, pega %APPDATA%, ve a lucid blocks/logs y reúne los archivos .txt para solucionar el problema."
+          "title": "Elige la región de servidor más cercana",
+          "description": "Las regiones disponibles incluyen Europa, Norteamérica, Latinoamérica, Asia y China continental. Elegir la región más cercana mejora la latencia y la capacidad de respuesta del grupo."
         },
         {
-          "title": "Reporta el problema correctamente",
-          "description": "Comparte los registros y los detalles del dispositivo a través del foro oficial de reportes de errores en Discord o en la página de la comunidad de Steam."
+          "title": "Aplica una lista de verificación de rendimiento repetible",
+          "description": "Si el ritmo de fotogramas baja, reduce primero las opciones gráficas de mayor coste, cierra las cargas de trabajo en segundo plano, vuelve a probar en una ruta de combate fija y ajusta un grupo de ajustes a la vez."
         }
       ]
     }
@@ -756,177 +835,177 @@
   "faq": {
     "title": "Preguntas",
     "titleHighlight": "frecuentes",
-    "subtitle": "Todo lo que necesitas saber sobre Lucid Blocks",
+    "subtitle": "Respuestas clave para el lanzamiento, la progresión y la planificación multijugador.",
     "questions": [
       {
-        "question": "¿Es Lucid Blocks un juego para un solo jugador?",
-        "answer": "Sí. Lucid Blocks es un juego exclusivamente para un solo jugador, sin planes para multijugador o cooperativo."
+        "question": "¿Está Farever disponible ahora?",
+        "answer": "Sí, está disponible en Steam Early Access para PC."
       },
       {
-        "question": "¿Qué es el sistema Apotheosis en Lucid Blocks?",
-        "answer": "Apotheosis es el sistema de creación por fusión de forma libre de Lucid Blocks. En lugar de seguir recetas fijas, combinas materiales y descubres tus propias rutas de creación."
+        "question": "¿Con qué clase deberían empezar los jugadores primerizos?",
+        "answer": "El Guerrero es la opción inicial más permisiva, mientras que el Clérigo es excelente para inicios centrados en grupo."
       },
       {
-        "question": "¿Dónde puedo jugar Lucid Blocks?",
-        "answer": "Lucid Blocks está disponible actualmente en Steam para Windows. El soporte para Linux y Steam Deck está disponible a través de Proton 9.0."
+        "question": "¿Puedo jugar en solitario y seguir progresando sin problemas?",
+        "answer": "Sí. La progresión en solitario funciona bien cuando mantienes las mejoras enfocadas y planificas tus actividades de manera eficiente."
       },
       {
-        "question": "¿Cuánto cuesta Lucid Blocks?",
-        "answer": "Lucid Blocks cuesta $9.99 en Steam."
+        "question": "¿Qué tan importante es la artesanía al principio?",
+        "answer": "Muy importante. Los trabajos y las recetas crean un crecimiento de poder constante entre los intentos de mazmorra."
       },
       {
-        "question": "¿Lucid Blocks es compatible con controles?",
-        "answer": "Sí, pero no se recomienda jugar con control porque los menús no están diseñados para ello. El teclado y el mouse son la opción más fluida."
+        "question": "¿En qué debo centrarme después de completar las primeras mazmorras?",
+        "answer": "Refina una ruta de build, mejora la sinergia de armas y usa la ruta de botín para desbloquear tu próximo umbral de mejora."
       },
       {
-        "question": "¿Recibirá actualizaciones Lucid Blocks?",
-        "answer": "Sí. Se planean algunas actualizaciones de contenido después del lanzamiento, pero no se pretende que continúen con un calendario regular indefinido."
+        "question": "¿Cómo puedo mantener el rendimiento estable?",
+        "answer": "Mantén los controladores actualizados, ajusta primero los parámetros gráficos de alto impacto y usa la región de servidor más cercana para una menor latencia."
       }
     ]
   },
   "cta": {
-    "title": "¿Listo para explorar Lucid Blocks?",
-    "description": "¡Únete a la comunidad de Lucid Blocks en Discord para ver guías, actualizaciones y discusiones!",
-    "joinCommunity": "Únete a Discord",
-    "joinGame": "Juega en Steam"
+    "title": "¿Listo para tu próxima partida?",
+    "description": "Sigue las actualizaciones de clases, los cambios en la estrategia de mazmorras y los cambios en la hoja de ruta para mantener tu progresión eficiente cada semana.",
+    "joinCommunity": "Únete a la comunidad",
+    "joinGame": "Ver en Steam"
   },
   "footer": {
-    "title": "Wiki de Lucid Blocks",
-    "description": "Tu centro completo de recursos para la fabricación, biomas, criaturas, logros y guías de supervivencia de Lucid Blocks.",
+    "title": "Farever",
+    "description": "Un centro de guías prácticas para detalles de lanzamiento, estrategia de clases, planificación de builds, mazmorras, artesanía y ajuste de rendimiento.",
     "resources": "Recursos",
     "community": "Comunidad",
     "legal": "Legal",
-    "discord": "Discord",
+    "discord": "Discord (vía Steam)",
     "twitter": "X / Twitter",
-    "steamCommunity": "Comunidad de Steam",
-    "steamStore": "Tienda de Steam",
+    "steamCommunity": "Steam Community",
+    "steamStore": "Steam Store",
     "about": "Acerca de",
     "privacy": "Política de privacidad",
     "terms": "Términos de servicio",
-    "copyrightNotice": "Derechos de autor",
-    "copyright": "© 2026 Wiki de Lucid Blocks. No afiliada con los desarrolladores de Lucid Blocks.",
-    "disclaimer": "Sitio web de recursos no oficial creado por fans."
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Farever. Sitio de recursos no oficial creado por fans.",
+    "disclaimer": "No afiliado con Shiro Games."
   },
   "pages": {
-    "guides": {
-      "title": "Guías de Lucid Blocks",
-      "description": "Guías completas de juego, desde conceptos básicos para principiantes hasta estrategias avanzadas de Apotheosis. Domina la supervivencia y la fabricación.",
-      "metaTitle": "Guías de Lucid Blocks - Estrategias de principiante a avanzado",
-      "metaDescription": "Guías completas de Lucid Blocks que cubren consejos para principiantes, el sistema Apotheosis, estrategias de supervivencia y tácticas expertas para dominar este sandbox surrealista.",
-      "categoryLabel": "GUÍAS DEL JUEGO",
-      "whatIs": "¿Qué son las guías?",
-      "whatIsDescription": "Guías exhaustivas que cubren mecánicas de juego, estrategias de supervivencia y el sistema de fabricación Apotheosis. Aprende todo, desde los primeros pasos hasta técnicas avanzadas.",
-      "why": "¿Por qué leer las guías?",
+    "release": {
+      "title": "Lanzamiento de Farever",
+      "description": "Cobertura de lanzamiento para tiempos de salida, acceso en Steam, precios, regiones y alcance de la plataforma.",
+      "metaTitle": "Lanzamiento de Farever: fecha, acceso en Steam y precio",
+      "metaDescription": "Sigue los tiempos de lanzamiento de Farever, el estado del Early Access, los precios en Steam, los detalles del despliegue regional y la disponibilidad en plataformas.",
+      "categoryLabel": "LANZAMIENTO",
+      "whatIs": "¿Qué es el lanzamiento?",
+      "whatIsDescription": "Esta categoría rastrea el estado del lanzamiento, las actualizaciones de la tienda, los detalles del Early Access, los precios regionales y los cambios relacionados con la plataforma.",
+      "why": "¿Por qué leer las actualizaciones de lanzamiento?",
       "whySteps": {
-        "step1Title": "Aprende las mecánicas principales",
-        "step1Description": "Entiende el sistema Apotheosis y evita errores comunes de principiante",
-        "step2Title": "Progresión rápida",
-        "step2Description": "Sigue caminos probados para sobrevivir y prosperar en este mundo surrealista",
-        "step3Title": "Domina las estrategias",
-        "step3Description": "Desarrolla tácticas avanzadas para la exploración y la fabricación"
+        "step1Title": "Planifica el momento de entrada",
+        "step1Description": "Mira cuándo se publican las actualizaciones para que puedas programar sesiones en torno a los parches principales y las ventanas de desbloqueo.",
+        "step2Title": "Sigue el coste y el acceso",
+        "step2Description": "Compara los precios actuales de Steam, las notas de los paquetes y las diferencias a nivel regional antes de comprar.",
+        "step3Title": "Evita la confusión del lanzamiento",
+        "step3Description": "Usa un solo lugar para los datos del lanzamiento para que la descarga, la configuración de la cuenta y la selección del servidor sean sencillas."
       },
       "featured": "Destacado y esencial",
-      "all": "Todas las guías"
+      "all": "Todos los artículos de lanzamiento"
     },
-    "crafting": {
-      "title": "Fabricación en Lucid Blocks",
-      "description": "Domina el sistema de fusión Apotheosis con mecánicas de esencia, recetas y estrategias de fabricación para objetos poderosos.",
-      "metaTitle": "Fabricación en Lucid Blocks - Sistema Apotheosis y recetas",
-      "metaDescription": "Domina el sistema de fabricación Apotheosis de Lucid Blocks. Aprende mecánicas de esencia, recetas de fusión y estrategias para crear herramientas y armas poderosas.",
-      "categoryLabel": "SISTEMA DE FABRICACIÓN",
-      "whatIs": "¿Qué es la fabricación?",
-      "whatIsDescription": "El sistema Apotheosis es una mecánica de fusión única impulsada por esencias donde combinas hasta seis objetos para descubrir nuevas recetas. Sin menús de fabricación fijos: la experimentación es la clave.",
-      "why": "¿Por qué dominar la fabricación?",
+    "guide": {
+      "title": "Guía de Farever",
+      "description": "Guías prácticas de progresión para rutas de inicio de juego, entrada a mazmorras, crecimiento de clase y prioridades de mejora.",
+      "metaTitle": "Guía de Farever - Rutas para principiantes y progresión",
+      "metaDescription": "Lee las guías de Farever para rutas de la primera sesión, flujo de misiones, preparación para mazmorras y planificación de progresión eficiente.",
+      "categoryLabel": "GUÍA",
+      "whatIs": "¿Qué es la Guía?",
+      "whatIsDescription": "Esta categoría reúne tutoriales paso a paso para el flujo de nivelación, hitos de misiones y decisiones de ruta desde el inicio hasta la mitad del juego.",
+      "why": "¿Por qué usar guías?",
       "whySteps": {
-        "step1Title": "Desbloquea objetos poderosos",
-        "step1Description": "Descubre herramientas esenciales, armas y equipo de movilidad a través de la fusión",
-        "step2Title": "Entiende las esencias",
-        "step2Description": "Aprende cómo se combinan las esencias de los objetos para crear resultados predecibles",
-        "step3Title": "Optimiza recursos",
-        "step3Description": "Usa mecánicas de dilución para maximizar la producción con materiales baratos"
+        "step1Title": "Comienza más rápido",
+        "step1Description": "Sigue una ruta de apertura clara para que tus primeras horas produzcan niveles, equipo y desbloqueos estables.",
+        "step2Title": "Reduce las partidas desperdiciadas",
+        "step2Description": "Utiliza un orden de actividades y prioridades de objetivos probados en lugar de repetir ciclos de bajo valor.",
+        "step3Title": "Escala hacia contenido más difícil",
+        "step3Description": "Prepárate para mazmorras y jefes con puntos de control de builds y objetivos de materiales más claros."
       },
-      "featured": "Destacado y esencial",
-      "all": "Todas las guías de fabricación"
+      "featured": "Destacados y esenciales",
+      "all": "Todos los artículos de la guía"
     },
-    "items": {
-      "title": "Objetos de Lucid Blocks",
-      "description": "Guías detalladas de objetos que cubren herramientas, armas, equipo de movilidad y soluciones de almacenamiento con recetas de fabricación y consejos de uso.",
-      "metaTitle": "Objetos de Lucid Blocks - Guía de herramientas, armas y equipo",
-      "metaDescription": "Base de datos completa de objetos para Lucid Blocks, incluyendo herramientas, armas, equipo de movilidad y almacenamiento. Aprende a fabricar y usar cada objeto de manera efectiva.",
-      "categoryLabel": "OBJETOS Y EQUIPAMIENTO",
-      "whatIs": "¿Qué son los objetos?",
-      "whatIsDescription": "Guías exhaustivas de herramientas, armas, equipo de movilidad y objetos funcionales. Aprende recetas de fabricación, estrategias de uso y combinaciones óptimas.",
-      "why": "¿Por qué consultar las guías de objetos?",
+    "classes": {
+      "title": "Clases de Farever",
+      "description": "Cobertura centrada en clases para ajuste de roles, dirección de talentos, sinergia de equipo y comodidad en la progresión en solitario.",
+      "metaTitle": "Clases de Farever - Elección de roles y dirección de builds",
+      "metaDescription": "Compara las clases de Farever por rol, supervivencia, perfil de daño y valor de equipo para elegir tu mejor camino a largo plazo.",
+      "categoryLabel": "CLASES",
+      "whatIs": "¿Qué son las clases?",
+      "whatIsDescription": "Esta categoría explica la identidad de cada clase, sus fortalezas clave, debilidades y cómo las elecciones de clase afectan tu build y rol en el grupo.",
+      "why": "¿Por qué comparar clases?",
       "whySteps": {
-        "step1Title": "Aprende recetas de fabricación",
-        "step1Description": "Descubre cómo fabricar herramientas y armas esenciales usando Apotheosis",
-        "step2Title": "Optimiza tu equipamiento",
-        "step2Description": "Elige los mejores objetos para tu estilo de juego y etapa de progresión",
-        "step3Title": "Mejora tu supervivencia",
-        "step3Description": "Equípate con equipo de movilidad y armas para navegar por este mundo peligroso"
+        "step1Title": "Elige el rol adecuado",
+        "step1Description": "Adapta el estilo de clase a tu ritmo preferido, posicionamiento y responsabilidad en combate.",
+        "step2Title": "Crea tu build con intención",
+        "step2Description": "Elige talentos y rutas de equipo que se ajusten a un plan de clase en lugar de dividir recursos demasiado pronto.",
+        "step3Title": "Mejora la composición del equipo",
+        "step3Description": "Coordina la cobertura de clases para limpiezas de mazmorras más fluidas y mejor supervivencia en combates largos."
       },
-      "featured": "Destacado y esencial",
-      "all": "Todos los objetos"
+      "featured": "Destacados y esenciales",
+      "all": "Todos los artículos de clases"
     },
-    "biomes": {
-      "title": "Biomas de Lucid Blocks",
-      "description": "Explora las regiones del mundo, características ambientales, ubicaciones de recursos y consejos de supervivencia para cada bioma.",
-      "metaTitle": "Biomas de Lucid Blocks - Regiones del mundo y exploración",
-      "metaDescription": "Explora los biomas de Lucid Blocks, incluyendo las Líneas Ley de Tiamana, Fog Meadow y regiones surrealistas. Encuentra recursos, evita peligros y navega por un mundo infinito.",
-      "categoryLabel": "REGIONES DEL MUNDO",
-      "whatIs": "¿Qué son los biomas?",
-      "whatIsDescription": "Guías de las diferentes regiones del mundo, características ambientales, distribución de recursos y zonas de peligro. Aprende qué esperar y cómo prepararte para cada área.",
-      "why": "¿Por qué explorar los biomas?",
+    "weapons": {
+      "title": "Armas de Farever",
+      "description": "Análisis de armas para conjuntos de movimientos, escalado de estadísticas, valor de mejora y sinergia de equipamiento específica de clase.",
+      "metaTitle": "Armas de Farever - Arsenal, mejoras y equipamientos",
+      "metaDescription": "Explora las guías de armas de Farever que cubren arquetipos, interacción de habilidades, rutas de mejora y planificación de equipamiento para cada rol.",
+      "categoryLabel": "ARMAS",
+      "whatIs": "¿Qué son las armas?",
+      "whatIsDescription": "Esta categoría se centra en familias de armas, perfiles de manejo y cómo cada elección cambia las ventanas de daño, la seguridad y el flujo de rotación.",
+      "why": "¿Por qué estudiar las armas?",
       "whySteps": {
-        "step1Title": "Encuentra recursos",
-        "step1Description": "Localiza materiales raros y esencias específicas de cada región",
-        "step2Title": "Evita peligros",
-        "step2Description": "Entiende los riesgos ambientales y las criaturas hostiles",
-        "step3Title": "Planifica tu exploración",
-        "step3Description": "Prepara las herramientas y el equipo adecuados para cada tipo de bioma"
+        "step1Title": "Encuentra una mejor sinergia",
+        "step1Description": "Combina el comportamiento del arma con el conjunto de herramientas de tu clase para que los ciclos de enfriamiento y el movimiento sean consistentes.",
+        "step2Title": "Mejora de manera eficiente",
+        "step2Description": "Prioriza materiales para armas que mejoren tu rol actual en lugar de perseguir cada botín.",
+        "step3Title": "Gestiona las mecánicas de los jefes",
+        "step3Description": "Utiliza el rango, la velocidad y el perfil de compromiso adecuados para una ejecución más segura en encuentros difíciles."
       },
-      "featured": "Destacado y esencial",
-      "all": "Todos los biomas"
+      "featured": "Destacados y esenciales",
+      "all": "Todos los artículos de armas"
     },
-    "building": {
-      "title": "Construcción en Lucid Blocks",
-      "description": "Domina las dimensiones personales Qualia, la construcción de bases, la gestión de almacenamiento y técnicas creativas de construcción.",
-      "metaTitle": "Construcción en Lucid Blocks - Qualia y construcción de bases",
-      "metaDescription": "Domina la construcción en Lucid Blocks con las dimensiones personales Qualia, construcción de bases, soluciones de almacenamiento y técnicas creativas de construcción.",
-      "categoryLabel": "CONSTRUCCIÓN Y BASES",
-      "whatIs": "¿Qué es la construcción?",
-      "whatIsDescription": "Guías sobre el sistema de dimensiones personales Qualia, construcción de bases, gestión de almacenamiento y construcción creativa. Aprende a crear tu refugio seguro en este mundo surrealista.",
-      "why": "¿Por qué construir bases?",
+    "multiplayer": {
+      "title": "Multijugador de Farever",
+      "description": "Cobertura de sistemas cooperativos y MMO, incluyendo configuración de grupos, coordinación de roles, herramientas sociales y planificación de sesiones.",
+      "metaTitle": "Multijugador de Farever - Cooperativo, roles de grupo y sistemas sociales",
+      "metaDescription": "Aprende los fundamentos del multijugador de Farever: tamaño del grupo, coordinación de roles, configuración de región del servidor y flujo de progresión cooperativa.",
+      "categoryLabel": "MULTIJUGADOR",
+      "whatIs": "¿Qué es el multijugador?",
+      "whatIsDescription": "Esta categoría cubre la estructura del grupo, patrones de progresión compartida, flujo de emparejamiento y configuración cooperativa práctica para actividades repetidas.",
+      "why": "¿Por qué leer guías de multijugador?",
       "whySteps": {
-        "step1Title": "Crea espacios seguros",
-        "step1Description": "Establece bases seguras para el almacenamiento y las operaciones de fabricación",
-        "step2Title": "Gestiona tus recursos",
-        "step2Description": "Organiza tus materiales de manera eficiente con soluciones de almacenamiento",
-        "step3Title": "Desbloquea Qualia",
-        "step3Description": "Accede a dimensiones de bolsillo personales para la máxima comodidad"
+        "step1Title": "Forma mejores grupos",
+        "step1Description": "Asigna roles de clase claros para que las responsabilidades de daño, sustento y control estén equilibradas.",
+        "step2Title": "Mejora la estabilidad de la sesión",
+        "step2Description": "Utiliza prácticas de configuración de región e invitación que mantengan bajos los problemas de latencia y reconexión.",
+        "step3Title": "Completa contenido más rápido",
+        "step3Description": "Coordina la ruta y los tiempos de enfriamiento para convertir el trabajo en equipo en un progreso fiable en las mazmorras."
       },
-      "featured": "Destacado y esencial",
-      "all": "Todas las guías de construcción"
+      "featured": "Destacados y esenciales",
+      "all": "Todos los artículos de multijugador"
     },
-    "support": {
-      "title": "Soporte de Lucid Blocks",
-      "description": "Soporte técnico, compatibilidad de plataformas, optimización de rendimiento y solución de problemas comunes.",
-      "metaTitle": "Soporte de Lucid Blocks - Ayuda técnica y soluciones",
-      "metaDescription": "Obtén soporte técnico para Lucid Blocks, incluyendo la configuración de Steam Deck, soluciones a cierres inesperados, optimización de rendimiento y guías de compatibilidad de plataformas.",
-      "categoryLabel": "SOPORTE TÉCNICO",
-      "whatIs": "¿Qué es el soporte?",
-      "whatIsDescription": "Guías técnicas que cubren la compatibilidad de plataformas, optimización de rendimiento, soluciones a cierres inesperados y problemas comunes. Obtén ayuda con Steam Deck, preguntas sobre multijugador y ajustes.",
-      "why": "¿Por qué consultar el soporte?",
+    "charts": {
+      "title": "Farever Charts",
+      "description": "Seguimiento de la actividad y tendencias de los jugadores con instantáneas basadas en gráficos para medir el compromiso, el impulso y el impacto de los parches.",
+      "metaTitle": "Farever Charts - Seguimiento de tendencias y recuento de jugadores",
+      "metaDescription": "Sigue los gráficos de Farever con instantáneas de la actividad de los jugadores, comparaciones de tendencias y análisis del impulso en periodos de parches.",
+      "categoryLabel": "GRÁFICOS",
+      "whatIs": "¿Qué es Gráficos?",
+      "whatIsDescription": "Esta categoría resume los datos de recuento de jugadores y tendencias para ayudarte a entender los cambios en la población, las ventanas de mayor actividad y el impacto de las actualizaciones.",
+      "why": "¿Por qué seguir los gráficos?",
       "whySteps": {
-        "step1Title": "Soluciona problemas técnicos",
-        "step1Description": "Resuelve cierres inesperados, problemas de rendimiento y de compatibilidad",
-        "step2Title": "Optimiza el rendimiento",
-        "step2Description": "Configura los ajustes para obtener la mejor experiencia en tu plataforma",
-        "step3Title": "Compatibilidad de plataformas",
-        "step3Description": "Aprende sobre Steam Deck, soporte para controles y requisitos del sistema"
+        "step1Title": "Monitorea el impulso del juego",
+        "step1Description": "Sigue el movimiento diario y semanal para entender si la actividad está aumentando, estable o disminuyendo.",
+        "step2Title": "Planifica tus sesiones",
+        "step2Description": "Usa los patrones de horas pico para programar contenido cooperativo cuando sea más fácil formar grupos.",
+        "step3Title": "Analiza el impacto de los parches",
+        "step3Description": "Compara los cambios de tendencia antes y después de las actualizaciones para identificar qué lanzamientos alteran el comportamiento de los jugadores."
       },
-      "featured": "Destacado y esencial",
-      "all": "Todos los artículos de soporte"
+      "featured": "Destacados y esenciales",
+      "all": "Todos los artículos de gráficos"
     }
   }
 }

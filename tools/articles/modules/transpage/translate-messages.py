@@ -32,7 +32,7 @@ import time
 import argparse
 import urllib.request
 import urllib.error
-from concurrent.futures import ThreadPoolExecutor, as_completed
+from concurrent.futures import ThreadPoolExecutor, TimeoutError
 from pathlib import Path
 from typing import Optional
 
@@ -67,7 +67,7 @@ def load_config() -> dict:
 # ─── API 调用 ─────────────────────────────────────────────────────────────────
 
 
-def call_api(content: str, lang_name: str, config: dict, timeout: int = 120, retries: int = 3) -> Optional[str]:
+def call_api(content: str, lang_name: str, config: dict, timeout: int = 45, retries: int = 2) -> Optional[str]:
     """调用翻译 API，失败返回 None"""
     base = config['api_base_url'].rstrip('/')
     # 兼容各种写法：/v1、/v1/、/v1/chat/completions 均可正常工作
@@ -106,6 +106,9 @@ def call_api(content: str, lang_name: str, config: dict, timeout: int = 120, ret
         "Content-Type": "application/json",
         "Authorization": f"Bearer {api_key}",
     }
+
+    timeout = int(config.get('request_timeout_seconds', timeout))
+    retries = int(config.get('request_retries', retries))
 
     for attempt in range(1, retries + 1):
         try:
@@ -270,14 +273,36 @@ def translate_language(
 
     # 并发度 concurrency 执行所有 chunk
     results = [None] * total
+    request_timeout = int(config.get('request_timeout_seconds', 45))
+    request_retries = int(config.get('request_retries', 2))
+    # 线程级硬超时，避免单个请求异常导致整个语言卡住
+    per_chunk_timeout = max(30, request_timeout * request_retries + 30)
     with ThreadPoolExecutor(max_workers=concurrency) as executor:
         futures = {
             executor.submit(translate_chunk_task, idx + 1, total, chunk, lang_name, config): idx
             for idx, chunk in enumerate(chunks)
         }
-        for future in as_completed(futures):
-            idx_result, _, translated_chunk = future.result()
-            results[idx_result - 1] = translated_chunk
+        future_to_chunk = {future: chunks[idx] for future, idx in futures.items()}
+        for future in futures:
+            fallback_chunk = future_to_chunk[future]
+            fallback_idx = futures[future]
+            try:
+                idx_result, _, translated_chunk = future.result(timeout=per_chunk_timeout)
+                results[idx_result - 1] = translated_chunk
+            except TimeoutError:
+                keys_preview = ', '.join(list(fallback_chunk.keys())[:3])
+                suffix = '...' if len(fallback_chunk) > 3 else ''
+                print(
+                    f"    chunk {fallback_idx + 1}/{total}: [{keys_preview}{suffix}] ✗ 超时({per_chunk_timeout}s)，英文兜底"
+                )
+                results[fallback_idx] = fallback_chunk
+            except Exception as e:
+                keys_preview = ', '.join(list(fallback_chunk.keys())[:3])
+                suffix = '...' if len(fallback_chunk) > 3 else ''
+                print(
+                    f"    chunk {fallback_idx + 1}/{total}: [{keys_preview}{suffix}] ✗ 异常({e})，英文兜底"
+                )
+                results[fallback_idx] = fallback_chunk
 
     # 按原始顺序 deep merge（同一顶层 key 可能来自多个 chunk）
     translated: dict = {}

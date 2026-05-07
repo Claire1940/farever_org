@@ -1,10 +1,1011 @@
 {
+  "seo": {
+    "home": {
+      "title": "Farever - 출시, 빌드, 던전 및 로드맵",
+      "description": "Steam Early Access 출시 정보, 클래스, 빌드, 던전, 파밍 경로, 제작 직업, 로드맵 업데이트 및 성능 설정을 위한 Farever 가이드입니다.",
+      "keywords": "Farever, Farever 가이드, Farever 빌드, Farever 클래스, Farever 던전, Farever 로드맵, Farever 시스템 사양",
+      "ogTitle": "Farever - 출시, 빌드, 던전 및 로드맵",
+      "ogDescription": "Steam Early Access 출시 정보, 클래스, 빌드, 던전, 파밍 경로, 제작 직업, 로드맵 업데이트 및 성능 설정을 위한 Farever 가이드입니다.",
+      "twitterTitle": "Farever - 출시, 빌드, 던전 및 로드맵",
+      "twitterDescription": "Steam의 Farever 출시 정보, 클래스, 빌드, 던전, 파밍 경로, 로드맵 업데이트 및 시스템 사양 가이드입니다."
+    }
+  },
   "nav": {
-    "release": "Release",
-    "guide": "Guide",
-    "classes": "Classes",
-    "weapons": "Weapons",
-    "multiplayer": "Multiplayer",
-    "charts": "Charts"
+    "release": "출시",
+    "guide": "가이드",
+    "classes": "클래스",
+    "weapons": "무기",
+    "multiplayer": "멀티플레이어",
+    "charts": "차트"
+  },
+  "common": {
+    "home": "홈",
+    "more": "더 보기",
+    "playNow": "Steam에서 플레이",
+    "switchLanguage": "언어 변경",
+    "switchTheme": "테마 변경",
+    "lightMode": "라이트 모드",
+    "darkMode": "다크 모드",
+    "notFound": "페이지를 찾을 수 없습니다",
+    "notFoundDescription": "찾으시는 페이지가 존재하지 않습니다.",
+    "backToHome": "홈으로 돌아가기",
+    "relatedArticles": "관련 기사",
+    "readMore": "더 읽어보기",
+    "articlesComingSoon": "기사가 곧 추가될 예정입니다"
+  },
+  "hero": {
+    "badge": "온라인 협동 액션 RPG",
+    "title": "Farever",
+    "description": "Farever는 활기찬 판타지 오픈 월드를 배경으로 하는 온라인 멀티플레이어 액션 RPG입니다. Siagarta를 탐험하고, 던전을 클리어하며, 강력한 장비를 제작하고, 자신만의 클래스 스타일을 구축하며 Early Access 로드맵을 확인하세요.",
+    "getFreeCodesCTA": "Farever 가이드 읽기",
+    "playOnSteamCTA": "Steam에서 Farever 보기",
+    "stats": {
+      "stat1": {
+        "value": "400K+",
+        "label": "찜 목록"
+      },
+      "stat2": {
+        "value": "6,239",
+        "label": "현재 접속 중"
+      },
+      "stat3": {
+        "value": "481",
+        "label": "Steam 리뷰"
+      },
+      "stat4": {
+        "value": "73%",
+        "label": "긍정적 리뷰"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Farever 게임플레이",
+    "description": "Siagarta를 탐험하고, 클래스 스킬과 무기를 조합하며, 친구들과 함께 던전을 클리어하고, 직업, 제작, 장비 업그레이드를 통해 캐릭터를 성장시키세요."
+  },
+  "tools": {
+    "title": "Farever",
+    "titleHighlight": "모듈 내비게이션",
+    "subtitle": "출시 정보, 클래스, 빌드, 던전, 전리품, 로드맵, 시스템 성능 등 모든 핵심 주제로 바로 이동하세요.",
+    "cards": [
+      {
+        "icon": "BookOpen",
+        "title": "Farever Early Access 출시",
+        "description": "출시일, 플랫폼, 출시 가격 및 접속 정보"
+      },
+      {
+        "icon": "Sparkles",
+        "title": "Farever 초보자 가이드",
+        "description": "첫 세션 우선순위, 진행 흐름 및 초기 목표"
+      },
+      {
+        "icon": "Hammer",
+        "title": "Farever 클래스 가이드",
+        "description": "클레릭, 메이지, 로그, 워리어 역할 및 플레이스타일 적합성"
+      },
+      {
+        "icon": "Package",
+        "title": "Farever 추천 클래스",
+        "description": "솔로 및 협동 플레이어를 위한 역할별 추천"
+      },
+      {
+        "icon": "Home",
+        "title": "Farever 빌드 및 플레이스타일",
+        "description": "클래스, 역할 및 전투 선호도에 따른 빌드 방향"
+      },
+      {
+        "icon": "Eye",
+        "title": "Farever 무기 및 무기고",
+        "description": "무기군, 스킬 시너지 및 로드아웃 구성"
+      },
+      {
+        "icon": "AlertTriangle",
+        "title": "Farever 전투 가이드",
+        "description": "회피, 쿨타임 흐름, 포지셔닝 및 팀 연계"
+      },
+      {
+        "icon": "ArrowRight",
+        "title": "Farever 지도 및 탐험",
+        "description": "지역, 랜드마크, 이동 경로 및 탐험 속도"
+      },
+      {
+        "title": "Farever 던전, 인스턴스 및 보스",
+        "description": "역할 중심의 클리어 목표와 함께 던전 및 보스 입장 정보 확인",
+        "icon": "TrendingUp"
+      },
+      {
+        "title": "Farever 전리품 출처 및 드랍 테이블",
+        "description": "몬스터, 보스, 채집 노드 및 금고의 드랍률 확인",
+        "icon": "Star"
+      },
+      {
+        "title": "Farever 제작 직업 및 레시피",
+        "description": "전문 기술 비교, 레시피 수 및 실용적인 초기 제작 아이템",
+        "icon": "ClipboardCheck"
+      },
+      {
+        "title": "Farever 장비 아이템 및 등급 가이드",
+        "description": "카테고리 및 등급 필터를 사용하여 유용한 업그레이드 아이템 선별",
+        "icon": "MessageCircle"
+      },
+      {
+        "icon": "Gamepad2",
+        "title": "Farever 탈것, 펫 및 글라이더",
+        "description": "수집 목표, 희귀 드랍 탈것, 글라이더 경로 및 외형 보상"
+      },
+      {
+        "icon": "Settings",
+        "title": "Farever 솔로 및 협동 멀티플레이어 가이드",
+        "description": "솔로 진행, 4인 파티, 전리품 공유 및 지역 서버"
+      },
+      {
+        "icon": "Clock",
+        "title": "Farever 로드맵 및 향후 콘텐츠",
+        "description": "출시 기준, 월드 확장, 클래스 성장 및 1.0 버전 방향성"
+      },
+      {
+        "icon": "Shield",
+        "title": "Farever 시스템 사양 및 성능 가이드",
+        "description": "최소 및 권장 사양, 서버 지역 및 FPS 목표"
+      }
+    ]
+  },
+  "modules": {
+    "lucidBlocksBeginnerGuide": {
+      "title": "Farever Early Access 출시 및 다운로드",
+      "displayType": "steps",
+      "intro": "Farever가 Steam Early Access에 출시되었습니다. 이 섹션에서는 신규 및 복귀 플레이어를 위한 가장 빠른 출시 정보를 제공합니다.",
+      "steps": [
+        {
+          "title": "현재 출시 상태 확인",
+          "description": "이 게임은 현재 PC용 Steam Early Access에서 이용 가능하며, 액세스 기간 동안 활발한 라이브 서비스 업데이트가 진행됩니다."
+        },
+        {
+          "title": "지역별 출시 가격 검토",
+          "description": "가격은 통화 지역에 따라 다릅니다. Steam 상점에서 현재 현지 가격과 출시 프로모션을 확인하세요."
+        },
+        {
+          "title": "플랫폼 및 계정 설정 확인",
+          "description": "Steam 계정과 PC 설치가 필요합니다. 매치메이킹 및 버전 불일치 문제를 방지하려면 클라이언트를 최신 상태로 유지하세요."
+        },
+        {
+          "title": "가장 가까운 서버 지역 선택",
+          "description": "가장 가까운 지역을 선택하면 지연 시간이 줄어들고, 전투 반응성이 향상되며, 인스턴스 콘텐츠에서의 파티 플레이가 안정화됩니다."
+        }
+      ],
+      "quickTips": [
+        "가격 및 패키지 업데이트에 대한 정확한 정보는 Steam 상점 페이지를 참조하세요.",
+        "출시 혜택이 진행 중인 경우, 해당 지역에 표시된 카운트다운 기간 내에 구매하세요.",
+        "첫 파티 세션을 만들기 전에 친구들과 서버 지역을 맞추세요.",
+        "셰이더 컴파일 문제를 방지하려면 첫 실행 전에 그래픽 드라이버를 최신 버전으로 유지하세요."
+      ]
+    },
+    "lucidBlocksApotheosisCrafting": {
+      "title": "Farever 초보자 가이드",
+      "displayType": "cards",
+      "intro": "Farever의 초기 진행은 탐험, 전투, 채집, 제작, 그리고 더 어려운 콘텐츠 도전이라는 간단한 루프를 따를 때 더 원활해집니다.",
+      "cards": [
+        {
+          "name": "지도 파악부터 시작하기",
+          "description": "어려운 전투를 연달아 치르기 전에 이동 경로, 안전한 회복 지점, 빠른 귀환 경로를 익히세요."
+        },
+        {
+          "name": "먼저 한 가지 클래스에 집중하기",
+          "description": "장비와 스킬 결정의 효율성을 위해 처음 몇 시간 동안은 한 가지 클래스와 역할에 집중하세요."
+        },
+        {
+          "name": "재료 확보를 위한 활동 순환",
+          "description": "오픈 월드 이벤트, 던전 공략, 채집 경로를 번갈아 수행하여 전투와 제작 진행도를 모두 유지하세요."
+        },
+        {
+          "name": "짧은 주기로 업그레이드하기",
+          "description": "완벽한 드롭을 기다리기보다 작은 업그레이드를 자주 적용하세요. 꾸준한 성장이 드문 대박보다 더 중요합니다."
+        }
+      ],
+      "milestones": [
+        "첫 번째 월드 활동 체인 완료",
+        "첫 번째 던전 클리어 완료",
+        "첫 번째 의미 있는 장비 업그레이드 제작"
+      ]
+    },
+    "lucidBlocksToolsAndWeapons": {
+      "title": "Farever 클래스 가이드",
+      "displayType": "itemCards",
+      "intro": "Farever는 네 가지 핵심 클래스로 시작합니다. 역할 책임, 위치 선정의 편안함, 선호하는 전투 속도에 따라 선택하세요.",
+      "items": [
+        {
+          "name": "워리어",
+          "type": "프론트라인",
+          "description": "꾸준한 압박을 가하는 튼튼한 근접 제어 클래스입니다. 직접적인 교전과 안정적인 생존력을 원하는 플레이어에게 적합합니다."
+        },
+        {
+          "name": "클레릭",
+          "type": "서포트",
+          "description": "팀 유틸리티와 유지력에 집중합니다. 타이밍과 서포트 로테이션이 전투의 일관성을 결정하는 그룹 콘텐츠에서 강력합니다."
+        },
+        {
+          "name": "메이지",
+          "type": "원거리 DPS",
+          "description": "원거리에서 주문 기반의 피해를 입힙니다. 안전하고 강력한 출력을 위해 깔끔한 거리 조절과 쿨다운 순서 활용이 중요합니다."
+        },
+        {
+          "name": "로그",
+          "type": "기동형 DPS",
+          "description": "높은 기동성이 요구되는 빠른 근접 폭발력을 가졌습니다. 위험 요소를 관리하며 공격적으로 플레이하는 유저에게 최적입니다."
+        },
+        {
+          "name": "솔로 클래스 우선순위",
+          "type": "추천",
+          "description": "워리어는 관대한 프론트라인 플레이와 매끄러운 초반 안정성 덕분에 솔로 진행을 위한 가장 쉬운 시작점입니다."
+        },
+        {
+          "name": "파티 클래스 우선순위",
+          "type": "추천",
+          "description": "클레릭과 워리어는 전문화된 팀 구성으로 확장하기 전, 가장 신뢰할 수 있는 초보자 듀오 기반을 형성합니다."
+        }
+      ]
+    },
+    "lucidBlocksStorageAndInventory": {
+      "title": "Farever 최고의 클래스 및 역할 선택",
+      "displayType": "solutionCards",
+      "intro": "보편적인 티어 리스트를 쫓기보다 목표에 따라 클래스를 선택하세요. 최선의 선택은 역할과 그룹 상황에 따라 달라집니다.",
+      "solutions": [
+        {
+          "name": "최고의 초보자 기준",
+          "role": "워리어",
+          "description": "강력한 생존력과 직관적인 전투 흐름 덕분에 워리어는 신규 플레이어에게 가장 안정적인 첫 번째 선택입니다."
+        },
+        {
+          "name": "최고의 협동전 앵커",
+          "role": "클레릭",
+          "description": "클레릭은 유지력과 서포트 유틸리티를 통해 팀의 일관성을 높이며, 특히 장기적인 던전 조우에서 빛을 발합니다."
+        },
+        {
+          "name": "최고의 원거리 압박",
+          "role": "메이지",
+          "description": "메이지는 팀에 안전한 딜 타임과 보스 기믹 중 강력한 원거리 폭딜이 필요할 때 탁월한 성능을 발휘합니다."
+        },
+        {
+          "name": "최고의 하이 템포 근접",
+          "role": "로그",
+          "description": "로그는 높은 기동성이 요구되는 실행력과 공격적인 타이밍 활용에 능숙한 플레이어에게 이상적입니다."
+        }
+      ],
+      "managementTips": [
+        "솔로로 시작할 경우, 최대 데미지보다는 내구성과 회복력을 우선시하세요.",
+        "듀오의 경우, 원활한 클리어를 위해 프론트라인의 안정성과 서포트 범위를 조합하세요.",
+        "풀 파티의 경우, 쿨다운 공백이 겹치지 않도록 역할을 다양화하세요.",
+        "매 판마다 역할을 바꾸기보다 주요 장비 마일스톤을 달성할 때마다 역할을 재평가하세요."
+      ]
+    },
+    "lucidBlocksQualiaAndBaseBuilding": {
+      "title": "Farever 빌드 및 플레이 스타일",
+      "displayType": "cards",
+      "intro": "Farever에서의 빌드 강점은 클래스 정체성, 무기 시너지, 스킬 시퀀싱, 그리고 스탯 관리의 조화에서 나옵니다.",
+      "cards": [
+        {
+          "name": "브루저 컨트롤 빌드",
+          "description": "폭발적인 데미지 대신 지속력을 선택하여 그룹 전투에서 공간을 확보하는 전방 설정입니다."
+        },
+        {
+          "name": "원거리 폭발 빌드",
+          "description": "재사용 대기시간 타이밍, 거리 조절, 보스 페이즈 중 안전한 기회에 집중하는 고출력 캐스팅 패턴입니다."
+        },
+        {
+          "name": "기동성 압박 빌드",
+          "description": "과도한 진입을 피하면서 이동 스킬을 폭발적인 기회로 연결하는 빠른 근접 패턴입니다."
+        },
+        {
+          "name": "서포트 유틸리티 빌드",
+          "description": "유지력, 피해 경감, 유틸리티 스킬 리듬을 통해 조우 상황을 안정화하는 팀 우선 구성입니다."
+        }
+      ],
+      "highlights": [
+        "역할 목표에 맞는 무기군을 선택하세요",
+        "전투 루프를 강화하는 스탯을 쌓으세요",
+        "데미지 슬롯을 채우기 전에 방어 도구를 사용하세요",
+        "확실한 업그레이드를 위해 한 번에 하나의 빌드 경로를 다듬으세요"
+      ]
+    },
+    "lucidBlocksWorldRegions": {
+      "title": "Farever 무기 및 아스널 가이드",
+      "displayType": "regionCards",
+      "intro": "무기 선택에 따라 각 클래스의 느낌이 달라집니다. 아스널을 구축할 때 조작 프로필, 스킬 시너지, 조우 유형에 집중하세요.",
+      "regions": [
+        {
+          "name": "근거리 무기 세트",
+          "type": "전방 아스널",
+          "description": "근접 라인에서 지속적인 압박과 컨트롤에 가장 적합합니다. 내구도 및 회복 중심 스탯과 조합하세요."
+        },
+        {
+          "name": "원거리 촉매 세트",
+          "type": "캐스터 아스널",
+          "description": "강력한 폭발 기회와 재사용 대기시간 사이의 유연한 유틸리티로 거리 조절 중심의 전투를 지원합니다."
+        },
+        {
+          "name": "하이템포 듀얼 세트",
+          "type": "기동 아스널",
+          "description": "짧은 진입 기회와 능동적인 위치 제어를 선호하는 플레이어를 위한 빠른 실행 프로필입니다."
+        },
+        {
+          "name": "하이브리드 서포트 세트",
+          "type": "팀 아스널",
+          "description": "기여할 수 있는 개인 데미지를 유지하면서 유틸리티 가동 시간을 확보하는 균형 잡힌 로드아웃입니다."
+        }
+      ]
+    },
+    "lucidBlocksCreaturesAndEnemies": {
+      "title": "Farever 전투 가이드",
+      "displayType": "creatureCards",
+      "intro": "어려운 조우에서 승리하는 것은 순수 스탯보다는 타이밍 절제, 위치 선정, 그리고 조율된 재사용 대기시간 사용에 달려 있습니다.",
+      "creatures": [
+        {
+          "name": "거리 조절 확인으로 시작",
+          "role": "핵심 기술",
+          "description": "재사용 대기시간이 긴 스킬을 사용하기 전에 적의 사거리와 이동 속도를 파악하며 각 풀을 시작하세요."
+        },
+        {
+          "name": "폭발 전 회피",
+          "role": "핵심 기술",
+          "description": "피할 수 있는 데미지를 먼저 피한 다음, 회복 시간을 안전한 폭발 주기로 전환하세요."
+        },
+        {
+          "name": "비상용 도구 하나 보존",
+          "role": "핵심 기술",
+          "description": "예상치 못한 기믹과 후반 페이즈의 압박 급증에 대비해 방어용 재사용 대기시간이나 기동 옵션을 하나 남겨두세요."
+        },
+        {
+          "name": "보스 페이즈 전환 존중",
+          "role": "보스전 수칙",
+          "description": "페이즈 행동이 바뀌면 다시 교전하기 전에 거리를 재설정하고 역할 위치를 다시 잡으세요."
+        },
+        {
+          "name": "파티 역할 조율",
+          "role": "그룹 실행",
+          "description": "다중 웨이브 전투에서 실수가 겹치지 않도록 방어 로테이션과 타겟 우선순위를 소통하세요."
+        },
+        {
+          "name": "스태미나 및 재사용 대기시간 리듬 추적",
+          "role": "일관성",
+          "description": "안정적인 클리어는 끊임없는 공격이 아니라 리듬 조절에서 나옵니다. 신뢰할 수 있는 자원 확보 시간에 맞춰 템포를 계획하세요."
+        }
+      ]
+    },
+    "lucidBlocksMobilityGear": {
+      "title": "Farever 지도 및 탐험 가이드",
+      "displayType": "itemCards",
+      "intro": "Siagarta에서의 탐험 효율은 경로 계획, 수직 이동 인식, 그리고 업그레이드를 위한 일관된 귀환 루프에 달려 있습니다.",
+      "items": [
+        {
+          "name": "주요 지역 루프",
+          "type": "경로 계획",
+          "description": "유휴 이동 시간을 줄이기 위해 활동, 채집 지점, 회복 허브 사이에 반복 가능한 루프를 구축하세요."
+        },
+        {
+          "name": "지형지물 기반 탐색",
+          "type": "방향 파악",
+          "description": "긴 세션 동안 경로 기억을 유지하기 위해 뚜렷한 지형 마커와 정착지 앵커를 사용하세요."
+        },
+        {
+          "name": "수직 경로 설정",
+          "type": "이동",
+          "description": "특히 이벤트가 밀집된 지형 근처에서 등반과 하강 시간을 단축하는 이동 도구를 우선시하세요."
+        },
+        {
+          "name": "동굴 및 샛길 탐색",
+          "type": "발견",
+          "description": "보조 경로에는 가치 있는 재료와 향후 진행을 위한 지름길 기회가 자주 포함되어 있습니다."
+        },
+        {
+          "name": "수중 및 위험 지역 경로",
+          "type": "위험 관리",
+          "description": "실패한 시도가 진행 시간을 낭비하지 않도록 계획된 진입 및 탈출 지점을 가지고 위험 구역에 접근하세요."
+        },
+        {
+          "name": "세션 종료 통합",
+          "type": "최적화",
+          "description": "수집한 자원을 즉시 진행 상황으로 전환할 수 있도록 제작 또는 보관 허브 근처에서 각 경로를 마무리하세요."
+        }
+      ],
+      "unlockMilestones": [
+        "반복 가능한 탐험 루프 두 곳 지도화",
+        "핵심 허브로의 빠른 귀환 경로 하나 구축",
+        "일반 이동에 샛길 파밍 통합",
+        "직접적인 업그레이드 전환으로 런 마무리"
+      ]
+    },
+    "lucidBlocksFarmingAndGrowth": {
+      "title": "Farever 던전, 인스턴스 및 보스",
+      "displayType": "mixedCards",
+      "intro": "Farever Early Access에는 5개의 던전과 5개의 보스전으로 나뉜 10개의 인스턴스 조우가 포함되어 있습니다. 이 트래커를 사용하여 클리어 순서를 계획하고, 파티 역할을 배정하며, 추후 출시될 고난도 모드에 대비하세요.",
+      "sections": [
+        {
+          "name": "노스트 늪(Nost Mire) · 던전",
+          "description": "무리 제어, 자원 확인, 보스 처치로 이어지는 반복 가능한 전투 루트를 수행하여 꾸준한 장비 성장을 도모하세요.",
+          "icon": "TrendingUp"
+        },
+        {
+          "name": "심연(The Abyss) · 던전",
+          "description": "오픈 월드 탐험 대신 고정된 조우 속도에 집중하여 압박감 속에서 로테이션과 협동을 연습하세요.",
+          "icon": "Shield"
+        },
+        {
+          "name": "하이브트리(The Hivetree) · 던전",
+          "description": "벌 지역 조우를 돌파하여 연계 재료, 인스턴스 보상 및 보스전 준비를 진행하세요.",
+          "icon": "Home"
+        },
+        {
+          "name": "코볼트 광산(The Kobold Mine) · 던전",
+          "description": "코볼트 중심 루트를 파밍하여 동굴 진행 아이템과 제작 직업에 필요한 던전 보상 루프를 확보하세요.",
+          "icon": "Hammer"
+        },
+        {
+          "name": "가라앉은 도시(The Sunken City) · 던전",
+          "description": "수중 유적 목표를 클리어하여 오픈 월드 캠프와는 다른 조우 리듬과 확장된 루트 다양성을 경험하세요.",
+          "icon": "Eye"
+        },
+        {
+          "name": "카비제너스(Carbygenus) · 보스",
+          "description": "이 조우를 통해 패턴 학습, 폭딜 타이밍 조절, 역할 분담을 통한 희귀 보상 획득을 노리세요.",
+          "icon": "Star"
+        },
+        {
+          "name": "허니사바스(Honeysabath) · 보스",
+          "description": "클리어 기록을 추적하여 벌 지역 진행을 안정화하고 더 어려운 콘텐츠에 도전하기 전 생존 세팅을 검증하세요.",
+          "icon": "Sparkles"
+        },
+        {
+          "name": "몬스터 척(Monster Chuck) · 보스",
+          "description": "이 전투를 타이밍과 지속적인 실행력이 한 방 시도보다 중요한 기믹 숙달의 단계로 삼으세요.",
+          "icon": "AlertTriangle"
+        },
+        {
+          "name": "묵시(Mukshi) · 보스",
+          "description": "빌드 일관성과 팀 리듬을 위한 이정표 조우로서 이 보스를 진행 시트에 기록해 두세요.",
+          "icon": "Gamepad2"
+        },
+        {
+          "name": "랏자르(Ratzar) · 보스",
+          "description": "코볼트 루트 진행과 무기 및 글라이더 목표에 직결된 보스 전용 드롭 아이템을 위해 이 클리어를 우선시하세요.",
+          "icon": "Settings"
+        },
+        {
+          "name": "영웅 및 챌린지 모드 · 난이도 로드맵",
+          "description": "미래의 난이도 티어에 맞춰 장기적인 빌드 업그레이드를 계획하여 현재의 파밍 선택이 나중에도 가치를 발휘하게 하세요.",
+          "icon": "Clock"
+        }
+      ],
+      "growthMilestones": [
+        "배정된 역할을 수행하며 최소 2개의 던전 클리어",
+        "목록에 있는 5개의 보스 조우 모두에 대해 첫 처치 기록 작성",
+        "인스턴스 드롭 아이템을 측정 가능한 빌드 업그레이드 경로로 전환",
+        "영웅 및 챌린지 모드 진입을 위한 로드아웃 계획 준비"
+      ]
+    },
+    "lucidBlocksBestEarlyUnlocks": {
+      "title": "Farever 전리품 출처 및 드롭 테이블",
+      "displayType": "priorityCards",
+      "intro": "원하는 아이템을 이미 알고 있다면 출처 중심의 파밍 루트를 이용하세요. 이 요약 표는 몬스터, 보스, 채집 노드, 금고 보상을 매핑하여 전리품 획득을 효율적이고 반복 가능하게 만들어 줍니다.",
+      "priorities": [
+        {
+          "name": "AncientThyme 및 Ore_Copper 채집",
+          "priority": "Core",
+          "description": "채집물은 안정적인 기본 재료를 제공합니다: AncientThymePetal 및 CopperOre 100%, 그리고 초기 제작 루프를 위한 SparkSample 약 25%.",
+          "icon": "BookOpen"
+        },
+        {
+          "name": "벌 및 멧돼지 몬스터 루트",
+          "priority": "Core",
+          "description": "벌과 멧돼지 루트는 대량의 제작 드롭 아이템과 0.10% 확률의 희귀 탈것을 제공하여, 한 번의 루프로 진행과 수집 목표를 모두 지원합니다.",
+          "icon": "Package"
+        },
+        {
+          "name": "게, 코볼트, 인어 재료 풀",
+          "priority": "High",
+          "description": "해산물, 송곳니, 비늘, 글라이더 재료를 대상 패밀리별로 파밍하여 제작법 재료와 이동 수단 수집의 균형을 맞추세요.",
+          "icon": "ArrowRight"
+        },
+        {
+          "name": "크랩간투아(Crabgantua) 보스 드롭 (lv 8)",
+          "priority": "High",
+          "description": "Shield_OrbitWater 및 Mount_Crab_Blue를 포함한 1.0% 확률의 무기 및 탈것 보상을 위해 이 보스를 공략하세요.",
+          "icon": "Star"
+        },
+        {
+          "name": "넵실론(Nepsilon) 보스 드롭 (lv 5)",
+          "priority": "High",
+          "description": "Halos_Totem, DA_Water, Glider_FlyingFish_Orange와 같은 초기 1.0% 보스 보상을 위해 넵실론을 처치하세요.",
+          "icon": "Sparkles"
+        },
+        {
+          "name": "킹 랏자르(King Ratsar) 보스 드롭 (lv 10)",
+          "priority": "High",
+          "description": "로그 빌드와 수집 목표를 지원하는 Daggers_DuplicatePoison, GA_Craft, Glider_Bat_WhiteBlack을 파밍하세요.",
+          "icon": "Shield"
+        },
+        {
+          "name": "Vault_Z1_1 확정 보상",
+          "priority": "Medium",
+          "description": "예측 가능한 진행 보상이 필요할 때 확정 골드와 Glider_FlyingFish_Red를 위해 이 금고를 확인하세요.",
+          "icon": "Clock"
+        },
+        {
+          "name": "Vault_Z1_2 확정 보상",
+          "priority": "Medium",
+          "description": "운에 의존하지 않고 수집 진행도를 확보하려면 확정 골드와 Mount_Crab_Yellow를 위해 이 금고 루트를 이용하세요.",
+          "icon": "Gamepad2"
+        }
+      ]
+    },
+    "lucidBlocksAchievementTracker": {
+      "title": "Farever 제작 직업 및 레시피",
+      "displayType": "achievementGrid",
+      "intro": "Farever의 레시피 진행은 6가지 전문 기술을 중심으로 이루어집니다. 역할, 레시피 수, 초반 가치가 높은 제작 아이템별로 각 직업을 비교하여 재료 파밍이 올바른 빌드 업그레이드로 이어지도록 하세요.",
+      "groups": [
+        {
+          "name": "대장장이 · 21개 레시피",
+          "achievements": [
+            {
+              "title": "주요 역할",
+              "description": "금속 장비, 주괴, 판금, 그리고 전방 진행을 위한 무기/방어구 지원."
+            },
+            {
+              "title": "초반 가치",
+              "description": "전사 스타일의 경로와 내구도 중심 업그레이드를 위한 강력한 첫 번째 선택."
+            },
+            {
+              "title": "제작 예시",
+              "description": "CopperIngot (1레벨), BronzeIngot (3레벨), Alloy_Z1 (4레벨), Chest_RKobold_FigAss (1레벨)."
+            }
+          ],
+          "icon": "Hammer"
+        },
+        {
+          "name": "의복 제작자 · 20개 레시피",
+          "achievements": [
+            {
+              "title": "주요 역할",
+              "description": "천 및 가죽 장비, 가방, 등 장식, 그리고 경갑 지원 라인."
+            },
+            {
+              "title": "초반 가치",
+              "description": "가방 업그레이드와 빠른 인벤토리 확장이 필요한 경갑 사용자에게 신뢰할 수 있는 선택."
+            },
+            {
+              "title": "제작 예시",
+              "description": "Bag_Z2 (3레벨), Back_RCrimson_AssCle_Craft (5레벨), 1-3레벨 신발 장비 제작."
+            }
+          ],
+          "icon": "Package"
+        },
+        {
+          "name": "보석 세공사 · 32개 레시피",
+          "achievements": [
+            {
+              "title": "주요 역할",
+              "description": "보석, 반지, 펜던트, 탐사, 그리고 정밀 빌드를 위한 능력치 조정 업그레이드."
+            },
+            {
+              "title": "초반 가치",
+              "description": "장신구 슬롯과 광석의 보석 전환 가치를 우선시하는 플레이어에게 최적."
+            },
+            {
+              "title": "제작 예시",
+              "description": "CopperProspecting (1레벨), CutBeryl (2레벨), AttunedCutBeryl (2레벨), AttunedCutRuby (4레벨)."
+            }
+          ],
+          "icon": "Sparkles"
+        },
+        {
+          "name": "연금술사 · 35개 레시피",
+          "achievements": [
+            {
+              "title": "주요 역할",
+              "description": "힘, 민첩, 치유, 이동을 지원하는 영약, 포션 및 유틸리티 버프."
+            },
+            {
+              "title": "초반 가치",
+              "description": "던전 공략 및 보스전 준비 단계에서 영향력이 큰 지원 전문 기술."
+            },
+            {
+              "title": "제작 예시",
+              "description": "ElixirOfMinorStrength, ElixirOfMinorDexterity, ElixirOfAbundance, FastSwimPotion."
+            }
+          ],
+          "icon": "TrendingUp"
+        },
+        {
+          "name": "요리사 · 20개 레시피",
+          "achievements": [
+            {
+              "title": "주요 역할",
+              "description": "흔한 몬스터 및 낚시 재료로 만드는 음식 버프와 실용적인 요리."
+            },
+            {
+              "title": "초반 가치",
+              "description": "레벨업 경로에서 반복 가능한 유지력 버프를 얻기에 훌륭한 초보자용 전문 기술."
+            },
+            {
+              "title": "제작 예시",
+              "description": "Crab Goulash, Wild Boar Stew, Grilled Mackerel, Plainswalker Feast."
+            }
+          ],
+          "icon": "BookOpen"
+        },
+        {
+          "name": "마법 부여사 · 33개 레시피",
+          "achievements": [
+            {
+              "title": "주요 역할",
+              "description": "장비 성장을 위한 마법 부여지, 가루, 공식 및 주문서 지원."
+            },
+            {
+              "title": "초반 가치",
+              "description": "능력치 공식과 추후 무기 마법 부여의 깊이를 원하는 플레이어에게 강력한 선택."
+            },
+            {
+              "title": "제작 예시",
+              "description": "EnchantPaper_Z1, EnchantPowder_Z1, EnchantConcentrate_Z1, Magic Formula: Strength."
+            }
+          ],
+          "icon": "ClipboardCheck"
+        }
+      ]
+    },
+    "lucidBlocksSingleplayerAndPlatformFAQ": {
+      "title": "Farever 장비 아이템 및 희귀도 가이드",
+      "displayType": "accordion",
+      "intro": "카테고리, 희귀도, 클래스, 슬롯, 레벨 필터를 사용하여 장착, 제작, 판매 또는 보관할 아이템을 결정하세요. Farever 아이템 범위에는 무기, 방어구, 소모품, 재료, 보석, 탈것, 글라이더 및 업그레이드 화폐가 포함됩니다.",
+      "faqs": [
+        {
+          "question": "빠른 업그레이드를 위해 Farever 무기를 어떻게 필터링해야 하나요?",
+          "answer": "먼저 클래스, 레벨 구간, 희귀도별로 필터링한 다음, 자신의 스킬 로테이션과 역할 비중에 맞는 무기군을 선택하세요."
+        },
+        {
+          "question": "방어구와 장비 슬롯을 평가하는 가장 좋은 방법은 무엇인가요?",
+          "answer": "희귀도 색상보다 슬롯의 관련성과 능력치 방향을 먼저 비교하여, 각 교체가 단순히 아이템 점수만 높이는 것이 아니라 활성화된 빌드를 개선하도록 하세요."
+        },
+        {
+          "question": "던전에 가져갈 가치가 있는 소모품은 무엇인가요?",
+          "answer": "치유, 이동, 주요 능력치 소모품을 준비하여 긴 풀링과 보스 기믹 도중에도 공략이 안정적으로 유지되도록 하세요."
+        },
+        {
+          "question": "레벨업 중에 제작 재료를 어떻게 관리해야 하나요?",
+          "answer": "현재 전문 기술 및 단기 레시피와 관련된 재료는 보관하고, 현재 목표에 필요하지 않은 과잉 재료는 정리하세요."
+        },
+        {
+          "question": "보석과 장신구를 판매하는 대신 보관해야 할 때는 언제인가요?",
+          "answer": "계획된 능력치 경로와 일치하는 가공 및 조율된 보석을 저장하세요. 특히 여러 티어 동안 유지할 장비를 지원하는 경우 더욱 그렇습니다."
+        },
+        {
+          "question": "탈것과 글라이더는 항상 보관할 가치가 있나요?",
+          "answer": "네. 많은 수가 희귀 드롭이거나 확정된 금고 해금 보상이므로 수집 및 이동 보상으로 간주하세요."
+        },
+        {
+          "question": "화폐와 업그레이드 아이템을 어떻게 효율적으로 사용하나요?",
+          "answer": "현재 클래스 설정, 전문 기술 경로 또는 즉각적인 진행 목표를 지원하는 아이템에만 골드와 업그레이드 자원을 투자하세요."
+        },
+        {
+          "question": "전투 장비가 아니더라도 직업 도구가 중요한가요?",
+          "answer": "중요합니다. 채집 및 제작 도구는 장비, 소모품 및 업그레이드 재료를 공급하는 순환 구조를 활성화합니다."
+        }
+      ]
+    },
+    "lucidBlocksSteamDeckAndController": {
+      "title": "Farever Mounts Pets and Gliders",
+      "displayType": "accordion",
+      "intro": "Farever includes broad collection systems for mounts, companions, gliders, and cosmetic rewards. These systems support mobility, exploration routing, and long-term collection goals during Early Access.",
+      "faqs": [
+        {
+          "question": "What does the launch mount collection include?",
+          "answer": "Launch examples include wolf, deer, skunk, crab, and ladybug variants. Mounts are practical travel tools and collection goals, with item listings tracking movement speed multipliers."
+        },
+        {
+          "question": "How important are gliders in Farever?",
+          "answer": "Gliders are central to open-world movement. They support cliff traversal, ravine routes, cave exits, and vertical exploration paths where direct ground travel is slower."
+        },
+        {
+          "question": "What companions are available at launch?",
+          "answer": "Companion-style collectibles include frogs, grassflopper, buttontail, and tortrock examples. They are identity and collection rewards rather than direct combat power upgrades."
+        },
+        {
+          "question": "Can mounts and gliders drop from creature loot tables?",
+          "answer": "Yes. Some creature drops include rare mount or glider rewards with low drop rates, such as 0.10% reward entries, making repeated farming routes valuable for collectors."
+        },
+        {
+          "question": "Do vault runs provide guaranteed collection rewards?",
+          "answer": "Several vault reward pools include guaranteed cosmetic collection unlocks like specific gliders or mounts, often paired with gold rewards, so vault routing is a consistent collection method."
+        },
+        {
+          "question": "How does the optional cosmetic shop fit into progression?",
+          "answer": "Shop visuals are optional. Planned cosmetic offerings focus on appearance customization for armor skins, mounts, companions, and gliders without replacing core progression loops."
+        },
+        {
+          "question": "What collection priority is best early on?",
+          "answer": "Prioritize movement value first with mounts and gliders that improve daily route speed, then expand into rare drops and long-horizon vanity collection goals."
+        }
+      ]
+    },
+    "lucidBlocksSettingsAndAccessibility": {
+      "title": "Farever Solo and Co-op Multiplayer Guide",
+      "displayType": "settingCards",
+      "intro": "Farever supports both solo play and 4-player co-op parties. The same core loop works across formats: explore, clear activities, run instances, defeat bosses, and progress your build.",
+      "settings": [
+        {
+          "name": "Solo-friendly exploration and progression",
+          "type": "Play Mode",
+          "description": "Solo players can progress smoothly through regions, activities, crafting loops, and build upgrades while choosing their own pace and routing priorities."
+        },
+        {
+          "name": "4-player party structure",
+          "type": "Play Mode",
+          "description": "Party groups can include up to four players, with role splitting across damage, sustain, control, and frontline pressure for faster and safer clears."
+        },
+        {
+          "name": "Shared loot, XP, and party rewards",
+          "type": "Network Setup",
+          "description": "Co-op progression supports shared loot and XP flows, post-fight distribution, party trading windows, and shared completion value in repeatable content."
+        },
+        {
+          "name": "MMO-style world interaction",
+          "type": "Team Setup",
+          "description": "Public areas, world layers, chat channels, and region hubs allow players to meet others while exploring without forcing permanent party grouping."
+        },
+        {
+          "name": "Regional server and friend setup",
+          "type": "Team Setup",
+          "description": "Choose the closest region before inviting friends to minimize latency. Current launch regions include Europe, North America, Latin America, Asia, and Mainland China."
+        },
+        {
+          "name": "Scalable activity difficulty",
+          "type": "Activity Flow",
+          "description": "Several activity routes scale by group size so players can approach world objectives solo or with a team and still maintain progress efficiency."
+        }
+      ]
+    },
+    "lucidBlocksUpdatesAndPatchNotes": {
+      "title": "Farever Roadmap and Upcoming Content",
+      "displayType": "timeline",
+      "intro": "Farever launched with a strong Early Access baseline and a roadmap centered on world growth, deeper classes, more instance challenge layers, social systems, and long-term progression.",
+      "entries": [
+        {
+          "title": "Early Access launch baseline",
+          "type": "Live Phase",
+          "description": "Launch includes four classes, level 20 progression, two regions, ten instance encounters, six jobs, 100+ weapon skills, 150+ gear pieces, and 100+ collection elements."
+        },
+        {
+          "title": "World expansion phase",
+          "type": "Roadmap",
+          "description": "Planned updates add new regions such as Peak of Obral and City of Ramburg, plus more factions, dungeons, bosses, world events, and activity types."
+        },
+        {
+          "title": "Instance progression updates",
+          "type": "Roadmap",
+          "description": "Roadmap targets include Heroic Mode, max-level instance modes, additional boss mechanics, challenge modifiers, and more unique completion rewards."
+        },
+        {
+          "title": "Character growth expansion",
+          "type": "Roadmap",
+          "description": "Progression direction includes raising the level cap toward 50, adding classes like Druid and Monk, and introducing deeper talent trees and class skill systems."
+        },
+        {
+          "title": "Collections and job depth",
+          "type": "Roadmap",
+          "description": "Future content plans include fishing, archaeology, more mounts, gliders, critters, toys, and major increases in unique weapons, skills, and gear pieces."
+        },
+        {
+          "title": "Social and PvP systems",
+          "type": "Roadmap",
+          "description": "Upcoming systems include guilds, auction house support, friends tools, duels, PvP regions, instanced battlegrounds, and party quality-of-life features."
+        },
+        {
+          "title": "1.0 release direction",
+          "type": "Planned",
+          "description": "The full release path aims to extend world scale, class variety, instance challenge, seasonal activities, and long-term social progression systems."
+        }
+      ]
+    },
+    "lucidBlocksCrashFixAndTroubleshooting": {
+      "title": "Farever 시스템 요구 사양 및 성능 가이드",
+      "displayType": "steps",
+      "intro": "이 체크리스트를 사용하여 공식 하드웨어 목표를 맞추고, 적절한 서버 지역을 선택하며, Early Access 세션 동안 안정적인 1080p 성능을 유지하세요.",
+      "steps": [
+        {
+          "title": "운영 체제 및 저장 공간 기준 확인",
+          "description": "Farever는 64비트 Windows 설정과 최소 25GB의 여유 저장 공간이 필요합니다. 패치 다운로드 및 업데이트 압축 해제를 위해 추가 여유 공간을 확보해 두세요."
+        },
+        {
+          "title": "CPU, RAM 및 GPU 등급 적합성 확인",
+          "description": "최소 사양 목표는 i7 6700K 또는 Ryzen 5 5500, 16GB RAM, RTX 3060 또는 RX 5600 XT 수준입니다. 권장 사양 목표는 32GB RAM과 RTX 4060 또는 RX 7600급 GPU로 상향됩니다."
+        },
+        {
+          "title": "공식 FPS 기대치 활용",
+          "description": "최소 프로필은 1080p 30 FPS를 목표로 하며, 권장 프로필은 1080p 60 FPS를 목표로 합니다. 이러한 기준 기대치에 따라 품질 설정을 조정하세요."
+        },
+        {
+          "title": "가장 가까운 서버 지역 선택",
+          "description": "사용 가능한 지역에는 유럽, 북미, 라틴 아메리카, 아시아 및 중국 본토가 포함됩니다. 가장 가까운 지역을 선택하면 지연 시간이 개선되고 파티 반응성이 향상됩니다."
+        },
+        {
+          "title": "반복 가능한 성능 체크리스트 적용",
+          "description": "프레임 페이싱이 떨어지면 부하가 가장 큰 그래픽 옵션부터 낮추고, 백그라운드 작업을 종료한 뒤, 고정된 전투 경로에서 다시 테스트하며 한 번에 하나의 설정 그룹씩 조정하세요."
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "자주 묻는",
+    "titleHighlight": "질문",
+    "subtitle": "출시, 진행 및 멀티플레이어 계획에 대한 주요 답변입니다.",
+    "questions": [
+      {
+        "question": "지금 Farever를 플레이할 수 있나요?",
+        "answer": "네, PC용 Steam Early Access에서 이용 가능합니다."
+      },
+      {
+        "question": "처음 시작하는 플레이어는 어떤 클래스로 시작해야 하나요?",
+        "answer": "워리어는 가장 무난한 시작 선택이며, 클레릭은 그룹 중심의 시작에 탁월합니다."
+      },
+      {
+        "question": "솔로 플레이로도 원활하게 진행할 수 있나요?",
+        "answer": "네. 업그레이드 목표를 명확히 하고 활동 경로를 효율적으로 짜면 솔로 진행도 원활하게 이루어집니다."
+      },
+      {
+        "question": "초반에 제작이 얼마나 중요한가요?",
+        "answer": "매우 중요합니다. 직업과 레시피는 던전 도전 사이사이에 꾸준한 전력 성장을 만들어냅니다."
+      },
+      {
+        "question": "첫 던전 클리어 후에는 무엇에 집중해야 하나요?",
+        "answer": "하나의 빌드 경로를 다듬고, 무기 시너지를 개선하며, 전리품 경로를 활용해 다음 업그레이드 임계치를 잠금 해제하세요."
+      },
+      {
+        "question": "성능을 안정적으로 유지하려면 어떻게 해야 하나요?",
+        "answer": "드라이버를 최신 상태로 유지하고, 영향이 큰 그래픽 설정부터 조정하며, 낮은 지연 시간을 위해 가장 가까운 서버 지역을 사용하세요."
+      }
+    ]
+  },
+  "cta": {
+    "title": "다음 런을 시작할 준비가 되셨나요?",
+    "description": "클래스 업데이트, 던전 전략 변화, 로드맵 변경 사항을 확인하여 매주 효율적으로 진행하세요.",
+    "joinCommunity": "커뮤니티 참여하기",
+    "joinGame": "Steam에서 보기"
+  },
+  "footer": {
+    "title": "Farever",
+    "description": "출시 세부 정보, 클래스 전략, 빌드 계획, 던전, 제작 및 성능 튜닝을 위한 실용적인 가이드 허브입니다.",
+    "resources": "리소스",
+    "community": "커뮤니티",
+    "legal": "법적 고지",
+    "discord": "Discord (via Steam)",
+    "twitter": "X / Twitter",
+    "steamCommunity": "Steam Community",
+    "steamStore": "Steam 상점",
+    "about": "정보",
+    "privacy": "개인정보 처리방침",
+    "terms": "서비스 약관",
+    "copyrightNotice": "저작권",
+    "copyright": "© 2026 Farever. 비공식 팬 제작 리소스 사이트입니다.",
+    "disclaimer": "Shiro Games와 관련이 없습니다."
+  },
+  "pages": {
+    "release": {
+      "title": "Farever 출시",
+      "description": "출시 시기, Steam 액세스, 가격, 지역 및 플랫폼 범위에 대한 출시 관련 정보입니다.",
+      "metaTitle": "Farever 출시 - 날짜, Steam 액세스 및 가격",
+      "metaDescription": "Farever 출시 시기, Early Access 상태, Steam 가격, 지역별 출시 세부 정보 및 플랫폼 가용성을 확인하세요.",
+      "categoryLabel": "출시",
+      "whatIs": "출시란 무엇인가요?",
+      "whatIsDescription": "이 카테고리에서는 출시 상태, 상점 업데이트, Early Access 세부 정보, 지역별 가격 및 플랫폼 관련 변경 사항을 다룹니다.",
+      "why": "출시 업데이트를 확인해야 하는 이유는 무엇인가요?",
+      "whySteps": {
+        "step1Title": "진입 시기 계획",
+        "step1Description": "업데이트가 적용되는 시점을 확인하여 주요 패치 및 잠금 해제 기간에 맞춰 세션 일정을 잡을 수 있습니다.",
+        "step2Title": "비용 및 액세스 추적",
+        "step2Description": "구매 전 현재 Steam 가격, 패키지 참고 사항 및 지역별 차이점을 비교해 보세요.",
+        "step3Title": "출시 혼선 방지",
+        "step3Description": "출시 관련 사실을 한곳에서 확인하여 다운로드, 계정 설정 및 서버 선택을 간편하게 진행하세요."
+      },
+      "featured": "주요 및 필수 정보",
+      "all": "모든 출시 문서"
+    },
+    "guide": {
+      "title": "Farever 가이드",
+      "description": "초반 게임 루트, 던전 입장, 클래스 성장 및 업그레이드 우선순위를 위한 실용적인 진행 가이드입니다.",
+      "metaTitle": "Farever 가이드 - 초보자 루트 및 진행 방식",
+      "metaDescription": "첫 세션 루트, 퀘스트 흐름, 던전 준비 및 효율적인 진행 계획을 위한 Farever 가이드를 확인하세요.",
+      "categoryLabel": "가이드",
+      "whatIs": "가이드란 무엇인가요?",
+      "whatIsDescription": "이 카테고리는 초보자부터 중급자까지 레벨링 흐름, 퀘스트 이정표, 루트 결정에 대한 단계별 공략을 모아두었습니다.",
+      "why": "왜 가이드를 사용해야 하나요?",
+      "whySteps": {
+        "step1Title": "더 빠른 시작",
+        "step1Description": "깔끔한 오프닝 루트를 따라 첫 몇 시간 동안 안정적인 레벨, 장비 및 해금 요소를 확보하세요.",
+        "step2Title": "낭비되는 플레이 감소",
+        "step2Description": "가치가 낮은 반복 작업 대신 검증된 활동 순서와 목표 우선순위를 활용하세요.",
+        "step3Title": "더 어려운 콘텐츠로의 확장",
+        "step3Description": "명확한 빌드 체크포인트와 재료 목표를 통해 던전과 보스전에 대비하세요."
+      },
+      "featured": "추천 및 필수",
+      "all": "모든 가이드 문서"
+    },
+    "classes": {
+      "title": "Farever 클래스",
+      "description": "클래스 중심의 역할 적합성, 특성 방향, 팀 시너지 및 솔로 진행 편의성을 다룹니다.",
+      "metaTitle": "Farever 클래스 - 역할 선택 및 빌드 방향",
+      "metaDescription": "역할, 생존력, 데미지 프로필 및 팀 가치별로 Farever 클래스를 비교하여 최적의 장기적 경로를 선택하세요.",
+      "categoryLabel": "클래스",
+      "whatIs": "클래스란 무엇인가요?",
+      "whatIsDescription": "이 카테고리는 각 클래스의 정체성, 주요 강점과 약점, 그리고 클래스 선택이 빌드와 파티 역할에 미치는 영향을 설명합니다.",
+      "why": "왜 클래스를 비교해야 하나요?",
+      "whySteps": {
+        "step1Title": "적합한 역할 선택",
+        "step1Description": "선호하는 속도, 위치 선정 및 전투 책임에 맞는 클래스 스타일을 매칭하세요.",
+        "step2Title": "의도적인 빌드 구성",
+        "step2Description": "자원을 너무 일찍 분산시키는 대신 하나의 클래스 계획에 맞는 특성과 장비 경로를 선택하세요.",
+        "step3Title": "팀 조합 개선",
+        "step3Description": "더 깔끔한 던전 클리어와 긴 전투에서의 더 나은 생존력을 위해 클래스 구성을 조율하세요."
+      },
+      "featured": "추천 및 필수",
+      "all": "모든 클래스 문서"
+    },
+    "weapons": {
+      "title": "Farever 무기",
+      "description": "무브셋, 스탯 스케일링, 업그레이드 가치 및 클래스별 로드아웃 시너지에 대한 무기 분석입니다.",
+      "metaTitle": "Farever 무기 - 무기고, 업그레이드 및 로드아웃",
+      "metaDescription": "각 역할에 맞는 아키타입, 스킬 상호작용, 업그레이드 경로 및 로드아웃 계획을 다루는 Farever 무기 가이드를 살펴보세요.",
+      "categoryLabel": "무기",
+      "whatIs": "무기란 무엇인가요?",
+      "whatIsDescription": "이 카테고리는 무기군, 조작 프로필, 그리고 각 선택이 데미지 타이밍, 안전성 및 로테이션 흐름을 어떻게 바꾸는지에 집중합니다.",
+      "why": "왜 무기를 연구해야 하나요?",
+      "whySteps": {
+        "step1Title": "더 나은 시너지 찾기",
+        "step1Description": "재사용 대기시간 사이클과 움직임이 일정하게 유지되도록 무기 특성을 클래스 툴킷과 결합하세요.",
+        "step2Title": "효율적인 업그레이드",
+        "step2Description": "모든 드랍 아이템을 쫓는 대신 현재 역할에 도움이 되는 무기 재료를 우선시하세요.",
+        "step3Title": "보스 기믹 대응",
+        "step3Description": "어려운 조우 상황에서 더 안전한 실행을 위해 적절한 사거리, 속도 및 공격 방식을 사용하세요."
+      },
+      "featured": "추천 및 필수",
+      "all": "모든 무기 문서"
+    },
+    "multiplayer": {
+      "title": "Farever 멀티플레이어",
+      "description": "파티 구성, 역할 조율, 소셜 도구 및 세션 계획을 포함한 협동 및 MMO 시스템을 다룹니다.",
+      "metaTitle": "Farever 멀티플레이어 - 협동, 파티 역할 및 소셜 시스템",
+      "metaDescription": "파티 규모, 역할 조율, 서버 지역 설정 및 협동 진행 흐름 등 Farever 멀티플레이어의 기초를 배워보세요.",
+      "categoryLabel": "멀티플레이어",
+      "whatIs": "멀티플레이어란 무엇인가요?",
+      "whatIsDescription": "이 카테고리는 파티 구조, 공유 진행 패턴, 매치메이킹 흐름 및 반복 활동을 위한 실용적인 협동 설정을 다룹니다.",
+      "why": "왜 멀티플레이어 가이드를 읽어야 하나요?",
+      "whySteps": {
+        "step1Title": "더 나은 파티 구성",
+        "step1Description": "데미지, 유지력, 제어 책임이 균형을 이루도록 명확한 클래스 역할을 할당하세요.",
+        "step2Title": "세션 안정성 향상",
+        "step2Description": "지연 시간과 재접속 문제를 낮게 유지하는 지역 및 초대 설정 방식을 사용하세요.",
+        "step3Title": "더 빠른 콘텐츠 클리어",
+        "step3Description": "팀워크를 확실한 던전 진행으로 전환하기 위해 루트와 스킬 타이밍을 조율하세요."
+      },
+      "featured": "추천 및 필수",
+      "all": "모든 멀티플레이어 문서"
+    },
+    "charts": {
+      "title": "Farever 차트",
+      "description": "참여도, 모멘텀 및 패치 영향에 대한 차트 기반 스냅샷을 통한 플레이어 활동 및 트렌드 추적.",
+      "metaTitle": "Farever 차트 - 플레이어 수 및 트렌드 추적",
+      "metaDescription": "플레이어 활동 스냅샷, 트렌드 비교 및 패치 기간 모멘텀 분석을 통해 Farever 차트를 추적하세요.",
+      "categoryLabel": "차트",
+      "whatIs": "차트란 무엇인가요?",
+      "whatIsDescription": "이 카테고리는 플레이어 수와 트렌드 데이터를 요약하여 인구 변화, 피크 시간대 및 업데이트 영향을 이해하는 데 도움을 줍니다.",
+      "why": "왜 차트를 확인해야 하나요?",
+      "whySteps": {
+        "step1Title": "게임 모멘텀 모니터링",
+        "step1Description": "일일 및 주간 움직임을 추적하여 활동이 증가하는지, 안정적인지 또는 감소하는지 파악하세요.",
+        "step2Title": "세션 시간 계획",
+        "step2Description": "피크 시간대 패턴을 활용하여 파티 구성이 더 쉬운 시간에 협동 콘텐츠를 계획하세요.",
+        "step3Title": "패치 영향 분석",
+        "step3Description": "업데이트 전후의 트렌드 변화를 비교하여 어떤 릴리스가 플레이어 행동을 변화시키는지 확인하세요."
+      },
+      "featured": "추천 및 필수 항목",
+      "all": "모든 차트 기사"
+    }
   }
 }
