@@ -34,27 +34,27 @@
     "articlesComingSoon": "Articles coming soon"
   },
   "hero": {
-    "badge": "Surreal Voxel Survival Sandbox",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore dreamlike biomes, fuse items with Apotheosis, build freely, and survive strange creatures in this surreal open-world sandbox on Steam.",
-    "getFreeCodesCTA": "Explore Crafting Guide",
-    "playOnSteamCTA": "Play on Steam",
+    "badge": "Online Co-op Action RPG",
+    "title": "Farever",
+    "description": "Farever is an online multiplayer action RPG set in a vibrant fantasy open world. Explore Siagarta, clear dungeons, craft powerful gear, build your own class style, and follow the Early Access roadmap.",
+    "getFreeCodesCTA": "Read Farever Guides",
+    "playOnSteamCTA": "View Farever on Steam",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Players Online"
+        "value": "400K+",
+        "label": "Wishlists"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Peak CCU"
+        "value": "6,239",
+        "label": "Current In-Game"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Positive Reviews"
+        "value": "481",
+        "label": "Steam Reviews"
       },
       "stat4": {
-        "value": "Mar 12, 2026",
-        "label": "Release Date"
+        "value": "73%",
+        "label": "Positive Reviews"
       }
     }
   },
@@ -785,18 +785,18 @@
     ]
   },
   "cta": {
-    "title": "Ready to Explore Lucid Blocks?",
-    "description": "Join the Lucid Blocks community on Discord for guides, updates, and discussions!",
-    "joinCommunity": "Join Discord",
-    "joinGame": "Play on Steam"
+    "title": "Ready to Forge Your Path in Farever?",
+    "description": "Join the Farever community to follow roadmap updates, class builds, and dungeon strategies.",
+    "joinCommunity": "Join Farever Discord",
+    "joinGame": "Play Farever on Steam"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Your complete resource hub for Lucid Blocks crafting, biomes, creatures, achievements, and survival guides.",
+    "title": "Farever",
+    "description": "Your resource hub for Farever classes, builds, dungeons, jobs, roadmap updates, and multiplayer tips.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
-    "discord": "Discord",
+    "discord": "Discord (via Steam)",
     "twitter": "X / Twitter",
     "steamCommunity": "Steam Community",
     "steamStore": "Steam Store",
@@ -804,8 +804,8 @@
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Lucid Blocks Wiki. Not affiliated with the developers of Lucid Blocks.",
-    "disclaimer": "Unofficial fan-made resource website."
+    "copyright": "© 2026 Farever. Unofficial fan-made resource site.",
+    "disclaimer": "Not affiliated with Shiro Games."
   },
   "pages": {
     "guides": {
