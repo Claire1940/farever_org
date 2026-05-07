@@ -1,5 +1,5 @@
 {
-  "api_key": "sk-OxJJtxGZLYFWUZkaQoGgo68MacGSEuZ5oPg4oKLElGJ98WvB",
+  "api_key": "sk-vOqGcdrN8fL7NZCO0iVvPvcJ0RzsS1zqaFMjLPTmxSP7gaaE",
   "api_base_url": "https://api.apifast.tech/v1",
   "model": "gemini-2.5-flash",
   "group": "default",
@@ -9,29 +9,21 @@
   "retry_attempts": 3,
   "retry_delay": 5,
 
-  "languages": ["ru", "pt", "de", "es", "ja", "ko", "fr"],
+  "languages": ["ja", "ko", "es"],
   "default_language": "en",
   "output_dir": "content/",
 
   "game_names": {
-    "en": "Lucid Blocks",
-    "ru": "Lucid Blocks",
-    "pt": "Lucid Blocks",
-    "de": "Lucid Blocks",
-    "es": "Lucid Blocks",
-    "ja": "Lucid Blocks",
-    "ko": "Lucid Blocks",
-    "fr": "Lucid Blocks"
+    "en": "Farever",
+    "ja": "Farever 攻略",
+    "ko": "Farever 공략",
+    "es": "Guía de Farever"
   },
 
   "lang_names": {
-    "ru": "Russian",
-    "pt": "Portuguese (Brazil)",
-    "de": "German",
-    "es": "Spanish (Latin America)",
     "ja": "Japanese",
     "ko": "Korean",
-    "fr": "French"
+    "es": "Spanish"
   },
 
   "batch_size": 20,
