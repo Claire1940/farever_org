@@ -32,6 +32,7 @@ import { scrollToSection } from "@/lib/scrollToSection";
 import { DynamicIcon } from "@/components/ui/DynamicIcon";
 import type { ContentItemWithType } from "@/lib/getLatestArticles";
 import type { ModuleLinkMap } from "@/lib/buildModuleLinkMap";
+import enMessages from "@/locales/en.json";
 
 // Lazy load heavy components
 const HeroStats = lazy(() => import("@/components/home/HeroStats"));
@@ -88,7 +89,12 @@ export default function HomePageClient({
   locale,
   homeVideo,
 }: HomePageClientProps) {
-  const t = useMessages() as any;
+  const localeMessages = useMessages() as any;
+  const t =
+    localeMessages?.modules?.lucidBlocksApotheosisCrafting &&
+    localeMessages?.tools?.cards?.length === 16
+      ? localeMessages
+      : (enMessages as any);
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://farever.org";
 
   // Structured data
@@ -273,6 +279,16 @@ export default function HomePageClient({
         </div>
       </section>
 
+      {/* 广告位 2: 首屏内容之后再加载广告 */}
+      <NativeBannerAd adKey={process.env.NEXT_PUBLIC_AD_NATIVE_BANNER || ""} />
+
+      {/* Latest Updates Section */}
+      <LatestGuidesAccordion
+        articles={latestArticles}
+        locale={locale}
+        max={12}
+      />
+
       {/* Tools Grid - 16 Navigation Cards */}
       <section className="px-4 py-14 md:py-20 bg-white/[0.02]">
         <div className="container mx-auto max-w-4xl">
@@ -312,9 +328,13 @@ export default function HomePageClient({
               const sectionId = sectionIds[index];
 
               return (
-                <button
+                <a
                   key={index}
-                  onClick={() => scrollToSection(sectionId)}
+                  href={`#${sectionId}`}
+                  onClick={(event) => {
+                    event.preventDefault();
+                    scrollToSection(sectionId);
+                  }}
                   className="scroll-reveal group rounded-xl border border-border p-4 md:p-6
                              bg-card hover:border-[hsl(var(--nav-theme)/0.5)]
                              transition-all duration-300 cursor-pointer text-left
@@ -339,22 +359,12 @@ export default function HomePageClient({
                   <p className="text-sm text-muted-foreground">
                     {card.description}
                   </p>
-                </button>
+                </a>
               );
             })}
           </div>
         </div>
       </section>
-
-      {/* 广告位 2: 首屏内容之后再加载广告 */}
-      <NativeBannerAd adKey={process.env.NEXT_PUBLIC_AD_NATIVE_BANNER || ""} />
-
-      {/* Latest Updates Section */}
-      <LatestGuidesAccordion
-        articles={latestArticles}
-        locale={locale}
-        max={12}
-      />
 
       {/* 广告位 3: 移动端优先使用方形，桌面端保留横幅 */}
       <AdBanner
@@ -976,7 +986,7 @@ export default function HomePageClient({
                   <div className="flex items-center gap-2 mb-3">
                     <Star className="w-5 h-5 text-[hsl(var(--nav-theme-light))]" />
                     <span
-                      className={`text-xs px-2 py-1 rounded-full border ${p.priority === "Essential" ? "bg-[hsl(var(--nav-theme)/0.15)] border-[hsl(var(--nav-theme)/0.45)] text-[hsl(var(--nav-theme-light))]" : p.priority === "Very High" ? "bg-orange-500/10 border-orange-500/30 text-orange-400" : "bg-[hsl(var(--nav-theme)/0.1)] border-[hsl(var(--nav-theme)/0.3)]"}`}
+                      className={`text-xs px-2 py-1 rounded-full border ${p.priority === "Core" ? "bg-[hsl(var(--nav-theme)/0.18)] border-[hsl(var(--nav-theme)/0.5)] text-[hsl(var(--nav-theme-light))]" : p.priority === "High" ? "bg-[hsl(var(--nav-theme-light)/0.12)] border-[hsl(var(--nav-theme-light)/0.4)] text-[hsl(var(--nav-theme-light))]" : "bg-[hsl(var(--nav-theme)/0.1)] border-[hsl(var(--nav-theme)/0.3)]"}`}
                     >
                       {p.priority}
                     </span>
@@ -1320,15 +1330,15 @@ export default function HomePageClient({
               ),
             )}
           </div>
-          <div className="scroll-reveal p-6 bg-yellow-500/10 border border-yellow-500/30 rounded-xl">
+          <div className="scroll-reveal p-6 bg-[hsl(var(--nav-theme)/0.08)] border border-[hsl(var(--nav-theme)/0.35)] rounded-xl">
             <div className="flex items-start gap-3">
-              <AlertTriangle className="w-6 h-6 text-yellow-400 flex-shrink-0 mt-1" />
+              <AlertTriangle className="w-6 h-6 text-[hsl(var(--nav-theme-light))] flex-shrink-0 mt-1" />
               <div>
-                <h3 className="font-bold text-yellow-400 mb-2">
-                  Still having issues?
+                <h3 className="font-bold text-[hsl(var(--nav-theme-light))] mb-2">
+                  Need more optimization help?
                 </h3>
                 <p className="text-sm text-muted-foreground mb-3">
-                  Report bugs with your logs through the official channels:
+                  Use official channels to share your logs and system details:
                 </p>
                 <div className="flex flex-wrap gap-3">
                   <a

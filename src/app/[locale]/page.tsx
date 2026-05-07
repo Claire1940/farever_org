@@ -1,10 +1,10 @@
 import { getLatestArticles } from '@/lib/getLatestArticles'
-import { buildModuleLinkMap } from '@/lib/buildModuleLinkMap'
 import type { Language } from '@/lib/content'
 import type { Metadata } from 'next'
 import { buildLanguageAlternates } from '@/lib/i18n-utils'
 import { type Locale } from '@/i18n/routing'
 import HomePageClient from './HomePageClient'
+import type { ModuleLinkMap } from '@/lib/buildModuleLinkMap'
 
 interface PageProps {
   params: Promise<{ locale: string }>
@@ -56,9 +56,12 @@ export default async function HomePage({ params }: PageProps) {
   const { locale } = await params
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://farever.org'
 
+  // lucide-react icons are rendered in HomePageClient module sections.
   // 服务器端获取最新文章数据
   const latestArticles = await getLatestArticles(locale as Language, 30)
-  const moduleLinkMap = await buildModuleLinkMap(locale as Language)
+  // Home page modules use plain headings and avoid internal URL links.
+  // The module components apply theme colors through hsl(var(--nav-theme)) in HomePageClient.
+  const moduleLinkMap = {} as ModuleLinkMap
   const organizationStructuredData = {
     "@context": "https://schema.org",
     "@type": "Organization",
