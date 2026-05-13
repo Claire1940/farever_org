@@ -1,0 +1,186 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, BookOpen, Zap } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Arsenal de Farever: Guía Completa del Sistema de Armas y Habilidades 2026",
+  description: "Domina el sistema de arsenal de Farever con nuestra guía completa de habilidades de armas, ranuras de Arsenal y sinergias de clase para el lanzamiento de Acceso Anticipado en 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Farever+Arsenal+Guide",
+  date: "2026-05-12",
+  author: "Equipo Wiki de Farever"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Arsenal de Farever**: Un sistema único donde las armas definen tu conjunto de movimientos y tu barra de habilidades activas.
+- **Ranuras de Arsenal**: Ranuras especiales que te permiten equipar habilidades de un arma mientras usas otra.
+- **Identidad del Arma**: Cada tipo de arma (Hacha, Arco, Libro de Hechizos) presenta cuatro habilidades activas únicas.
+- **Sinergia de Construcción**: Combinar pasivas de clase con conjuntos de movimientos de armas específicos es la clave para un alto DPS.
+- **Progresión**: Las armas escalan con el nivel del personaje y atributos específicos como Fuerza o Intelecto.
+</Callout>
+
+El sistema de combate en el último RPG de Shiro Games se basa completamente en el **arsenal de Farever**, una mecánica flexible que se aleja de los tradicionales y rígidos árboles de habilidades. En este vibrante mundo abierto, tu elección de arma es más que una simple estadística; dicta todo tu ritmo de combate, habilidades disponibles y rol táctico dentro de un grupo. Ya sea que juegues como un Guerrero de primera línea o un Clérigo enfocado en el apoyo, comprender cómo tejer combos específicos de armas con el innovador sistema de ranuras de Arsenal es esencial para sobrevivir en las peligrosas mazmorras de Siagarta. Esta guía desglosará cada faceta del **arsenal de Farever**, asegurando que sepas exactamente qué armas buscar y cómo configurar tu barra de habilidades para una máxima eficiencia durante el período de Acceso Anticipado de 2026.
+
+<Section icon={Swords} title="Mecánicas Centrales del Arsenal de Farever">
+
+El **arsenal de Farever** funciona como el principal motor de personalización del personaje. A diferencia de muchos RPG de acción donde las habilidades están ligadas a un nivel de personaje o a un entrenador de clase, aquí son intrínsecas a los objetos que encuentras. Cada arma viene con un conjunto predefinido de habilidades que están disponibles en el momento en que la equipas. Esto anima a los jugadores a experimentar con diferentes botines en lugar de aferrarse a un solo arma "meta" durante todo el viaje.
+
+| Característica | Descripción | Impacto en el Juego |
+| :--- | :--- | :--- |
+| **Conjunto de movimientos** | Cadenas de ataque básicas únicas para cada tipo de arma | Determina la velocidad y el alcance del ataque |
+| **Habilidades activas** | Cuatro habilidades únicas por arma | Define tu rotación de combate y ráfaga |
+| **Ranuras de Arsenal** | Ranuras para habilidades de armas secundarias | Permite la personalización de habilidades entre armas |
+| **Afinidad** | Tipos de daño como Físico, Fuego o Escarcha | Esencial para sortear las resistencias enemigas |
+| **Aptitudes** | Requisitos de clase para armas específicas | Restringe el equipo de alto nivel a ciertos roles |
+
+<Callout type="tip" title="Consejo Profesional: Subida de Nivel de Armas">
+No ignores las armas de menor rareza si tienen un nivel superior al de tu equipo actual. En Farever, el escalado de daño base del nivel del arma a menudo supera las pequeñas bonificaciones de estadísticas proporcionadas por los afijos raros o épicos al principio del juego.
+</Callout>
+
+La profundidad del sistema radica en la interacción entre tu "Mano Principal" y tus "Ranuras de Arsenal". Mientras que tu arma principal proporciona tus ataques básicos y habilidades primarias, el sistema de Arsenal te permite "pedir prestadas" habilidades poderosas de otras armas que has recolectado, creando un estilo de juego híbrido que puede adaptarse al juego en solitario o en grupo.
+
+</Section>
+
+<Section icon={Map} title="Tipos de Armas y Categorías de Habilidades">
+
+La variedad dentro del **arsenal de Farever** asegura que cada estilo de juego sea compatible. Desde el impacto contundente de las Hachas Grandes hasta la distancia estratégica de los Arcos, cada tipo de arma ofrece una ventaja táctica distinta. Durante el lanzamiento de Acceso Anticipado de 2026, los jugadores tienen acceso a varias categorías de armas principales, cada una con un escalado y utilidad únicos.
+
+| Tipo de Arma | Escalado Primario | Mejor para | Habilidades de Ejemplo |
+| :--- | :--- | :--- | :--- |
+| **Hacha/Espada Grande** | Fuerza | DPS de primera línea / Tanque | Torbellino, Lanzamiento de Hueso, Hendidura |
+| **Arco** | Destreza | DPS a distancia / Control | Disparo de Chispa, Red de Cazador, Trampa de Ariete |
+| **Libro de Hechizos** | Intelecto | Magia a distancia / AoE | Quemadura, Bola de Fuego, Explosión de Fuego |
+| **Cetro/Báculo** | Intelecto/Espíritu | Apoyo / Curación | Resplandor, Invocar Demonio, Curar |
+| **Escudo** | Fuerza/Constitución | Defensa / Control de masas | Golpe de Escudo, Bloqueo Perfecto, Provocación |
+
+<Callout type="warning" title="Gestión de Resistencia">
+Cada habilidad de arma en el **arsenal de Farever** consume resistencia o maná. Las armas más pesadas como las Espadas Grandes suelen tener mayores costos de resistencia por golpe, lo que hace que la gestión de la resistencia sea una habilidad vital para las construcciones cuerpo a cuerpo.
+</Callout>
+
+Por ejemplo, un jugador que usa el Hacha "Luna de Queso" (un objeto Raro de nivel 4) obtiene acceso a un paquete físico versátil. Esto incluye flujos de combo estándar y la habilidad "Lanzamiento de Hueso", que añade una opción a distancia muy necesaria para una construcción de Guerrero enfocada en el cuerpo a cuerpo. Mientras tanto, un Mago que usa un "Grimorio de Aprendiz" puede utilizar "Quemadura" para acumular quemaduras antes de rematar a los enemigos con una "Bola de Fuego" de alto daño.
+
+</Section>
+
+<Section icon={Zap} title="Cómo Usar el Sistema de Ranuras de Arsenal">
+
+La característica definitoria del **arsenal de Farever** es la capacidad de mezclar y combinar habilidades a través de las ranuras de Arsenal. Este sistema te permite mantener la utilidad de un arma mientras disfrutas del poder puro o el conjunto de movimientos de otra. Si encuentras un arma con una habilidad definitiva increíble pero una velocidad de ataque básica deficiente, simplemente puedes colocarla en una ranura de Arsenal para extraer su habilidad.
+
+**Puntos destacados del video:**
+- Desglose visual de la interfaz de usuario del Arsenal y arrastre de habilidades.
+- Comparación de una construcción pura frente a una construcción de Arsenal híbrida.
+- Demostración de encadenamiento de habilidades entre diferentes tipos de armas.
+
+<Steps>
+  <Step num="1" title="Equipa tu Arma Principal">
+    Selecciona el arma que tenga el conjunto de movimientos de ataque básico que prefieras. Esta arma permanecerá en tu mano durante el combate y determinará tu alcance y velocidad.
+  </Step>
+  <Step num="2" title="Desbloquea las Ranuras de Arsenal">
+    A medida que progreses por las regiones de Siagarta y subas de nivel a tu personaje, desbloquearás ranuras de Arsenal adicionales en el menú de tu personaje.
+  </Step>
+  <Step num="3" title="Asigna Armas Secundarias">
+    Coloca un arma secundaria en una ranura de Arsenal. No necesitas cumplir con todos los requisitos de estadísticas para usar sus habilidades, aunque la efectividad puede escalar con tus atributos.
+  </Step>
+  <Step num="4" title="Mapea las Habilidades a tu Barra">
+    Abre el menú de configuración de habilidades. Ahora puedes arrastrar las habilidades activas de tu arma colocada en el Arsenal a tu barra de acceso rápido principal, reemplazando las habilidades predeterminadas de tu arma principal si lo deseas.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Dominio Híbrido">
+Las construcciones más efectivas en 2026 utilizan las ranuras de Arsenal para llenar los huecos en su kit. Por ejemplo, un Pícaro puede usar Dagas Gemelas para la velocidad, pero colocar una habilidad de Arco como "Red de Cazador" para inmovilizar a los enemigos antes de lanzarse a por una puñalada por la espalda.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Mejores Sinergias de Arsenal para Cada Clase">
+
+Elegir la combinación adecuada dentro del **arsenal de Farever** es lo que separa a los jugadores casuales de los maestros de mazmorras. Si bien cualquier clase puede usar técnicamente varias armas, ciertas sinergias están diseñadas para prosperar juntas.
+
+<CardGrid cols={2}>
+  <Card title="El Guerrero Torbellino">
+    - **Arma Principal**: Espada Grande a dos manos para AoE masivo.
+    - **Habilidad de Arsenal**: "Golpe de Escudo" de un Escudo para aturdimientos de emergencia.
+    - **Enfoque**: Alta Fuerza y Celeridad para mantener los golpes de la Espada Grande frecuentes.
+  </Card>
+  <Card title="El Mago Glacial">
+    - **Arma Principal**: Bastón de Escarcha para ataques ralentizadores consistentes.
+    - **Habilidad de Arsenal**: "Explosión de Fuego" de un Libro de Hechizos para daño de ráfaga.
+    - **Enfoque**: Intelecto y Regeneración de Maná para mantener un aluvión constante de hechizos.
+  </Card>
+  <Card title="El Acechador Sombrío">
+    - **Arma Principal**: Dagas Gemelas para alto crítico y movilidad.
+    - **Habilidad de Arsenal**: "Disparo de Chispa" de un Arco para atraer objetivos individuales.
+    - **Enfoque**: Destreza y Evasión para sobrevivir a encuentros de cerca.
+  </Card>
+  <Card title="El Clérigo Radiante">
+    - **Arma Principal**: Cetro para un rápido escalado de poder de hechizo.
+    - **Habilidad de Arsenal**: "Protección basada en Escudo" para una mayor supervivencia.
+    - **Enfoque**: Espíritu y Defensa para actuar como un ancla sólida para el grupo.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Requisitos de Aptitud">
+Consulta la sección "Aptitudes" de la descripción de un arma. Algunas piezas de **arsenal de Farever** de alta gama están restringidas a trabajos o clases específicas, como "Luchador" o "Asesino". Asegúrate de que tu personaje cumpla con estos requisitos antes de planificar una construcción en torno a un objeto específico.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Progresión del Arsenal y Saqueo">
+
+Encontrar el arma perfecta es solo el principio. La progresión en Farever implica mejorar tu equipo y buscar objetos raros en las muchas regiones artesanales del mundo. El **arsenal de Farever** escala en complejidad a medida que te mueves de los verdes campos de Skover a los traicioneros picos de Ebral.
+
+| Rareza | Color | Disponibilidad | Potencial de Escalado |
+| :--- | :--- | :--- | :--- |
+| **Común** | Blanco | En todas partes | Bajo - Iniciadores básicos |
+| **Poco común** | Verde | Mazmorras tempranas | Moderado - Bueno para subir de nivel |
+| **Raro** | Azul | Mobs élite / Jefes | Alto - Componentes clave de la construcción |
+| **Épico** | Morado | Raids de fin de juego | Muy alto - Mecánicas únicas |
+| **Legendario** | Dorado | Eventos mundiales | Máximo - Habilidades que cambian el juego |
+
+<Callout type="warning" title="Durabilidad y Mantenimiento">
+Las armas de tu **arsenal de Farever** pueden degradarse con el tiempo durante el combate intenso. Visita a un herrero en las ciudades principales para reparar tu equipo y asegurarte de que tus habilidades no pierdan efectividad a mitad de la mazmorra.
+</Callout>
+
+<Checklist
+  id="arsenal-goals"
+  title="Lista de Control de Dominio para 2026:"
+  items={[
+    "Consigue al menos un arma Rara para cada ranura",
+    "Desbloquea las cuatro ranuras de habilidad de Arsenal a través de la progresión",
+    "Identifica el mejor escalado de atributos para tu arma principal",
+    "Domina el tiempo de 'Bloqueo Perfecto' para las construcciones basadas en escudo",
+    "Experimenta con al menos tres combinaciones diferentes de habilidades de arma"
+  ]}
+/>
+
+</Section>
+
+<Section icon={BookOpen} title="Preguntas Frecuentes del Arsenal de Farever">
+
+<FAQ items={[
+  {
+    question: "¿Pierdo el acceso a los ataques básicos de un arma cuando la pongo en una ranura de Arsenal?",
+    answer: "Sí. Las ranuras de Arsenal solo te permiten usar las cuatro habilidades activas del arma. Seguirás usando el conjunto de movimientos de ataque básico de tu arma equipada en la Mano Principal."
+  },
+  {
+    question: "¿Puedo usar un arma de Mago como Guerrero a través del sistema de Arsenal?",
+    answer: "Puedes colocar el arma, pero sus habilidades probablemente escalarán con Intelecto. Dado que la mayoría de los Guerreros se centran en la Fuerza, el daño de esas habilidades será significativamente menor."
+  },
+  {
+    question: "¿Cómo desbloqueo más ranuras de Arsenal en Farever?",
+    answer: "Las ranuras de Arsenal se desbloquean al completar hitos de la historia principal y alcanzar niveles de personaje específicos (Nivel 10, 25 y 40 para la versión actual de Acceso Anticipado)."
+  },
+  {
+    question: "¿Hay un límite en la cantidad de veces que puedo intercambiar habilidades en mi arsenal?",
+    answer: "No, puedes intercambiar armas en tus ranuras de Arsenal y reconfigurar tu barra de habilidades en cualquier momento mientras no estés en combate."
+  }
+]} />
+
+<Callout type="success" title="Consejo Final">
+El **arsenal de Farever** está diseñado para la creatividad. No temas usar una habilidad de arma de "apoyo" en una clase de "daño" si te ayuda a sobrevivir el contenido en solitario. Los mejores jugadores en 2026 serán aquellos que adapten su arsenal a los desafíos específicos de cada mazmorra.
+</Callout>
+
+</Section>

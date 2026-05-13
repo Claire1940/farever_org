@@ -1,0 +1,192 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, ShoppingBag, Users } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Gremio Farever: Guía Completa de Progresión y Sistemas Sociales 2026",
+  description: "Domina los sistemas de gremio de Farever, la gestión de inventario y la progresión temprana del juego. Aprende a usar al Mercader del Gremio y prepárate para las próximas características sociales.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Farever+Guild+Progression",
+  date: "2026-05-12",
+  author: "Equipo Wiki de Farever"
+}
+
+<Callout type="info" title="Guía Rápida">
+- La mecánica del **gremio Farever** actualmente gira en torno al Mercader del Gremio para la expansión del inventario y materiales de crafteo esenciales.
+- Las **monturas gratuitas** se pueden reclamar inmediatamente a través de la tienda del juego en la pestaña de colecciones (Y).
+- Las **habilidades de armas** constituyen el 50% de tu arsenal; subirlas de nivel es tan vital como la progresión de tu clase principal.
+- El **Reciclador de Chispas** es la forma principal de gestionar el equipo chatarra, convirtiendo objetos en valiosos componentes de crafteo.
+- La **Hoja de Ruta 2026** incluye un sistema de gremios dedicado, campos de batalla PvP y una casa de subastas.
+</Callout>
+
+Farever es un MMORPG refrescante de compra única que ha captado la atención de la comunidad con su filosofía de "no pay-to-win" y su combate basado en habilidades. Navegar por las primeras etapas del juego requiere una sólida comprensión de cómo funciona el mercader del **gremio Farever**, ya que este NPC es la puerta de entrada a un inventario expandido y herramientas especializadas. Ya sea que estés explorando los vibrantes paisajes o sumergiéndote en las diez instancias iniciales del juego, gestionar tus recursos de manera eficiente es la diferencia entre un aventurero en apuros y un héroe legendario.
+
+Esta guía completa profundiza en las mecánicas centrales de Farever, desde dominar el sistema de arsenal hasta maximizar tus ganancias de XP a través de la finalización del Códice. Si bien el sistema formal de **gremio Farever** y las características sociales como la casa de subastas están programados para futuras actualizaciones, la infraestructura actual proporciona mucha profundidad para los jugadores dedicados. Te guiaremos a través de los pasos esenciales para optimizar tu inicio, asegurando que nunca te quedes sin espacio en la mochila o pociones curativas durante tus primeros 20 niveles de progresión.
+
+<Section icon={Map} title="Primeros Pasos: Monturas Gratuitas y Exploración">
+
+La primera acción que todo jugador debe tomar al entrar al mundo de Farever es asegurar su transporte. A diferencia de los MMO tradicionales que restringen las monturas detrás de misiones de alto nivel o moneda premium, Farever proporciona un conjunto inicial de forma gratuita para asegurar una exploración fluida.
+
+**Puntos Destacados del Video:**
+- Cómo reclamar el paquete de inicio gratuito en la tienda.
+- Equipar monturas a través del menú Colecciones (Y).
+- Comprender la transición entre planear y montar.
+- Configurar teclas de acceso rápido personalizadas para montar.
+
+<YouTubeEmbed videoId="jJfpGqWiu1M" title="Farever MMORPG - Mejores Consejos y Trucos para Empezar" />
+
+Una vez que tienes tu montura, tu enfoque principal cambia a la finalización del mapa. El mundo está dividido en regiones llenas de "áreas grises" y signos de interrogación. Completar estos objetivos es la forma más rápida de ganar XP.
+
+| Tipo de Objetivo | Tipo de Recompensa | Prioridad |
+| :--- | :--- | :--- |
+| **Activación de Obelisco** | Viaje Rápido y Revelación de Mapa | Crítico |
+| **Signos de Interrogación** | Mucha XP y Lore Local | Alta |
+| **Caza del Códice** | Mejoras de Estadísticas y XP Extra | Media |
+| **Entrada a Mazmorra** | Runas y Equipo Raro | Alta |
+
+<Callout type="tip" title="Consejo de Viaje Rápido">
+Interactuar con un Obelisco te permite establecer un punto de teletransporte. Puedes "volar" entre Obeliscos desbloqueados como una bola de energía, lo cual es automático pero no instantáneo.
+</Callout>
+
+</Section>
+
+<Section icon={ShoppingBag} title="El Mercader del Gremio Farever y el Inventario">
+
+Aunque un sistema completo de **gremio Farever** dirigido por jugadores está en desarrollo, el Mercader del Gremio actualmente sirve como el NPC más importante para el mantenimiento del personaje. Este mercader es tu fuente principal para mejoras de mochila, las cuales son esenciales dada la gran cantidad de botín que sueltan los jefes.
+
+<Steps>
+  <Step num="1" title="Recolectar Oro">
+    Completa objetivos del mapa y mazmorras para acumular oro. También puedes hacer clic derecho en "Paquetes Perdidos" en tu inventario para convertirlos en "Paquetes Completados" por 100 de oro cada uno en el mercader.
+  </Step>
+  <Step num="2" title="Comprar Bolsas">
+    Visita al Mercader del Gremio y selecciona "Comerciar". Compra las Bolsas Pequeñas (6 ranuras cada una) para llenar tus ranuras de mochila vacías.
+  </Step>
+  <Step num="3" title="Comprar Herramientas de Utilidad">
+    El mercader también vende Viales para Alquimia y Redes para atrapar mascotas. Siempre ten una pila de Viales para crear pociones curativas sobre la marcha.
+  </Step>
+</Steps>
+
+<CardGrid cols={2}>
+  <Card title="Gestión de Inventario">
+    - **Bolsas Pequeñas**: Añade 6 ranuras por bolsa.
+    - **Acceso al Banco**: Almacena manuales de entrenamiento y materiales raros.
+    - **Comercio de Paquetes**: Convierte objetos chatarra en recompensas de 100g.
+  </Card>
+  <Card title="Compras de Utilidad">
+    - **Viales**: Requeridos para todas las recetas de Alquimia.
+    - **Redes**: Se usan en la ranura de arma para capturar mascotas salvajes.
+    - **Desbloqueos de Profesiones**: Compra licencias de "Trabajo Bien Hecho".
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Advertencia de Espacio en la Mochila">
+No deseches equipo chatarra al principio. Usa el **Reciclador de Chispas** en el fuerte del segundo mapa para desguazar equipo en materiales de crafteo. Descartar objetos es un desperdicio de posibles mejoras.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Sistemas de Combate: Armas, Arsenal y Runas">
+
+El combate en Farever se divide entre las habilidades de tu clase y las habilidades de tu arma. Cada clase puede equipar múltiples tipos de armas, cada una otorgando un conjunto único de habilidades activas y pasivas. Actualmente, hay más de 25 armas disponibles, lo que permite una diversidad significativa de builds incluso dentro de una misma clase.
+
+| Sistema | Función | Cómo Optimizar |
+| :--- | :--- | :--- |
+| **Habilidades de Armas** | Otorga 2-4 habilidades únicas | Sube de nivel las habilidades con signos "+" verdes |
+| **Ranura de Arsenal** | Habilidad pasiva de una segunda arma | Equipa un bastón de curación para mantenerte |
+| **Runas** | Modifica el comportamiento de las habilidades de clase | Haz clic derecho en las runas para desbloquear nuevos rasgos |
+| **Mejora** | Pequeñas mejoras de estadísticas (+1 Fe, etc.) | Guarda materiales para equipo de alto nivel (Nivel 20) |
+
+La ranura de **Arma de Arsenal** es una mecánica única que te permite "tomar prestada" una habilidad de un arma que no estás sosteniendo activamente. Por ejemplo, un Pícaro podría equipar un cetro curativo en la ranura de Arsenal para obtener un escudo periódico o regeneración de salud.
+
+<Callout type="success" title="Sinergia de Habilidades">
+Al subir de nivel las habilidades de armas, busca sinergias. Algunas habilidades infligen un 50% más de daño a enemigos "ralentizados". Combinar esto con un arma que aplica una desventaja de movimiento es clave para un alto DPS.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Crafteo y Profesiones">
+
+Las profesiones, o "Trabajos", son esenciales para la viabilidad en el endgame. Si bien puedes aprenderlas todas, el costo de desbloquear cada profesión subsiguiente aumenta. Para los principiantes, la **Alquimia** es el punto de partida recomendado debido a la necesidad de autocuración.
+
+<Checklist
+  id="crafting-priority"
+  title="Lista de Tareas de Crafteo:"
+  items={[
+    "Habla con el NPC 'Trabajo Bien Hecho' para desbloquear Alquimia",
+    "Compra Viales al Mercader del Gremio",
+    "Recolecta hierbas en el mundo abierto mientras haces misiones",
+    "Crea Pociones de Curación Menores (restauran 100 HP)",
+    "Guarda Puntos de Crafteo para el Estofado de Mofeta de alto nivel"
+  ]}
+/>
+
+Cocinar es igualmente importante, pero requiere "Puntos de Crafteo" para producir alimentos de alto valor como el Estofado de Mofeta. Estos puntos se regeneran con el tiempo, por lo que debes elegir tus creaciones sabiamente.
+
+| Profesión | Producto Clave | Fuente de Material |
+| :--- | :--- | :--- |
+| **Alquimia** | Pociones de Curación y Maná | Hierbas y Viales |
+| **Cocina** | Comida con Buff de Estadísticas | Carne de Monstruo y Salsas |
+| **Herrería** | Mejoras de Armadura y Armas | Chispas Recicladas y Mineral |
+| **Caza** | Cuero y Materiales Especializados | Mobs de Animales |
+
+<Callout type="info" title="Mecánicas Subacuáticas">
+Farever no tiene animación de nado; caminas por el fondo marino. Usa los saltos dobles para navegar y mantén un ojo en tu barra de aliento azul. Puedes "forzar" largas secciones subacuáticas usando pociones curativas.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Hoja de Ruta 2026: El Futuro de Farever">
+
+Los desarrolladores han compartido una ambiciosa hoja de ruta para el resto de 2026. Si bien el juego se encuentra actualmente en Acceso Anticipado, las características planificadas expandirán significativamente el panorama social y competitivo.
+
+<CardGrid cols={3}>
+  <Card title="Nuevas Clases">
+    - **Monje**: Melé de alta movilidad.
+    - **Druida**: Soporte cambiaformas.
+    - Árboles de Talentos Expandidos.
+  </Card>
+  <Card title="Características Sociales">
+    - **Gremios Oficiales**: Organizaciones dirigidas por jugadores.
+    - **Casa de Subastas**: Comercio entre jugadores.
+    - **Listas de Amigos**: Interfaz social mejorada.
+  </Card>
+  <Card title="Contenido PvP">
+    - **Duelos**: Combate 1v1 en cualquier lugar.
+    - **Regiones PvP**: Zonas de alto riesgo y alta recompensa.
+    - **Campos de Batalla**: Instancias basadas en objetivos.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Estabilidad del Servidor">
+Durante la ventana de lanzamiento inicial de 2026, algunos jugadores experimentaron desconexiones. Los desarrolladores han estabilizado la infraestructura desde entonces, pero siempre se recomienda consultar los foros oficiales de Steam para conocer los horarios de mantenimiento.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas Frecuentes de Farever">
+
+<FAQ items={[
+  {
+    question: "¿Cómo me uno a un gremio de Farever?",
+    answer: "A principios de 2026, el sistema formal de gremios dirigido por jugadores todavía está en desarrollo. Los jugadores actualmente interactúan con el NPC Mercader del Gremio para obtener objetos de progresión, pero el sistema completo de gremios sociales está en la hoja de ruta próxima."
+  },
+  {
+    question: "¿Cuál es el mejor lugar para conseguir XP?",
+    answer: "La XP más eficiente proviene de completar objetivos del mapa (marcados con signos de interrogación) y de completar tu Códice matando un número específico de monstruos (4, 8 y 20 de cada tipo)."
+  },
+  {
+    question: "¿Puedo cambiar mis habilidades de arma?",
+    answer: "Sí. Puedes cambiar de arma en cualquier momento fuera de combate. Para cambiar la habilidad asignada a tu ranura de Arsenal, mantén presionado Control y haz clic izquierdo en el arma en la interfaz de usuario de Arsenal."
+  },
+  {
+    question: "¿Hay intercambio de jugadores en Farever?",
+    answer: "Actualmente, no hay intercambio directo de jugadores ni casa de subastas. Estas características están planeadas para una futura actualización en la hoja de ruta de 2026. Por ahora, debes recolectar o craftear todos tus propios suministros."
+  }
+]} />
+
+</Section>

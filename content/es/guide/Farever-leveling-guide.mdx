@@ -1,0 +1,201 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Zap, Package } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guía de subida de nivel de Farever: Las formas más rápidas de alcanzar el nivel máximo en 2026",
+  description: "Domina la guía de subida de nivel de Farever con nuestro completo tutorial. Aprende sobre la finalización del mapa, la XP del códice, las habilidades de armas y consejos esenciales para el inicio del juego.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Farever+Leveling+Guide",
+  date: "2026-05-12",
+  author: "Equipo Wiki de Farever"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Guía de subida de nivel de Farever**: Concéntrate en la **finalización del mapa** y la **XP del códice** para alcanzar rápidamente el nivel 20.
+- **Recompensas gratuitas**: Reclama tu **montura gratuita** y los objetos iniciales en la tienda inmediatamente después de iniciar sesión.
+- **Sistema de habilidades**: Las habilidades se dividen 50/50 entre tu **clase elegida** y tu **arma equipada**.
+- **Gestión de inventario**: Compra **bolsas** al Mercader del Gremio y recicla el equipo basura en el **Reciclador de Chispas**.
+- **Consejo de supervivencia**: Desbloquea la **profesión de Alquimista** temprano para fabricar pociones curativas para encuentros difíciles con jefes.
+</Callout>
+
+Comenzar tu viaje en un nuevo MMORPG puede ser abrumador, pero seguir una **guía de subida de nivel de Farever** estructurada asegura que no te quedes atrás en la curva de poder. Farever ofrece una mezcla única de progresión basada en clases y maestría específica de armas que recompensa la exploración tanto como el combate. En esta guía, exploraremos las formas más eficientes de ganar experiencia, gestionar tus recursos y optimizar tu personaje para el límite de nivel actual de 20.
+
+Ya seas un aventurero solitario o planees unirte a amigos, comprender las mecánicas centrales de los objetivos del mapa y las entradas del códice de monstruos es vital. Esta **guía de subida de nivel de Farever** te guiará a través de los pasos esenciales para maximizar tus ganancias de XP mientras aseguras el mejor equipo posible durante tus primeras horas. Al final de este artículo, tendrás una hoja de ruta clara desde el nivel 1 hasta el nivel 20, incluyendo consejos sobre fabricación, viaje rápido y sinergia de habilidades.
+
+<Section icon={Zap} title="Primeros Pasos: La Primera Hora Perfecta">
+
+Tu primera hora en Farever marca la pauta para toda tu experiencia de subida de nivel. Antes de adentrarte en la naturaleza, debes reclamar los recursos gratuitos proporcionados por los desarrolladores para aumentar tu movilidad y eficiencia.
+
+**Destacados del vídeo:**
+- Cómo reclamar tu **montura gratuita** y los objetos iniciales de la tienda.
+- Entender el **sistema de doble habilidad** (Clase vs. Arma).
+- Consejos de exploración temprana, incluyendo la activación del **Obelisco**.
+- Gestionar tu primer conjunto de **mejoras de armas**.
+
+<YouTubeEmbed videoId="jJfpGqWiu1M" title="Farever MMORPG - Mejores Consejos para Empezar" />
+
+<CardGrid cols={3}>
+  <Card title="Montura Gratuita">
+    Ve a **Escape > Tienda** y reclama los cinco objetos gratuitos. Equipa tu montura en el menú **Colecciones (Y)**.
+  </Card>
+  <Card title="Habilidades de Arma">
+    Cada arma proporciona habilidades únicas. Mantén pulsado el botón de ataque para autoatacar y usa habilidades especiales cuando estén disponibles.
+  </Card>
+  <Card title="Espacio de Arsenal">
+    Equipa un arma secundaria en tu **Arsenal** para obtener un bono pasivo o una habilidad activa específica sin cambiar.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Mejora de Movilidad">
+La transición entre planear y montar es fluida. Establece una tecla de acceso rápido cómoda para tu montura para navegar por el terreno más rápido, lo cual es una parte fundamental de cualquier **guía de subida de nivel de Farever** eficiente.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Mecánicas de XP Centrales: Mapa y Códice">
+
+A diferencia de los MMO tradicionales donde el farmeo de mobs es la fuente principal de XP, Farever prioriza el descubrimiento. Para subir de nivel de manera efectiva, debes interactuar con el mapa del mundo y completar objetivos específicos de la región.
+
+| Fuente de Nivelación | Rendimiento de XP | Prioridad | Descripción |
+| :--- | :--- | :--- | :--- |
+| **Objetivos del Mapa** | Muy Alto | ★★★★★ | Completa los signos de interrogación grises en el mapa. |
+| **Códice de Monstruos** | Alto | ★★★★☆ | Mata cantidades específicas de monstruos (4, 8, 20). |
+| **Mini-Jefes** | Alto | ★★★★☆ | Impulso masivo de XP una sola vez por cada jefe matado. |
+| **Mazmorras** | Medio | ★★★☆☆ | Mejor para equipo y runas, XP moderada. |
+
+<Steps>
+  <Step num="1" title="Activar Obeliscos">
+    Localiza las grandes balizas en cada zona. Interactuar con un Obelisco revela el mapa y los signos de interrogación de esa región.
+  </Step>
+  <Step num="2" title="Borrar Iconos del Mapa">
+    Navega a cada signo de interrogación. Estos objetivos van desde interacciones simples hasta matar enemigos específicos.
+  </Step>
+  <Step num="3" title="Cazar Niveles del Códice">
+    Abre tu Códice (L) y revisa la sección de monstruos. Intenta alcanzar al menos el segundo nivel (8 muertes) para cada nuevo tipo de enemigo que encuentres.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Truco de Eficiencia">
+No solo pases corriendo a los enemigos. Si ves un nuevo tipo de monstruo, mata al menos 4 u 8 de ellos inmediatamente para activar el bono de XP del Códice. Es mucho más rápido que retroceder más tarde.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Dominio del Combate y Mejoras de Habilidades">
+
+En Farever, tu poder está determinado por cómo gestionas tus puntos de habilidad. Ganas XP tanto para tu clase como para tus armas simultáneamente. Cuando veas un signo de más verde parpadeante, es hora de invertir en tu poder.
+
+**Sinergia y Clasificación de Habilidades**
+A medida que aumentas el rango de una habilidad, desbloqueas sinergias. Por ejemplo, una habilidad podría infligir daño adicional a enemigos ralentizados o aturdidos. Siempre lee las descripciones de subida de rango para construir una rotación de combate cohesiva.
+
+| Tipo de Habilidad | Fuente | Método de Mejora | Beneficio |
+| :--- | :--- | :--- | :--- |
+| **Habilidades de Clase** | Subida de Nivel | Puntos de Habilidad | Utilidad central e identidad de clase. |
+| **Habilidades de Arma** | Arma Equipada | XP de Arma | Estilo de combate y variedad de daño. |
+| **Habilidad de Arsenal** | Espacio de Arsenal | Alternar Manualmente | Buffs pasivos o curaciones de emergencia. |
+| **Bonos de Runas** | Caídas de Mazmorras | Runa con clic derecho | Modificadores personalizados para habilidades activas. |
+
+<Callout type="info" title="Mejoras de Armas">
+Aunque puedes mejorar armas en la estación de mejora, los bonos (+1 Fe, +1 Crítico) son menores en los niveles iniciales. Guarda tus materiales raros para equipo de nivel 15-20 a menos que estés teniendo problemas con un jefe específico.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Gestión de Inventario y Recursos">
+
+Un obstáculo importante en cualquier **guía de subida de nivel de Farever** es el espacio de inventario. Entre materiales de fabricación, caídas de equipo y objetos de misión, tus bolsas predeterminadas se llenarán en cuestión de minutos.
+
+<Checklist
+  id="inventory-prep"
+  title="Lista de Verificación del Inventario:"
+  items={[
+    "Compra Bolsas Pequeñas al Mercader del Gremio por oro",
+    "Equipa las bolsas en los espacios dedicados para bolsas",
+    "Recicla todo el equipo no esencial en el Reciclador de Chispas",
+    "Convierte Paquetes Perdidos en Paquetes Completados por 100 de oro",
+    "Guarda manuales de entrenamiento y materiales raros en el Banco"
+  ]}
+/>
+
+| Acción | Ubicación | Resultado |
+| :--- | :--- | :--- |
+| **Reciclaje** | Reciclador de Chispas (Fuerte) | Produce materiales de fabricación y mejora. |
+| **Venta** | Cualquier Mercader | Produce oro para bolsas y viales. |
+| **Entrega de Paquetes** | Mercader del Gremio | Convierte objetos basura en 100 de oro. |
+| **Banca** | NPC Mercader del Gremio | Ahorra espacio de inventario para uso posterior. |
+
+<Callout type="warning" title="No Descartar Equipo">
+Nunca simplemente "descartes" equipo de tu inventario. Incluso los objetos grises más insignificantes proporcionan materiales esenciales cuando se procesan a través del Reciclador de Chispas.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Profesiones y Fabricación para la Supervivencia">
+
+Las profesiones (Trabajos) son esenciales para la progresión a largo plazo. Para desbloquearlas, debes hablar con el NPC "Trabajo Bien Hecho". Aunque eventualmente puedes aprenderlas todas, tu oro y puntos de fabricación son limitados al principio.
+
+**La Prioridad de Alquimia**
+Si estás jugando una clase con poca autocuración, como el Pícaro, la Alquimia es obligatoria. Te permite fabricar Pociones de Curación Menores usando viales y materiales recolectados en el mundo.
+
+| Objeto Fabricable | Trabajo Requerido | Ingredientes | Efecto |
+| :--- | :--- | :--- | :--- |
+| **Poción de Curación Menor** | Alquimista | Viales, Hierbas | Cura ~100 HP instantáneamente. |
+| **Estofado de Mofeta** | Cazador/Cocinero | Carne, Salsa de Cazador | Mejora estadísticas por un tiempo. |
+| **Redes** | Cazador | Oro (Mercader) | Se usa para atrapar mascotas cosméticas. |
+| **Chispas Refinadas** | Herrero | Equipo Reciclado | Se usa para mejoras de equipo de alto nivel. |
+
+<Callout type="success" title="Curación por Fuerza Bruta">
+Las pociones curativas son potentes. Dado que puedes caminar bajo el agua pero pierdes HP cuando se agota tu aire, puedes "curarte por fuerza bruta" en la exploración submarina bebiendo pociones para mantenerte vivo más tiempo.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Consejos de Exploración y Viaje Rápido">
+
+El mundo de Farever está diseñado verticalmente. Saber cómo navegar por el terreno te ahorrará horas de tiempo de viaje.
+
+**Teletransporte de Obeliscos**
+Los Obeliscos no son solo para revelar mapas; son tu red principal de viaje rápido. Interactúa con un Obelisco para establecerlo como tu punto de teletransporte. Puedes "volar" entre Obeliscos desbloqueados seleccionándolos en el mapa, transformándote en una bola de energía para un viaje automatizado.
+
+**Mecánicas Submarinas**
+No hay natación; caminas sobre el lecho marino.
+- **Barra de Aire**: Observa la barra azul. Cuando llega a cero, recibes daño rápidamente.
+- **Salto Doble**: Puedes saltar más alto bajo el agua, lo que te permite alcanzar cofres ocultos u objetivos de misión.
+- **Combate**: Puedes luchar bajo el agua, pero tu movimiento es ligeramente más lento.
+
+<Callout type="info" title="Características Sociales">
+A partir de la fase de acceso anticipado de 2026, el comercio entre jugadores y una lista de amigos aún están en desarrollo. Usa el menú "Administrar Grupo" para invitar a jugadores cercanos o amigos a través de Steam para abordar jefes de mazmorra difíciles juntos.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Conclusión y Preguntas Frecuentes">
+
+Siguiendo esta **guía de subida de nivel de Farever**, deberías alcanzar el límite de nivel actual de 20 con facilidad. Concéntrate primero en la finalización del mapa, mantén tu Códice actualizado y siempre recicla tu equipo. A medida que el juego se expanda con las clases Druida y Monje, estas estrategias fundamentales seguirán siendo la forma más eficiente de progresar.
+
+<FAQ items={[
+  {
+    question: "¿Cuál es el nivel máximo actual en Farever?",
+    answer: "A partir de la actual versión de acceso anticipado de 2026, el nivel máximo es 20, aunque la hoja de ruta planea aumentarlo a 50 pronto."
+  },
+  {
+    question: "¿Cómo consigo más ranuras de inventario?",
+    answer: "Visita al Mercader del Gremio y compra Bolsas Pequeñas con oro. Equípalas en la pantalla de tu inventario para añadir 6 ranuras por bolsa."
+  },
+  {
+    question: "¿Puedo cambiar mi habilidad de Arsenal?",
+    answer: "Sí. Mantén pulsado Control y haz clic izquierdo en el arma en tu ranura de Arsenal para seleccionar una habilidad diferente de la reserva de habilidades de esa arma."
+  },
+  {
+    question: "¿Dónde reciclo mi equipo viejo?",
+    answer: "Ve a la segunda zona del mapa y busca la estación de Reciclador de Chispas. Haz clic derecho en tus objetos basura para convertirlos en materiales de fabricación."
+  }
+]} />
+
+</Section>

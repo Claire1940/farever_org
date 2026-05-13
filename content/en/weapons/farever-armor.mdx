@@ -1,0 +1,191 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Farever Armor: Damage Mechanics and Stat Priority Guide 2026",
+  description: "Master the farever armor system and damage mechanics. Learn how Armor Pen, Fervor, and Critical hits affect your build in this comprehensive 2026 guide.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Farever+Armor+Guide",
+  date: "2026-05-13",
+  author: "Farever Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Farever armor** mechanics determine your survival, but understanding how to penetrate enemy defense is key to high DPS.
+- **Fervor** is the most versatile stat, providing multiplicative damage, healing, and damage reduction.
+- **Armor Penetration** becomes superior to other stats against high-level bosses with over 1,500 armor.
+- **Stat Priority** should focus on core attributes first, followed by damage masteries, fervor, and then armor pen.
+- **Critical Hits** are generally lower priority unless your specific build or weapon has massive crit bonus synergies.
+</Callout>
+
+In the complex world of Farever, understanding the interplay between offensive stats and defensive ratings is the difference between struggling against trash mobs and melting high-level bosses. The **farever armor** system dictates how much damage you mitigate and how much your enemies can shrug off. While many players focus solely on raw attack power, the underlying math involving Armor Penetration, Fervor, and Critical bonuses creates a nuanced landscape for min-maxing. This guide will dissect the exact formulas used in the 2026 meta, providing you with the tools to calculate your effective damage output. Whether you are a Priest scaling off Faith or a Warrior relying on Strength, mastering these mechanics is essential for end-game progression. We will explore how armor ratings scale, the tipping points where certain stats outperform others, and how to optimize your gear for the toughest encounters in the game.
+
+<Section icon={Swords} title="Core Attributes and Weapon Scaling">
+
+Before diving into the complexities of **farever armor** penetration, you must understand the foundation of your damage: Attribute Scaling. Every weapon and skill in the game scales off a specific primary attribute, indicated by icons in the skill description. For instance, a fist icon represents Strength, while other icons may represent Faith or Intellect.
+
+If you are playing a Priest but using a weapon like the Glorious Sword which scales off Strength, your damage will be significantly lower than if you used a Faith-scaling weapon. The calculation is typically a base value plus a percentage of your primary attribute.
+
+| Attribute | Primary Scaling Type | Core Benefit | Secondary Benefit |
+| :--- | :--- | :--- | :--- |
+| **Strength** | Physical Melee | Increases raw physical power | Minor Critical Bonus boost |
+| **Intellect** | Magical Spells | Increases spell potency | Minor Critical Bonus boost |
+| **Faith** | Holy/Support | Increases healing and holy damage | Boosts core Priest abilities |
+| **Dexterity** | Ranged/Agility | Increases attack speed/dodge | Higher base dodge chance |
+
+<Callout type="info" title="Attribute Priority">
+Always prioritize gear that provides the specific attribute your weapon and main skills scale from. A high-level weapon with the wrong scaling is often worse than a lower-level weapon that matches your primary stats.
+</Callout>
+
+Mastery is another layer of damage that acts as a straight multiplicative boost. For example, the Prayer of Virtue on a Priest can provide a 15% boost to all damage while a shield is active. These masteries are calculated after your base attribute scaling but before enemy armor reduction is applied.
+
+</Section>
+
+<Section icon={Shield} title="Farever Armor and Penetration Mechanics">
+
+The way **farever armor** functions is through a diminishing returns curve. As your armor rating increases, each additional point provides slightly less damage reduction. However, the curve is generous enough that reaching 2,000 armor can reduce incoming damage by approximately 46.6%.
+
+**Video Highlights:**
+- Armor penetration is confirmed to work and is vital for level 20+ bosses.
+- Every 6 points of Armor Pen rating grants 1% penetration.
+- Level 20 bosses like Lady B have over 1,500 armor, reducing your damage by nearly 40%.
+- Dummies have zero armor, making armor pen tests useless against them.
+
+<YouTubeEmbed videoId="zcIMQjmQXlI" title="Farever - How Damage Actually Works" />
+
+To counter high enemy defense, you must utilize Armor Penetration (for physical) or Magic Penetration (for magical). The scaling for both is linear: 6 points of rating equals 1% penetration.
+
+| Armor Rating | Damage Reduction % | Effective Damage Taken |
+| :--- | :--- | :--- |
+| **500** | 17.9% | 82.1% |
+| **1,000** | 30.4% | 69.6% |
+| **1,500** | 39.6% | 60.4% |
+| **2,000** | 46.6% | 53.4% |
+
+<Callout type="warning" title="The Hard Cap">
+It is widely believed that 600 points of Armor Penetration (100%) is the hard cap. Beyond this point, you completely ignore enemy armor. Testing against zero-defense dummies shows that armor pen does not provide "bonus" damage if the enemy has no armor.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="The Versatility of Fervor">
+
+Fervor is often considered the "king of stats" in Farever because it is a multiplicative damage boost that also improves your survivability. Unlike Armor Penetration, which only increases damage against armored targets, Fervor increases your raw damage output, your healing potency, and your damage mitigation.
+
+The scaling for Fervor is 15 points of rating for every 1% increase. While this is "slower" than Armor Penetration (which is 6 per 1%), its multi-purpose nature makes it incredibly valuable for almost every build.
+
+<CardGrid cols={3}>
+  <Card title="Damage Boost">
+    - Multiplicative increase to all output.
+    - Works on both physical and magical.
+    - 1,000 Fervor = 66.7% boost.
+  </Card>
+  <Card title="Healing & Shields">
+    - Increases all outgoing healing.
+    - Strengthens shield capacity.
+    - Vital for Priests and Paladins.
+  </Card>
+  <Card title="Damage Reduction">
+    - Reduces incoming damage.
+    - Stacks with armor for high tankiness.
+    - Linear scaling makes it predictable.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Optimization Tip">
+Because Fervor provides damage reduction and healing, it is generally safer to stack Fervor over Armor Pen unless you are strictly aiming for a "Glass Cannon" build for high-level raiding.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Critical Hits and Mastery Bonuses">
+
+Critical hits in Farever can be somewhat misleading. When you see a "150% Critical Bonus," it actually means a 50% increase over a normal hit, not a 150% increase. Base critical chance starts low and is increased by 1% for every 12.5 points of Critical Rating.
+
+Generally, Critical Chance is the lowest priority for damage dealers. This is because every 2% of Crit Chance only equates to a 1% average damage gain (assuming the standard 50% bonus). Unless you have specific gear like "Thorn Lace" or talents that trigger on crits, you are better off investing in Fervor or Armor Pen.
+
+| Stat | Rating for 1% | Average DPS Gain per 100 Points |
+| :--- | :--- | :--- |
+| **Armor Pen** | 6.0 | ~2.7% (Against 1,500 Armor) |
+| **Fervor** | 15.0 | ~6.6% (Flat Multiplier) |
+| **Crit Chance** | 12.5 | ~4.0% (Assuming 50% Bonus) |
+
+<Callout type="tip" title="Mastery Synergies">
+Mastery stats (Physical or Magical) provide straight multiplicative boosts. Always check your active buffs; for example, some classes gain a 15-25% mastery boost through skill upgrades or specific rotations.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="End-Game Stat Priority and Testing">
+
+When facing the level 20 bosses in the current 2026 meta, your stat priority shifts. Against enemies with low armor (under 600), Fervor and Crit are highly effective. However, once you face bosses like Lady B with 1,500+ armor, Armor Penetration becomes your most efficient damage stat.
+
+<Steps>
+  <Step num="1" title="Primary Attributes">
+    Ensure all gear pieces provide your class's primary attribute (Strength, Faith, etc.) to maximize base scaling.
+  </Step>
+  <Step num="2" title="Damage Masteries">
+    Focus on skill upgrades and talents that provide flat percentage damage increases (Mastery).
+  </Step>
+  <Step num="3" title="Fervor vs. Armor Pen">
+    Balance Fervor for general play. Switch to Armor Penetration gear when tackling bosses with 1,500+ armor to negate their 40% damage reduction.
+  </Step>
+  <Step num="4" title="Critical Chance">
+    Fill remaining slots with Critical Rating only if your build requires crit-procs for specific skill cooldowns.
+  </Step>
+</Steps>
+
+To test this yourself, head to a level 20 dungeon on Hard mode. Record your damage with a single skill (like Conquer). Swap a piece of Fervor gear for an equal amount of Armor Pen gear and observe the change. Against high-level bosses, you will notice the Armor Pen piece often results in higher single-hit numbers.
+
+<Callout type="info" title="The Tipping Point">
+The mathematical tipping point where Armor Penetration begins to significantly outperform Fervor for pure DPS is roughly at the 1,050 total rating mark when facing high-defense targets.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Optimization Checklist">
+
+Use this checklist to ensure your character is optimized for the **farever armor** mechanics found in late-game content.
+
+<Checklist
+  id="armor-optimization"
+  title="End-Game Readiness Checklist:"
+  items={[
+    "Weapon matches primary scaling attribute (e.g., Faith for Priest)",
+    "Armor Penetration rating is at least 300 for level 20 bosses",
+    "Fervor rating is high enough to provide at least 15% damage reduction",
+    "Active Mastery buffs are maintained during combat rotations",
+    "Critical Bonus is boosted via passive talents if running a Crit build"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Does Armor Penetration work on target dummies?",
+    answer: "No. Target dummies in Farever have zero armor defense. Since Armor Penetration only negates existing armor, it provides no benefit against targets with no defense."
+  },
+  {
+    question: "Which is better for a Priest: Fervor or Armor Pen?",
+    answer: "Fervor is generally better for Priests because it boosts healing and shielding in addition to damage. However, for a pure damage build against bosses, Armor Pen is slightly more efficient."
+  },
+  {
+    question: "What is the hard cap for Armor Penetration in Farever?",
+    answer: "The hard cap is 600 rating, which grants 100% Armor Penetration. Investing points beyond this does not increase damage further against current level 20 enemies."
+  },
+  {
+    question: "How does the farever armor formula handle diminishing returns?",
+    answer: "The game uses a modifier of 2,285 in its armor formula. As you gain more armor, the percentage of damage reduction increases at a slower rate, making extremely high armor values less efficient per point."
+  }
+]} />
+
+</Section>

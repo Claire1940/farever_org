@@ -1,0 +1,169 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Ubicación del Rey Ratsar de Farever: Guía y Estrategia del Jefe 2026",
+  description: "Descubre la ubicación exacta del Rey Ratsar de Farever en Siagarta. Aprende las mecánicas del jefe, las builds recomendadas y los objetos que suelta para este encuentro de Acceso Anticipado.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=King+Ratsar+Location+Guide",
+  date: "2026-05-12",
+  author: "Equipo Wiki de Farever"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Ubicación del Rey Ratsar de Farever**: Se encuentra dentro de la mazmorra **Gruta Húmeda** en la costa occidental de la **Isla Skover**.
+- **Nivel Recomendado**: Los jugadores deben tener al menos **Nivel 8-10** antes de intentar este encuentro en solitario.
+- **Mecánica Clave**: Presta atención a la fase **Oleada de Bichos** donde el jefe invoca aliados imposibles de seleccionar.
+- **Mejor Estrategia**: Usa un **Guerrero** para presión frontal o un **Mago** con bastón de escarcha para ralentizar el movimiento del jefe.
+- **Mejor Recompensa**: Alta probabilidad de soltar el **Anillo del Rey de la Alcantarilla**, un anillo raro que proporciona celeridad al principio del juego.
+</Callout>
+
+Navegar por el vibrante pero peligroso mundo de Siagarta requiere una aguda observación y una sólida comprensión de las jerarquías regionales del juego. Como uno de los primeros grandes obstáculos para los nuevos jugadores en el último RPG de acción de Shiro Games, encontrar la **ubicación del rey ratsar de farever** es esencial para progresar el equipo de tu personaje y desbloquear regiones más profundas del mapa. El Rey Ratsar sirve como una especie de guardián, poniendo a prueba tu dominio del sistema de Arsenal y tu capacidad para gestionar la resistencia durante el combate de alta intensidad. Esta guía proporciona un desglose completo de dónde encontrar a este escurridizo rey roedor, las mecánicas que necesitas para sobrevivir al encuentro y las mejores builds para asegurar una victoria rápida. Ya sea que juegues solo o en un grupo cooperativo, comprender el terreno de la Gruta Húmeda es el primer paso para reclamar los tesoros escondidos en las profundidades de la Isla Skover.
+
+<Section icon={Map} title="Localizando al Rey Ratsar en Siagarta">
+
+Encontrar la **ubicación del rey ratsar de farever** implica viajar a la región inicial de la Isla Skover. A diferencia de algunos jefes de mundo abierto que deambulan por las llanuras, el Rey Ratsar es el encuentro final de una actividad de subregión específica conocida como la **Gruta Húmeda**. Esta ubicación está escondida detrás de una serie de acantilados escalables y cascadas ocultas, lo que la hace fácil de pasar por alto si simplemente sigues las carreteras principales.
+
+**Puntos destacados del video:**
+- Recorrido visual de la costa occidental de la Isla Skover.
+- Identificación de la entrada oculta detrás del punto de referencia "Sauce Llorón".
+- Rutas de acceso directo usando el Planeador para evitar los primeros enemigos menores.
+
+<YouTubeEmbed videoId="87bzUaPaamQ" title="Gameplay de Acceso Anticipado de Farever" />
+
+Para llegar a la entrada, dirígete al oeste desde el pueblo inicial hacia los **Muelles Destrozados**. Sigue la costa hacia el norte hasta que veas la entrada de una cueva que emite un tenue brillo verde. Esta es la entrada a la Gruta. Puedes seguir tu progreso usando el mapa interactivo de Siagarta, que renderiza mosaicos de minimapa en el juego para una orientación precisa.
+
+| Punto de Referencia | Dirección | Características Notables |
+| :--- | :--- | :--- |
+| **Muelles Destrozados** | Sur de la Gruta | Punto de partida para la caminata costera / Mercaderes NPC cercanos |
+| **Sauce Llorón** | Directamente al Este | Un árbol enorme usado como ancla de navegación para la cueva |
+| **Gruta Húmeda** | Destino | La mazmorra instanciada que contiene la pelea contra el jefe Rey Ratsar |
+| **Puesto Avanzado de Skover** | Norte | Punto de reaparición más cercano si el encuentro sale mal |
+
+<Callout type="tip" title="Consejo de Exploración">
+Antes de entrar en la Gruta Húmeda, asegúrate de haber desbloqueado el **Planeador**. Hay un cofre secreto ubicado en una cornisa alta justo encima de la arena del jefe al que solo se puede acceder planeando desde las vigas superiores de la cueva.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mecánicas del Jefe y Estrategia de Combate">
+
+El Rey Ratsar es un agresivo luchador cuerpo a cuerpo que utiliza el entorno para abrumar a los jugadores. La pelea se divide en tres fases distintas, cada una requiere una gestión de resistencia y posicionamiento diferentes. Comprender estos patrones es más importante que simplemente tener equipo de alto nivel, ya que el combate de acción en *Farever* recompensa el timing por encima de las estadísticas puras.
+
+### Tabla de Patrones de Ataque
+
+| Nombre del Ataque | Tipo | Descripción | Estrategia de Contraataque |
+| :--- | :--- | :--- | :--- |
+| **Barrido de Cola** | AOE Cuerpo a cuerpo | Un giro de 360 grados que derriba a todos los jugadores cercanos | **Bloqueo Perfecto** o esquivar hacia atrás cuando levanta la cola |
+| **Salto de Plaga** | Dirigido | El jefe salta en el aire y se estrella contra un jugador | Observa el círculo rojo en el suelo y **esquiva** |
+| **Oleada de Bichos** | Invocación | Ratsar se retira a un pilar e invoca pequeños secuaces ratas | Agrupa y usa **habilidades de arma AOE** para eliminar a los adds |
+| **Rugido del Rey** | Debuff | Un grito que reduce la defensa del jugador durante 10 segundos | Mantén la distancia cuando brille en rojo / Usa purificación de **Clérigo** |
+
+<CardGrid cols={2}>
+  <Card title="Fase 1: El Carroñero">
+    El jefe permanece en el suelo y usa ataques básicos de garras y cola. Concéntrate en aprender el timing del **Bloqueo Perfecto** para guardar resistencia para las fases posteriores y más peligrosas.
+  </Card>
+  <Card title="Fase 2: El Enjambre">
+    Al 60% de salud, Ratsar invocará oleadas de secuaces. No los ignores; aplican un debuff de veneno acumulable que puede agotar rápidamente tu salud si no se controla.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Gestión de la Resistencia">
+El "Salto de Plaga" del Rey Ratsar puede ser un golpe mortal para Pícaros o Magos con poco equipo. Nunca agotes tu barra de resistencia por completo; siempre mantén suficiente para al menos una esquiva de emergencia.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Builds Recomendadas para el Encuentro">
+
+El sistema de Arsenal permite una flexibilidad significativa al abordar la **ubicación del rey ratsar de farever**. Dependiendo de tu clase inicial elegida, debes equipar habilidades de arma específicas que exploten las debilidades del jefe.
+
+### Tabla de Sinergia de Clases
+
+| Clase | Rol | Arma Recomendada | Habilidad Clave para Ratsar |
+| :--- | :--- | :--- | :--- |
+| **Guerrero** | Tanque / Primera línea | Mandoble a dos manos | **Torbellino** (Perfecto para eliminar a los secuaces de la Oleada de Bichos) |
+| **Mago** | DPS a distancia | Bastón de Escarcha | **Púa Glacial** (Ralentiza el movimiento y la velocidad de salto del jefe) |
+| **Pícaro** | DPS rápido | Dagas gemelas | **Paso Sombrío** (Te permite teletransportarte detrás del jefe durante los Barridos de Cola) |
+| **Clérigo** | Apoyo | Cetro | **Escudo Radiante** (Protege al grupo del debuff Rugido del Rey) |
+
+<Steps>
+  <Step num="1" title="Equipa Habilidades de Arsenal AOE">
+    Asegúrate de que tu ranura de Arsenal secundaria esté equipada con un arma que tenga un ataque de amplio alcance. Esto es vital para la fase de secuaces.
+  </Step>
+  <Step num="2" title="Acumula Resistencia al Veneno">
+    Si tienes acceso al trabajo de **Alquimista**, crea algunos Antídotos Menores. Las mordeduras del Rey Ratsar aplican un efecto de veneno persistente.
+  </Step>
+  <Step num="3" title="Posicionamiento">
+    Los Magos y Clérigos deben permanecer cerca de las paredes de la cueva para evitar el AOE central del "Salto de Plaga", mientras que los Guerreros mantienen al jefe centrado.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Consejo de Build Profesional">
+Un **Guerrero** usando un escudo con la pasiva "Baliza" puede negar eficazmente el Barrido de Cola sin perder salud, permitiendo al resto del grupo concentrarse completamente en el daño.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Botín y Recompensas del Rey Ratsar">
+
+Derrotar al Rey de la Gruta proporciona a los jugadores su primera muestra de botín raro de Acceso Anticipado. Si bien las tasas de caída están sujetas a cambios durante las actualizaciones de la hoja de ruta, los siguientes elementos están actualmente confirmados como parte de la tabla de botín de Ratsar.
+
+| Nombre del Objeto | Rareza | Tipo | Bonificación de Estadísticas |
+| :--- | :--- | :--- | :--- |
+| **Anillo del Rey de la Alcantarilla** | Raro | Anillo | +5% Celeridad / +10 Resistencia al Veneno |
+| **Diente de Ratsar** | Poco común | Material | Usado para fabricar **Dagas de Nivel 2** |
+| **Capa del Explorador de la Gruta** | Raro | Armadura | +12 Defensa / Aumenta la duración del planeo |
+| **Esencia Húmeda** | Común | Moneda | Se intercambia en el Puesto Avanzado de Skover por recetas de fabricación básicas |
+
+<Checklist
+  id="ratsar-loot-goals"
+  title="Lista de Verificación Post-Pelea:"
+  items={[
+    "Recoge el 'Anillo del Rey de la Alcantarilla' para tu build de Celeridad",
+    "Reúne al menos 5 'Dientes de Ratsar' para mejoras de armas",
+    "Interactúa con la 'Tableta Antigua' detrás del trono del jefe para la historia",
+    "Regresa a los Muelles Destrozados para entregar la misión 'Plaga de la Gruta'"
+  ]}
+/>
+
+<Callout type="info" title="Escalado del Botín">
+En *Farever*, la calidad del botín escala ligeramente con el número de jugadores en tu grupo. Realizar la incursión del Rey Ratsar en un grupo cooperativo completo de 4 personas aumenta la probabilidad de caídas "Raras" en aproximadamente un 15%.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Tácticas Avanzadas y Preguntas Frecuentes">
+
+Para los jugadores que buscan dominar la **ubicación del rey ratsar de farever**, las técnicas de speedrunning y las estrategias sin fallos en solitario se están volviendo populares dentro de la comunidad. La clave para una eliminación rápida es la "Gestión de Aturdimiento". Al realizar ataques pesados consecutivos durante el rugido del jefe, puedes aturdirlo a un estado vulnerable, duplicando tu daño durante 5 segundos.
+
+<FAQ items={[
+  {
+    question: "¿El Rey Ratsar reaparece en el mundo abierto?",
+    answer: "No, el Rey Ratsar es un jefe de mazmorra instanciada. Para luchar contra él de nuevo, debes salir de la Gruta Húmeda y esperar a que la instancia se reinicie, lo que generalmente toma de 10 a 15 minutos."
+  },
+  {
+    question: "¿Cuál es la mejor clase para derrotar al Rey Ratsar en solitario?",
+    answer: "El Guerrero es la opción más segura debido a su alta salud y capacidades de bloqueo. Sin embargo, un Pícaro hábil puede terminar la pelea más rápido usando habilidades de evasión para permanecer en constante rango cuerpo a cuerpo."
+  },
+  {
+    question: "¿Puedo encontrar la ubicación del Rey Ratsar en el mapa automáticamente?",
+    answer: "El juego no coloca un marcador en tu mapa hasta que hayas descubierto físicamente la entrada a la Gruta Húmeda. Sigue la costa occidental de la Isla Skover para encontrarla."
+  },
+  {
+    question: "¿El botín del Rey Ratsar es comerciable?",
+    answer: "El equipo como el Anillo del Rey de la Alcantarilla es 'Ligado al equipar', lo que significa que puedes comerciarlo con amigos siempre y cuando no lo hayas usado tú mismo. Los materiales de fabricación como el Diente de Ratsar son completamente comerciables."
+  }
+]} />
+
+<Callout type="tip" title="Consejo Final">
+Si tienes dificultades con la pelea, consulta los foros de la **Comunidad de Steam** o el **Discord oficial de Farever**. Muchos jugadores veteranos se encuentran cerca de la entrada de la Gruta para ayudar a los recién llegados a superar a su primer jefe para obtener las recompensas de la misión 'Plaga de la Gruta'.
+</Callout>
+
+</Section>

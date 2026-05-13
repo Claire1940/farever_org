@@ -1,0 +1,172 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "farever clawdius: 보스 가이드, 전술 및 전리품 드랍 2026",
+  description: "전문가 가이드를 통해 farever clawdius 보스전을 마스터하세요. 2026년 Siagarta에서 공격 패턴, 최적의 클래스 빌드 및 희귀 전리품 파밍 방법을 알아보세요.",
+  category: "가이드",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Farever+Clawdius+Boss+Guide",
+  date: "2026-05-12",
+  author: "Farever 위키 팀"
+}
+
+<Callout type="info" title="빠른 가이드">
+- **farever clawdius**: Siagarta의 해안 지역에서 발견되는 상위 티어 엘리트 몬스터로, 강력한 물리 방어력으로 유명합니다.
+- **핵심 메커니즘**: 보스의 단단한 껍질을 우회하고 치명타를 입히기 위해 **인내심 파괴(Breaking Endurance)**에 집중하세요.
+- **최고의 전략**: 전방 압박을 위해 **워리어(Warrior)**를 사용하고, 보스의 거대한 광역(AoE) 슬램 데미지를 완화하기 위해 **클레릭(Cleric)**을 활용하세요.
+- **중요 팁**: "버블 실드(Bubble Shield)" 단계를 주의하세요. 파괴적인 데미지 반사 카운터를 피하려면 모든 공격을 중지해야 합니다.
+- **주요 전리품**: 중반 탱킹 빌드에 필수적인 희귀 방패인 **Crabgantua's Kneecap**을 드랍할 확률이 높습니다.
+</Callout>
+
+Farever는 2026년 5월 6일 얼리 액세스 출시 이후 액션 RPG 세계를 휩쓸었습니다. Shiro Games에서 개발한 이 온라인 멀티플레이어 경험은 플레이어들에게 Siagarta의 광활하고 수직적인 세계를 탐험하도록 도전장을 내밉니다. 수많은 위험 요소들 중에서도, farever clawdius라 불리는 조우는 성장하는 플레이어들에게 중요한 이정표가 됩니다. 이 보스는 단순히 높은 스탯 그 이상을 요구합니다. 게임의 액션 전투 리듬, 인내심 관리, 그리고 혁신적인 아스널(Arsenal) 시스템에 대한 깊은 이해가 필요합니다.
+
+이 도전에 혼자 맞서든 친구들과 함께하든, Clawdius의 구체적인 메커니즘을 이해하는 것은 성공적인 전리품 획득과 가장 가까운 부활 지점으로의 빠른 귀환을 결정짓는 차이가 될 것입니다. 이 종합 가이드에서는 보스의 위치, 치명적인 공격 패턴, 그리고 끊임없이 진화하는 Farever의 세계에서 승리를 보장하기 위한 가장 효과적인 클래스 빌드를 분석해 드립니다.
+
+<Section icon={Map} title="Siagarta에서 Clawdius 위치 찾기">
+
+farever clawdius를 찾으려면 플레이어는 험준한 절벽과 숨겨진 해저 동굴로 유명한 해안 지역인 Skover Island 서브 지역으로 모험을 떠나야 합니다. 일반적인 월드 활동과 달리, Clawdius는 종종 고가치의 보물 상자를 지키거나 특수 던전의 입구를 지키는 엘리트 보스입니다.
+
+**비디오 하이라이트:**
+- **시각적 개요**: Skover Island 환경과 보스 아레나 레이아웃을 확인하세요.
+- **전투 리듬**: 강력한 집게 휘두르기에 대한 퍼펙트 블록 타이밍을 관찰하세요.
+- **전리품 공개**: 전투 후 획득 가능한 독특한 희귀 드랍 아이템을 미리 살펴보세요.
+
+<YouTubeEmbed videoId="87bzUaPaamQ" title="Farever | Early Access | OUT NOW!" />
+
+아레나에 도달하려면 게임의 수직 이동 도구를 활용해야 합니다. Ebral 봉우리에서 글라이딩하거나 해안 근처에서 발견되는 그래플링 훅을 사용하는 것이 가장 효율적인 경로입니다. 보스의 물리 저항력이 레벨에 따라 크게 증가하므로, 이 전투를 시도하기 전에 캐릭터 레벨이 최소 15 이상인지 확인하세요.
+
+| 위치 특징 | 설명 | 요구 사항 |
+| :--- | :--- | :--- |
+| **주요 지역** | Skover Island, 해안 절벽 | 레벨 15+ 권장 |
+| **이동 도구** | 글라이더 또는 그래플링 훅 | 기본 탐험 숙련도 |
+| **리스폰 타이머** | 처치 후 20분 | 공용/공유 월드 인스턴스 |
+| **난이도** | 엘리트 / 마이너 보스 | 솔로 (어려움) / 협동 (보통) |
+
+<Callout type="tip" title="환경적 이점">
+아레나를 둘러싼 높은 바위 플랫폼을 활용하세요. 메이지와 같은 원거리 클래스는 이 높은 곳에서 안전하게 주문을 시전할 수 있습니다. 다만, Clawdius는 너무 오래 정지해 있을 경우 "워터 제트(Water Jet)" 공격으로 해당 위치까지 공격할 수 있습니다.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="전투 메커니즘 및 공격 패턴">
+
+farever clawdius 전투는 인내와 끈기의 시험입니다. 보스는 인내 게이지가 소모될 때까지 받는 데미지를 70% 감소시키는 "단단한 껍질(Hardened Shell)" 메커니즘을 사용합니다. 특히 근접 중심의 로그와 워리어에게는 생존을 위해 공격의 특정 시각적 신호를 이해하는 것이 필수적입니다.
+
+<CardGrid cols={2}>
+  <Card title="1단계: 파쇄 (The Sunder)">
+    - **집게 휘두르기**: 회피하거나 막을 수 있는 빠른 수평 공격입니다.
+    - **지면 강타**: 점프나 완벽한 타이밍이 필요한 높은 데미지의 광역 공격입니다.
+    - **집중**: 중화기 스킬을 사용하여 인내 게이지를 소모시키세요.
+  </Card>
+  <Card title="2단계: 버블 코어 (The Bubble Core)">
+    - **버블 실드**: 플레이어에게 가해지는 데미지의 50%를 반사합니다.
+    - **워터 제트**: 가장 멀리 있는 플레이어를 대상으로 하는 원거리 압박입니다.
+    - **집중**: 보호막을 공격하지 마세요. "노출(Exposed)" 상태가 될 때까지 기다리세요.
+  </Card>
+</CardGrid>
+
+Clawdius는 체력이 40% 미만으로 떨어지면 발동되는 "광폭(Enraged)" 상태에서 특히 위험합니다. 이 기간 동안 공격 속도가 증가하고, 체력이 낮은 메이지를 즉사시킬 수 있는 잡기 공격인 "분쇄 집게(Crushing Pincer)" 기술을 사용합니다.
+
+| 공격 명칭 | 시각적 신호 | 최선의 대응 | 데미지 유형 |
+| :--- | :--- | :--- | :--- |
+| **Tidal Wave** | 푸르게 빛나는 눈 | 보스 뒤로 대시 | 냉기 / 마법 |
+| **Pincer Crush** | 오른쪽 집게가 넓어짐 | 회피 구르기 (왼쪽) | 물리 |
+| **Sea Foam Mist** | 아레나가 안개로 뒤덮임 | 클레릭의 빛 근처에 머무름 | 상태 이상 (둔화) |
+| **Shell Spin** | 보스가 껍질 속으로 수축함 | 거리 유지 | 물리 광역 |
+
+<Callout type="warning" title="인내심 관리">
+회피 버튼을 남발하지 마세요. Farever에서 회피는 상당한 인내심을 소비합니다. Clawdius가 쉘 스핀을 준비하는 동안 인내심이 바닥나면 고데미지 지역에서 탈출할 수 없게 됩니다.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="최적의 빌드 및 클래스 전략">
+
+파티가 이 전투에 최적화되어 있다면 farever clawdius를 물리치는 것이 훨씬 수월해집니다. 아스널 시스템을 통해 기본 클래스에 상관없이 특정 무기 스킬을 전투에 가져올 수 있어, 보스의 높은 물리 방어력에 대응하는 데 필요한 유연성을 제공합니다.
+
+<Steps>
+  <Step num="1" title="전방 (워리어)">
+    "방어구 파쇄(Armor Sunder)" 스킬이 있는 양손 대검을 장착하세요. 주요 임무는 보스의 정면에서 어그로를 유지하면서 퍼펙트 블록을 사용하여 인내심을 아끼는 것입니다.
+  </Step>
+  <Step num="2" title="서포트 (클레릭)">
+    "빛나는 방패(Radiant Shield)"와 "지속(Sustain)" 주문에 집중하세요. Clawdius는 방어 중에도 상당한 칩 데미지를 입히므로, 워리어가 쓰러지지 않도록 지속적인 치유가 필요합니다.
+  </Step>
+  <Step num="3" title="데미지 (메이지/로그)">
+    메이지는 냉기 지팡이를 사용하여 보스의 애니메이션을 늦춰야 합니다. 로그는 지면 강타 후의 "노출(Exposed)" 창을 기다려 고크리티컬 단검 콤보를 퍼부어야 합니다.
+  </Step>
+</Steps>
+
+솔로 플레이어에게는 **아스널 하이브리드(Arsenal Hybrid)** 접근 방식을 추천합니다. 아스널 슬롯에 셉터를 장착하면 워리어라도 소량의 치유 주문을 사용할 수 있으며, 이는 Clawdius 전투의 긴 인내심 소모 단계에서 생존하는 데 필수적입니다.
+
+| 클래스 역할 | 추천 무기 | Clawdius 핵심 스킬 | 솔로 가능성 |
+| :--- | :--- | :--- | :--- |
+| **워리어** | 대검 / 도끼 | Whirlwind / Sunder | 높음 |
+| **메이지** | 냉기 지팡이 | Glacial Spike | 보통 |
+| **로그** | 쌍단검 | Shadow Step | 보통 |
+| **클레릭** | 셉터 & 방패 | Holy Aegis | 낮음 (느림) |
+
+<Callout type="success" title="아스널의 비밀">
+아스널 슬롯에 **활**을 넣어 "스파크 샷(Spark Shot)" 스킬을 사용해 보세요. 번개 데미지는 보스의 껍질 방어력 일부를 무시하므로 모든 클래스가 1단계를 훨씬 빠르게 넘길 수 있습니다.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="전리품 테이블 및 보상">
+
+플레이어들이 farever clawdius를 파밍하는 주된 이유는 독특한 제작 재료와 희귀 장비 드랍 때문입니다. 2026년 5월 업데이트 기준으로, 이 보스는 해당 레벨 대에서 가장 높은 물리 블록 값을 제공하는 방패인 **Crabgantua's Kneecap**을 획득할 수 있는 가장 확실한 공급원입니다.
+
+<Checklist
+  id="clawdius-loot"
+  title="획득 가능한 드랍 아이템:"
+  items={[
+    "Crabgantua's Kneecap (희귀 방패)",
+    "단단한 껍질 파편 (제작 재료)",
+    "Siagarta 진주 (고가치 화폐)",
+    "Aqua-Infused 코어 (아스널 업그레이드)",
+    "Skover Island 지도 조각"
+  ]}
+/>
+
+**단단한 껍질 파편**은 대장장이 직업의 중요한 구성 요소입니다. 이는 Siagarta의 후반 지역에서 흔히 발생하는 냉기 및 물 기반 공격에 대한 저항력을 제공하는 "타이달 아머(Tidal Armor)" 세트를 제작하는 데 사용됩니다.
+
+| 아이템 이름 | 희귀도 | 드랍률 | 주요 용도 |
+| :--- | :--- | :--- | :--- |
+| **Crabgantua's Kneecap** | 희귀 | ~10% | 탱킹 / 방어 빌드 |
+| **Hardened Shell** | 고급 | 100% | 대장장이 제작 레시피 |
+| **Oceanic Essence** | 희귀 | ~5% | 무기 스킬 업그레이드 |
+| **Boar Mount Saddle** | 영웅 | ~1% | 코스메틱 / 이동 |
+
+<Callout type="info" title="전리품 스케일링">
+Farever에서 전리품의 품질은 파티원 수에 따라 약간씩 조정됩니다. 협동 플레이 시 보스의 체력은 많아지지만, Kneecap과 같은 희귀 드랍 아이템을 볼 확률은 추가 플레이어당 약 2%씩 증가합니다.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ: Clawdius 관련 자주 묻는 질문">
+
+<FAQ items={[
+  {
+    question: "farever clawdius와 싸우기 위한 최소 레벨은 얼마인가요?",
+    answer: "최저 레벨 10부터 보스를 만날 수 있지만, 최소 레벨 15 이상을 권장합니다. 보스의 높은 물리 방어력 때문에 낮은 레벨의 플레이어는 인내 게이지를 깎는 것이 매우 어렵습니다."
+  },
+  {
+    question: "메이지로 Clawdius를 솔로로 잡을 수 있나요?",
+    answer: "네, 하지만 신중한 포지셔닝이 필요합니다. 냉기 주문을 사용하여 보스와 거리를 유지하고, 아레나의 수직 구조를 활용하여 지면 강타 공격을 피하세요."
+  },
+  {
+    question: "Clawdius의 리스폰 주기는 어떻게 되나요?",
+    answer: "현재 얼리 액세스 버전(2026년 5월)에서 Clawdius의 리스폰 타이머는 20분입니다. 이는 공유 월드 보스이므로, 도착하기 전에 다른 플레이어가 처치했을 수도 있습니다."
+  },
+  {
+    question: "버블 실드가 마법 데미지도 반사하나요?",
+    answer: "네, 버블 실드는 마법과 물리를 포함한 모든 유형의 데미지를 50% 반사합니다. 파란색 보호막이 나타나면 즉시 공격을 멈춰야 합니다."
+  }
+]} />
+
+</Section>

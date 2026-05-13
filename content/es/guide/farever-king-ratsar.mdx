@@ -1,0 +1,196 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Activity, Search } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Farever Rey Ratsar: Guía y Estrategia Completa del Jefe 2026",
+  description: "Domina la batalla contra el jefe Farever Rey Ratsar con nuestra guía de estrategia experta. Aprende patrones de ataque, las mejores builds de clase, botines y consejos para jugar en solitario o en cooperativo.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=King+Ratsar+Boss+Guide",
+  date: "2026-05-12",
+  author: "Equipo Wiki de Farever"
+}
+
+<Callout type="tip" title="Guía Rápida">
+- **Farever Rey Ratsar** es un formidable jefe de mazmorra de juego temprano ubicado en los túneles subterráneos de la región de Skover.
+- **Mecánica clave**: Utiliza una "Llamada de Enjambre" que invoca élite de ratas; eliminarlas rápidamente es esencial para la supervivencia.
+- **Mejor estrategia**: Mantén una alta movilidad para evitar su AOE de golpe terrestre y usa **Bloqueos Perfectos** para mitigar el daño físico pesado.
+- **Consejo crítico**: Lleva un Clérigo para disipar en grupo, ya que el jefe aplica con frecuencia un perjuicio de veneno "Miasma" acumulable.
+- **Mejor opción**: El **Guerrero** es la elección más estable para jugar en solitario debido a su alta capacidad de supervivencia y la habilidad de aturdir al jefe durante los ataques canalizados.
+</Callout>
+
+Farever ha irrumpido en el mundo de los RPG de acción desde su lanzamiento en Acceso Anticipado el 6 de mayo de 2026, ofreciendo un vibrante mundo abierto lleno de desafíos hechos a mano. Entre los hitos tempranos más notorios para los jugadores se encuentra el encuentro con **farever rey ratsar**, un masivo rey roedor con corona que custodia las profundidades de la primera gran mazmorra instanciada. Este jefe sirve como una "prueba de habilidad" para los nuevos aventureros, exigiendo el dominio del combate orientado a la acción del juego, incluyendo esquivar, bloquear y la gestión de los tiempos de reutilización. Ya sea que estés explorando el mundo de Siagarta en solitario o con un grupo cooperativo dedicado, comprender las intrincadas mecánicas de esta lucha es la diferencia entre una exitosa carrera de botín y un rápido viaje de regreso al punto de reaparición. En esta guía completa, desglosaremos todo lo que necesitas saber para derrotar al Rey Ratsar, desde sus fases de ataque devastadoras hasta el botín legendario que custodia.
+
+<Section icon={Map} title="Localización y Preparación para Farever Rey Ratsar">
+
+Antes de que puedas desafiar a **farever rey ratsar**, debes navegar por la traicionera subregión de la Isla Skover. La entrada a su guarida, conocida como las "Alcantarillas Vermiculadas", está escondida bajo un molino de viento abandonado cerca del centro principal. Como mazmorra instanciada, la dificultad escala según el tamaño de tu grupo, lo que la hace accesible para jugadores en solitario, pero significativamente más gratificante para grupos.
+
+**Puntos destacados del video:**
+- Visión general de la región de la Isla Skover y la entrada a la mazmorra.
+- Avance de las cuatro clases principales en combate de acción.
+- Demostración del sistema de Arsenal e intercambio de armas.
+
+<YouTubeEmbed videoId="87bzUaPaamQ" title="Tráiler de lanzamiento de Farever Early Access" />
+
+La preparación es el aspecto más pasado por alto de este encuentro. Los jugadores a menudo se lanzan con equipo básico, solo para ser abrumados por el alto daño físico del Rey. Debes asegurarte de que tu personaje tenga al menos Nivel 10 y haya mejorado su arma principal a través del trabajo de Herrero. El sistema de Arsenal es particularmente importante aquí; equipar un arma secundaria con una habilidad de movilidad, como el "Disparo Chispeante" del Arco o las dagas del Pícaro, puede ayudarte a escapar de las maniobras de acorralamiento del Rey.
+
+| Requisito | Valor Recomendado | Por qué es Importante |
+| :--- | :--- | :--- |
+| **Nivel de Personaje** | 10 - 12 | Asegura que tengas suficiente HP para sobrevivir a un solo golpe crítico. |
+| **Estadística Principal** | 40+ (Estadística Principal) | Necesario para romper la barra de equilibrio del jefe durante la Fase 2. |
+| **Rareza de Armadura** | Poco Común (Verde) | El equipo básico carece de la defensa necesaria para mitigar el daño de Miasma. |
+| **Consumibles** | Antídotos / Pociones de Curación | Esenciales para eliminar los perjuicios de veneno aplicados por los súbditos. |
+| **Habilidad de Arma** | Aturdir / Derribar | Se usa para interrumpir la habilidad canalizada "Rugido del Rey". |
+
+<Callout type="info" title="Información Estratégica">
+Si juegas en solitario, prioriza una build con alta **regeneración de Resistencia**. El Rey Ratsar ataca en rápida sucesión, y quedarse sin resistencia te impedirá esquivar su "Barrido de Cola" inbloqueable.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mecánicas del Jefe y Patrones de Ataque">
+
+La lucha contra **farever rey ratsar** se divide en tres fases distintas. Cada fase introduce nuevas mecánicas que obligan a los jugadores a adaptar su posicionamiento y rotación de habilidades. A diferencia de los enemigos estándar del mundo abierto, el Rey tiene un medidor de "Equilibrio" alto; debes asestar ataques pesados consistentes o habilidades de arma específicas para aturdirlo, abriendo una ventana para un daño explosivo masivo.
+
+### Fase 1: La Carga Real (100% - 70% HP)
+En la fase inicial, el Rey Ratsar se basa en la fuerza bruta. Con frecuencia usará un "Deslizamiento Abdominal" para cerrar la distancia entre él y los jugadores a distancia (Magos y Clérigos). Los Guerreros deben permanecer frente a él para mantener el aggro, mientras que los Pícaros se enfocan en flanquear para obtener bonificaciones de apuñalamiento por la espalda.
+
+### Fase 2: El Maestro del Enjambre (70% - 30% HP)
+Una vez que alcanza el 70% de salud, el Rey se retira a su trono y convoca oleadas de ratas élite. Esta es la parte más peligrosa de la lucha para los jugadores en solitario. Debes eliminar a los súbditos inmediatamente, ya que aplican un perjuicio de veneno que reduce tu velocidad de movimiento y la curación recibida.
+
+| Nombre del Ataque | Tipo | Descripción | Contraataque |
+| :--- | :--- | :--- | :--- |
+| **Barrido de Cola** | AOE Físico | Un giro de 360 grados con alto retroceso. | Saltar o esquivar hacia atrás. |
+| **Aliento de Miasma** | Veneno / DOT | Una nube en forma de cono que permanece en el suelo. | Moverse al flanco del jefe. |
+| **Rugido del Rey** | Canalizado | Un grito ensordecedor que aturde a todos los jugadores cercanos. | Usar una habilidad de Interrupción. |
+| **Salto Real** | Acercamiento | Un salto de alto daño que apunta al jugador más lejano. | Esquivar lateralmente en el último segundo. |
+
+<Callout type="warning" title="Zona de Peligro">
+No te quedes en las nubes verdes de "Miasma". En Farever, los peligros ambientales infligen daño basado en porcentaje, lo que significa que incluso los jugadores de alto nivel pueden ser derretidos si ignoran el posicionamiento.
+</Callout>
+
+### Fase 3: El Rey Frenético (30% - 0% HP)
+En su fase final, el Rey Ratsar obtiene un beneficio de "Frenesí", aumentando su velocidad de ataque en un 50%. Deja de invocar súbditos, pero comienza a usar su "Salto Real" con más frecuencia. Esto es una carrera contra el tiempo; guarda tus habilidades definitivas y habilidades de arma con largos tiempos de reutilización para esta ventana.
+
+</Section>
+
+<Section icon={Sparkles} title="Mejores Builds de Clase para el Rey Ratsar">
+
+Elegir la build correcta es vital para superar a **farever rey ratsar**. Gracias al sistema flexible de Arsenal del juego, no estás estrictamente limitado a un solo rol, pero ciertos arquetipos de clase rinden mejor contra sus mecánicas específicas.
+
+<CardGrid cols={2}>
+  <Card title="El Guerrero de Vanguardia">
+    - **Arma Principal**: Gran espada a dos manos
+    - **Habilidad de Arsenal**: Bloqueo con escudo
+    - **Rol**: Tanque y Rompe-equilibrio
+    - **Enfoque**: Acumular **Defensa** y **Celeridad** para mantener el tiempo de actividad sobre el jefe y mitigar los golpes fuertes.
+  </Card>
+  <Card title="El Mago de Hielo">
+    - **Arma Principal**: Bastón de hielo
+    - **Habilidad de Arsenal**: Parpadeo / Teletransporte
+    - **Rol**: Control de masas y DPS a distancia
+    - **Enfoque**: Usar habilidades de Hielo para ralentizar el movimiento del Rey, haciendo que sus cargas sean más fáciles de esquivar para el equipo.
+  </Card>
+  <Card title="El Pícaro Sombrío">
+    - **Arma Principal**: Dagas gemelas
+    - **Habilidad de Arsenal**: Bomba de humo
+    - **Rol**: Alto daño explosivo
+    - **Enfoque**: Priorizar **Probabilidad de Crítico** y **Evasión**. Usar Bomba de Humo durante la Fase 2 para perder el aggro de los súbditos.
+  </Card>
+  <Card title="El Clérigo Radiante">
+    - **Arma Principal**: Cetro y escudo
+    - **Habilidad de Arsenal**: Purificación de grupo
+    - **Rol**: Apoyo y Sustento
+    - **Enfoque**: Mantener el HP del equipo alto y eliminar inmediatamente el veneno de Miasma con Purificación.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Sinergia Profesional">
+En un dúo, la combinación **Guerrero + Mago** es excepcionalmente fuerte aquí. El Guerrero mantiene la atención del Rey mientras el Mago usa hechizos de área para eliminar a los súbditos de la Fase 2 antes de que puedan abrumar al grupo.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guía Paso a Paso del Jefe">
+
+Sigue estos pasos para asegurar una victoria limpia contra el rey roedor. Esta secuencia está diseñada para jugadores que intentan la mazmorra por primera vez en 2026.
+
+<Steps>
+  <Step num="1" title="Enfrentamiento Inicial">
+    Entra en la arena y deja que tu tanque (o tu personaje más resistente) entre en combate primero. No uses tus habilidades de alto daño inmediatamente; espera a que el jefe termine su primer "Deslizamiento Abdominal".
+  </Step>
+  <Step num="2" title="Dominando el Bloqueo Perfecto">
+    El "Zarpazo" del Rey Ratsar tiene una preparación muy predecible. Calcula el tiempo de tu bloqueo justo cuando su mano se mueve hacia adelante para activar un **Bloqueo Perfecto**, lo que te ahorrará resistencia y aumentará su medidor de aturdimiento.
+  </Step>
+  <Step num="3" title="Manejando a los Súbditos">
+    Cuando el Rey se retire al 70% de HP, muévete al centro de la sala. Esto evita que los súbditos te flanqueen. Usa habilidades de arma de área (como el "Torbellino" del Hacha) para eliminarlos rápidamente.
+  </Step>
+  <Step num="4" title="La Quema Final">
+    Cuando el jefe entre en Frenesí al 30% de HP, ignora sus ataques menores y concéntrate por completo en el daño. Usa tus habilidades de "Arsenal" para eludir sus defensas y terminar la lucha antes de que tu sanador se quede sin maná.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Interacción Oculta">
+Durante la canalización del "Rugido del Rey", si tres jugadores golpean al jefe con ataques pesados simultáneamente, será aturdido instantáneamente durante 5 segundos, independientemente de su Equilibrio restante.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Botines y Recompensas">
+
+Derrotar a **farever rey ratsar** es muy lucrativo, especialmente durante el período de Acceso Anticipado, donde sus botines son esenciales para las recetas de crafteo de mitad de juego. Es la fuente principal de la "Cola de Rata Real", un material raro utilizado por los Herreros para fabricar armas de Nivel 2.
+
+| Nombre del Objeto | Tipo | Rareza | Tasa de Caída |
+| :--- | :--- | :--- | :--- |
+| **Corona del Rey de las Alcantarillas** | Casco | Raro | 5% |
+| **Cola de Rata Real** | Material | Poco Común | 100% |
+| **Cetro Escuálido** | Arma (Clérigo) | Raro | 12% |
+| **Daga de Hueso Roído** | Arma (Pícaro) | Raro | 12% |
+| **Placa Vermiculada** | Armadura (Guerrero) | Poco Común | 25% |
+
+<Checklist
+  id="boss-goals"
+  title="Lista de Verificación Post-Combate:"
+  items={[
+    "Saquear el Cofre Dorado detrás del trono",
+    "Extraer materiales de la Cola de Rata Real usando el trabajo de Alquimista",
+    "Comprobar tus logros para el título 'Regicidio'",
+    "Hablar con el NPC en la salida de la mazmorra para entregar la misión"
+  ]}
+/>
+
+<Callout type="info" title="Consejo de Experto">
+Si estás buscando la **Corona del Rey de las Alcantarillas**, intenta la mazmorra en dificultad "Difícil". Aunque el jefe tiene un 40% más de HP, la tasa de caída de objetos Raros aumenta significativamente.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Puedo derrotar a Farever Rey Ratsar en solitario como Mago?",
+    answer: "Sí, pero es desafiante. Debes usar el Bastón de Hielo para mantenerlo a distancia y equipar una habilidad de movilidad en tu ranura de Arsenal para escapar de sus ataques."
+  },
+  {
+    question: "¿Cuál es la mejor arma para usar contra él?",
+    answer: "Cualquier arma con alto 'Daño de Equilibrio' es ideal. El Martillo a dos manos o la Gran espada son excelentes para aturdirlo durante su transición a la Fase 2."
+  },
+  {
+    question: "¿Cómo detengo el daño de veneno de los súbditos?",
+    answer: "Los súbditos aplican 'Miasma' al golpear. Puedes eliminar esto usando pociones de Antídoto o la habilidad Purificación de un Clérigo. Mantenerse móvil evita que te rodeen."
+  },
+  {
+    question: "¿El Rey Ratsar reaparece?",
+    answer: "En la mazmorra instanciada, puedes reiniciar la instancia para luchar contra él de nuevo. En el mundo abierto, no aparece; es estrictamente un jefe exclusivo de mazmorra."
+  }
+]} />
+
+</Section>
+
+Derrotar a **farever rey ratsar** es un rito de iniciación para cada nuevo jugador en Siagarta. Al dominar el ritmo de sus ataques físicos, manejar el caos de sus enjambres invocados y utilizar la profunda personalización de clases del juego, asegurarás el equipo necesario para aventurarte en territorios aún más peligrosos. Recuerda mantener tu equipo actualizado, coordinarte con tus compañeros de equipo y nunca subestimar el poder de una esquiva bien cronometrada. ¡Buena suerte, aventurero!

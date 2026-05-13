@@ -1,0 +1,196 @@
+import { Map, Swords, Trophy, Target, Shield, Pickaxe, Zap, Beaker, Settings, Layers } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Mina espacial profunda de farever: Guía completa de recursos y supervivencia 2026",
+  description: "Domina la mina espacial profunda de farever con nuestra guía completa. Aprende sobre trabajos de minería, drops de materiales raros, mecánicas de mazmorras y las mejores builds para 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Farever+Deep+Space+Mine+Guide",
+  date: "2026-05-13",
+  author: "Equipo Wiki de Farever"
+}
+
+<Callout type="info" title="Guía Rápida">
+- La **mina espacial profunda de farever** es una zona industrial de alto rendimiento en Siagarta, centrada en la extracción de minerales raros y la obtención de materiales de fabricación avanzados.
+- **Sinergia de Trabajos**: Subir de nivel tus trabajos de **Herrero** y **Alquimista** es obligatorio para maximizar la eficiencia del procesamiento de materiales en bruto.
+- **Enfoque de Combate**: Los enemigos en esta zona utilizan armadura física pesada; se recomiendan encarecidamente builds de **Guerrero** de alta penetración o de **Mago** de ráfaga.
+- **Preparación del Arsenal**: Equipar un escudo o arma defensiva en tu **espacio de Arsenal** es crítico para sobrevivir a las emboscadas en los estrechos pasillos de la mina.
+- **Prioridad de Botín**: Concéntrate en recolectar **Mineral Infundido con Vacío** y **Esquemas Antiguos** para progresar hacia conjuntos de equipo de fase final.
+</Callout>
+
+El mundo de Siagarta es vasto y está lleno de maravillas hechas a mano, pero pocas ubicaciones ofrecen el potencial de progresión que se encuentra en la **mina espacial profunda de farever**. Como piedra angular de la economía industrial del juego, esta zona desafía a los jugadores a equilibrar su destreza en combate con su eficiencia de recolección. Ya seas un explorador solitario buscando materiales raros para alimentar tu artesanía o un grupo coordinado con el objetivo de superar instancias de mazmorra de alta dificultad, comprender el ritmo de las minas es esencial. En esta guía, desglosamos todo, desde los requisitos de entrada iniciales hasta las complejas interacciones del sistema de Arsenal en entornos subterráneos. Al dominar las mecánicas de la mina espacial profunda de farever, desbloquearás el camino hacia el equipo más poderoso del juego y te asegurarás de que tu personaje esté listo para los próximos desafíos descritos en la hoja de ruta de 2026.
+
+<Section icon={Map} title="Requisitos de entrada y visión general de la zona">
+
+Antes de aventurarse en las profundidades, los jugadores deben comprender que la **mina espacial profunda de farever** no es un área de mundo abierto típica. Funciona como un híbrido entre un centro de recolección de alto riesgo y una serie de desafiantes instancias de mazmorras. El acceso a las capas más profundas requiere hitos de progresión específicos dentro de la región de Siagarta.
+
+| Requisito | Valor / Detalle | Importancia |
+| :--- | :--- | :--- |
+| **Nivel Mínimo** | Nivel 15+ Recomendado | Evita que los jugadores de inicio se vean abrumados. |
+| **Objeto Clave** | Sello del Minero | Necesario para activar el sistema de elevador central. |
+| **Dominio del Trabajo** | Herrero Nivel 5 | Desbloquea la capacidad de detectar vetas de mineral raras. |
+| **Tier de Equipo** | Poco común o mejor | Esencial para sobrevivir a los picos de daño físico. |
+| **Tamaño del Grupo** | 1-4 Jugadores | Dificultad escalable según el tamaño de tu grupo. |
+
+La mina está dividida en tres sectores distintos: la Excavación Superior, las Vetas de Cristal y el Núcleo Profundo. Cada sector presenta peligros ambientales únicos, como escombros que caen y bolsas de gas tóxico, que requieren que los jugadores utilicen sus herramientas de movimiento (correr y deslizarse) incluso en espacios confinados.
+
+<Callout type="warning" title="Peligros Ambientales">
+El sector del Núcleo Profundo contiene "Bolsas Ominosas" que agotan la resistencia con el tiempo. Asegúrate de que tu build tenga suficiente regeneración de resistencia o utiliza consumibles proporcionados por el trabajo de **Cocinero** para anular estos efectos antes de entrar.
+</Callout>
+
+</Section>
+
+<Section icon={Pickaxe} title="Mecánicas de minería y sinergia de trabajos">
+
+El ciclo principal de la **mina espacial profunda de farever** gira en torno a la integración del combate y el sistema de trabajos. A diferencia de la recolección en superficie, la minería en estas profundidades requiere una defensa activa. Shiro Games ha diseñado el proceso de recolección para que sea interactivo, donde la calidad de tus herramientas y tu nivel de trabajo impactan directamente en la rareza de los drops.
+
+**Aspectos destacados del video:**
+- Descripción general de las mecánicas del minijuego de minería.
+- Ubicaciones de las vetas de mineral más rentables en la Excavación Superior.
+- Comparación de los diferentes tiers de picos y su impacto en la velocidad de recolección.
+
+<YouTubeEmbed videoId="87bzUaPaamQ" title="Tráiler oficial de acceso anticipado de Farever" />
+
+Para maximizar tu eficiencia, sigue esta ruta de progresión especializada para tus profesiones de artesanía:
+
+<Steps>
+  <Step num="1" title="Equipa equipo de minería especializado">
+    Adquiere un pico con el afijo **Prospector**. Esto aumenta la probabilidad de encontrar "Curiosidades" mientras se extraen nodos estándar.
+  </Step>
+  <Step num="2" title="Despeja el área circundante">
+    Los enemigos en la mina son atraídos por el sonido de la excavación. Siempre despeja un radio inmediato de 20 metros antes de comprometerte con una veta rara.
+  </Step>
+  <Step num="3" title="Procesa materiales en bruto in situ">
+    Usa yunques portátiles (fabricados mediante Herrería) para refinar minerales en barras. Esto reduce el peso de tu inventario y permite expediciones más largas.
+  </Step>
+  <Step num="4" title="Utiliza mejoras alquímicas">
+    Consume **Elixires de Resistencia** para mantener una alta velocidad de minería. Los Alquimistas de alto nivel pueden fabricar pociones que otorgan inmunidad temporal al gas tóxico de la mina.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Optimización del botín">
+Los jugadores que alcanzan el Nivel 10 en el trabajo de **Herrero** obtienen una habilidad pasiva llamada "Resonancia Metálica", que resalta las vetas de mineral ocultas detrás de paredes destructibles. Este es el método principal para encontrar materiales de tier legendario.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Estrategia de combate y análisis de enemigos">
+
+La **mina espacial profunda de farever** es el hogar de amenazas subterráneas que difieren significativamente de las criaturas encontradas en la Isla Skover. Estos enemigos a menudo poseen una alta resistencia física y utilizan habilidades de control de masas como aturdimientos y derribos para interrumpir tu minería.
+
+| Tipo de Enemigo | Ataque Principal | Debilidad | Nivel de Peligro |
+| :--- | :--- | :--- | :--- |
+| **Taladro del Vacío** | Golpes físicos rápidos | Magia de Hielo / Mago | Medio |
+| **Gólem de Cristal** | Golpe AOE pesado | Bloqueo Perfecto / Guerrero | Alto |
+| **Acechador Sombrío** | Emboscadas sigilosas | Evasión / Pícaro | Medio |
+| **Centinela Mecánico** | Disparo láser a distancia | Bloqueo con Escudo | Bajo |
+| **Supervisor de Mina (Jefe)** | Rupturas de tierra | Movimiento Vertical | Extremo |
+
+La estrategia en las minas se trata de posicionamiento. Debido a que los pasillos son estrechos, tu **Clérigo** o los jugadores centrados en el apoyo deben permanecer detrás del **Guerrero** para proporcionar curación y mejoras consistentes. Si juegas solo como **Mago**, utiliza tus habilidades de hielo para crear distancia y ralentizar a los agresivos Taladros del Vacío.
+
+<Callout type="tip" title="Dominio del Bloqueo Perfecto">
+Sincronizar un **Bloqueo Perfecto** contra el golpe del Gólem de Cristal no solo niega el daño, sino que también rompe una parte de su armadura, aumentando el daño que recibe de todas las fuentes durante 5 segundos.
+</Callout>
+
+</Section>
+
+<Section icon={Zap} title="Mejores builds para la exploración de la mina espacial profunda">
+
+Elegir la build adecuada para la **mina espacial profunda de farever** puede ser la diferencia entre un botín exitoso y una derrota costosa. El sistema de Arsenal permite una flexibilidad significativa, pero combinaciones de armas específicas sobresalen en los entornos oscuros y estrechos de la mina.
+
+<CardGrid cols={2}>
+  <Card title="El Juggernaut (Guerrero)">
+    - **Arma Principal**: Gran espada a dos manos para despejar amplias áreas.
+    - **Habilidad de Arsenal**: Golpe de escudo para aturdimientos fiables contra gólems de élite.
+    - **Estadísticas Principales**: Fuerza y Defensa.
+    - **Por qué funciona**: Alta supervivencia en túneles estrechos donde esquivar es difícil.
+  </Card>
+  <Card title="El Minero Hechicero (Mago)">
+    - **Arma Principal**: Bastón de hielo para controlar el movimiento enemigo.
+    - **Habilidad de Arsenal**: Explosión de fuego para un alto daño de ráfaga contra objetivos acorazados.
+    - **Estadísticas Principales**: Poder de hechizo y Celeridad.
+    - **Por qué funciona**: Mantiene a los peligrosos enemigos cuerpo a cuerpo a una distancia segura.
+  </Card>
+  <Card title="El Extractor de Sombras (Pícaro)">
+    - **Arma Principal**: Dagas gemelas para una ejecución rápida de un solo objetivo.
+    - **Habilidad de Arsenal**: Habilidades de arco para atraer enemigos uno por uno.
+    - **Estadísticas Principales**: Crítico y Evasión.
+    - **Por qué funciona**: Excelente para jugadores solitarios que quieren evitar grandes peleas grupales.
+  </Card>
+  <Card title="El Clérigo Guardián (Apoyo)">
+    - **Arma Principal**: Cetro para un sustento constante del equipo.
+    - **Habilidad de Arsenal**: Pasivas defensivas para aumentar la resistencia física del grupo.
+    - **Estadísticas Principales**: Poder de hechizo y Regeneración.
+    - **Por qué funciona**: Esencial para las incursiones en mazmorras en grupo en el Núcleo Profundo.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Sinergia del Arsenal">
+No olvides que tus **espacios de Arsenal** te permiten llevar habilidades de armas que no estás empuñando actualmente. Para las minas, llevar una habilidad de **Escudo** es muy recomendable para todas las clases para manejar el repentino aluvión de proyectiles de los Centinelas Mecánicos.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de verificación y objetivos de progresión">
+
+Para dominar por completo la **mina espacial profunda de farever**, los jugadores deben aspirar a completar hitos específicos que desbloquean mejoras permanentes y recompensas cosméticas raras. Utiliza la siguiente lista de verificación para seguir tu progreso a través de las profundidades industriales.
+
+<Checklist
+  id="mine-progression"
+  title="Hitos de la Mina Espacial Profunda:"
+  items={[
+    "Desbloquea el elevador del Núcleo Profundo recuperando los tres Fragmentos de Cristal.",
+    "Alcanza el Nivel 10 en Herrería o Alquimia para desbloquear recetas avanzadas.",
+    "Derrota al jefe Supervisor de Mina en dificultad 'Veterano' para obtener el pico legendario.",
+    "Recolecta 500 Minerales Infundidos con Vacío para fabricar el conjunto de armadura 'Industrial de Siagarta'.",
+    "Descubre los 5 'Cofres Ominosos' ocultos en las secciones de cuevas verticales."
+  ]}
+/>
+
+<Callout type="success" title="Recompensas Exclusivas">
+Completar la línea de misiones principal de la mina otorga la skin **Planeador: Alas de Murciélago**, que presenta una mayor velocidad de inmersión, perfecta para navegar por los barrancos verticales del Valle del Otoño Eterno.
+</Callout>
+
+</Section>
+
+<Section icon={Layers} title="Consejos finales y preguntas frecuentes de la comunidad">
+
+A medida que Farever continúa su viaje a través de Steam Early Access, la **mina espacial profunda de farever** probablemente recibirá más actualizaciones, incluyendo nuevas subregiones y límites de nivel más altos. Mantenerse informado a través del Discord oficial y las páginas de la comunidad de Steam es la mejor manera de mantener tus builds optimizadas para el meta cambiante.
+
+| Característica | Estado actual (mayo de 2026) | Contenido futuro planificado |
+| :--- | :--- | :--- |
+| **Piso Máximo** | Piso 50 | Expansión al Piso 100 planificada. |
+| **Zonas PvP** | Ninguna (solo cooperativo) | Guerras mineras basadas en facciones en desarrollo. |
+| **Uso de Montura** | Limitado a centros de tránsito | Monturas subterráneas especializadas (Jabalíes). |
+| **Salón del Gremio** | No disponible | Puestos mineros propiedad del gremio próximamente. |
+
+<Callout type="tip" title="Gestión de inventario">
+El error más común que cometen los principiantes es llenar su inventario con piedra de bajo nivel. Utiliza la configuración "Filtrar botín" en tu menú de opciones para ignorar automáticamente los escombros comunes mientras minas en zonas de alto nivel.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la mejor clase para jugar en solitario en la mina espacial profunda de farever?",
+    answer: "El Guerrero es generalmente la mejor opción para jugar en solitario debido a su alta defensa natural y su capacidad para usar grandes espadas para AOE. Sin embargo, un Mago bien equipado con habilidades de Hielo también puede destacar al kitear enemigos en cámaras más amplias."
+  },
+  {
+    question: "¿Cómo encuentro el raro Mineral Infundido con Vacío?",
+    answer: "Este mineral solo aparece en el sector 'Núcleo Profundo'. Necesitas al menos un pico de tier 'Raro' de Nivel 4 y una habilidad de Herrería de Nivel 5 para recolectarlo con éxito sin romper el nodo."
+  },
+  {
+    question: "¿Puedo usar mi montura dentro de la mina?",
+    answer: "Las monturas están restringidas en los túneles estrechos de la mina. Sin embargo, pueden usarse en las grandes áreas de 'Centro Central' y 'Estación de Tránsito' para moverse rápidamente entre sectores."
+  },
+  {
+    question: "¿La dificultad de la mina escala con mi nivel?",
+    answer: "Sí, las actividades de mundo abierto y las instancias de mazmorra dentro de la mina escalan según el nivel promedio de tu grupo, asegurando que el contenido siga siendo desafiante a medida que progresas."
+  }
+]} />
+
+</Section>

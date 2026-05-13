@@ -1,0 +1,192 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Armadura de Farever: Guía de Mecánicas de Daño y Prioridad de Estadísticas 2026",
+  description: "Domina el sistema de armadura de Farever y las mecánicas de daño. Aprende cómo la Pen. de Armadura, el Fervor y los golpes críticos afectan tu build en esta guía completa de 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Farever+Armor+Guide",
+  date: "2026-05-13",
+  author: "Equipo de Wiki de Farever",
+  keywords: "armadura de farever, mecánicas de daño, penetración de armadura, fervor, estadísticas"
+}
+
+<Callout type="info" title="Guía Rápida">
+- Las mecánicas de la **armadura de Farever** determinan tu supervivencia, pero entender cómo penetrar la defensa enemiga es clave para un DPS alto.
+- El **Fervor** es la estadística más versátil, proporcionando daño multiplicativo, curación y reducción de daño.
+- La **Penetración de Armadura** se vuelve superior a otras estadísticas contra jefes de alto nivel con más de 1,500 de armadura.
+- La **Prioridad de Estadísticas** debe centrarse primero en los atributos principales, seguidos por las maestrías de daño, el fervor y luego la penetración de armadura.
+- Los **Golpes Críticos** son generalmente de menor prioridad, a menos que tu build o arma específica tenga sinergias masivas de bonificación crítica.
+</Callout>
+
+En el complejo mundo de Farever, entender la interacción entre las estadísticas ofensivas y las calificaciones defensivas es la diferencia entre luchar contra enemigos comunes y derretir a los jefes de alto nivel. El sistema de **armadura de Farever** dicta cuánto daño mitigas y cuánto pueden resistir tus enemigos. Mientras que muchos jugadores se centran únicamente en el poder de ataque bruto, las matemáticas subyacentes que involucran la Penetración de Armadura, el Fervor y las bonificaciones Críticas crean un panorama matizado para la optimización máxima. Esta guía analizará las fórmulas exactas utilizadas en el meta de 2026, proporcionándote las herramientas para calcular tu producción de daño efectiva. Ya seas un Sacerdote que escala con Fe o un Guerrero que depende de la Fuerza, dominar estas mecánicas es esencial para el progreso en el juego final. Exploraremos cómo escalan las calificaciones de armadura, los puntos de inflexión donde ciertas estadísticas superan a otras y cómo optimizar tu equipo para los encuentros más difíciles del juego.
+
+<Section icon={Swords} title="Atributos Principales y Escalamiento de Armas">
+
+Antes de sumergirte en las complejidades de la penetración de la **armadura de Farever**, debes entender la base de tu daño: el Escalamiento de Atributos. Cada arma y habilidad en el juego escala a partir de un atributo primario específico, indicado por iconos en la descripción de la habilidad. Por ejemplo, un icono de puño representa la Fuerza, mientras que otros iconos pueden representar la Fe o el Intelecto.
+
+Si juegas como Sacerdote pero usas un arma como la Espada Gloriosa que escala con Fuerza, tu daño será significativamente menor que si usaras un arma que escale con Fe. El cálculo es típicamente un valor base más un porcentaje de tu atributo primario.
+
+| Atributo | Tipo de Escalamiento Primario | Beneficio Principal | Beneficio Secundario |
+| :--- | :--- | :--- | :--- |
+| **Fuerza** | Físico Cuerpo a Cuerpo | Aumenta el poder físico bruto | Pequeño aumento de Bonificación Crítica |
+| **Intelecto** | Hechizos Mágicos | Aumenta la potencia de hechizos | Pequeño aumento de Bonificación Crítica |
+| **Fe** | Sagrado/Soporte | Aumenta curación y daño sagrado | Potencia habilidades principales de Sacerdote |
+| **Destreza** | Rango/Agilidad | Aumenta vel. ataque/esquiva | Mayor probabilidad de esquiva base |
+
+<Callout type="info" title="Prioridad de Atributos">
+Prioriza siempre el equipo que proporcione el atributo específico con el que escalan tu arma y tus habilidades principales. Un arma de alto nivel con el escalamiento incorrecto suele ser peor que un arma de nivel inferior que coincida con tus estadísticas principales.
+</Callout>
+
+La Maestría es otra capa de daño que actúa como un impulso multiplicativo directo. Por ejemplo, la Oración de Virtud en un Sacerdote puede proporcionar un aumento del 15% a todo el daño mientras un escudo esté activo. Estas maestrías se calculan después del escalamiento de tu atributo base, pero antes de que se aplique la reducción de armadura del enemigo.
+
+</Section>
+
+<Section icon={Shield} title="Mecánicas de Armadura de Farever y Penetración">
+
+La forma en que funciona la **armadura de Farever** es a través de una curva de rendimientos decrecientes. A medida que aumenta tu calificación de armadura, cada punto adicional proporciona un poco menos de reducción de daño. Sin embargo, la curva es lo suficientemente generosa como para que alcanzar los 2,000 de armadura pueda reducir el daño entrante en aproximadamente un 46.6%.
+
+**Puntos Destacados del Video:**
+- Se confirma que la penetración de armadura funciona y es vital para jefes de nivel 20+.
+- Cada 6 puntos de calificación de Pen. de Armadura otorga un 1% de penetración.
+- Los jefes de nivel 20 como Lady B tienen más de 1,500 de armadura, reduciendo tu daño en casi un 40%.
+- Los maniquíes tienen cero armadura, lo que hace que las pruebas de penetración de armadura sean inútiles contra ellos.
+
+<YouTubeEmbed videoId="zcIMQjmQXlI" title="Farever - Cómo funciona realmente el daño" />
+
+Para contrarrestar la alta defensa enemiga, debes utilizar Penetración de Armadura (para físico) o Penetración Mágica (para mágico). El escalamiento para ambos es lineal: 6 puntos de calificación equivalen al 1% de penetración.
+
+| Calificación de Armadura | % de Reducción de Daño | Daño Efectivo Recibido |
+| :--- | :--- | :--- |
+| **500** | 17.9% | 82.1% |
+| **1,000** | 30.4% | 69.6% |
+| **1,500** | 39.6% | 60.4% |
+| **2,000** | 46.6% | 53.4% |
+
+<Callout type="warning" title="El Límite Máximo">
+Se cree ampliamente que 600 puntos de Penetración de Armadura (100%) es el límite máximo. Más allá de este punto, ignoras completamente la armadura del enemigo. Las pruebas contra maniquíes de defensa cero muestran que la penetración de armadura no proporciona daño "adicional" si el enemigo no tiene armadura.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="La Versatilidad del Fervor">
+
+El Fervor es a menudo considerado el "rey de las estadísticas" en Farever porque es un aumento de daño multiplicativo que también mejora tu supervivencia. A diferencia de la Penetración de Armadura, que solo aumenta el daño contra objetivos blindados, el Fervor aumenta tu producción de daño bruto, tu potencia de curación y tu mitigación de daño.
+
+El escalamiento para el Fervor es de 15 puntos de calificación por cada 1% de aumento. Aunque esto es "más lento" que la Penetración de Armadura (que es 6 por 1%), su naturaleza polivalente lo hace increíblemente valioso para casi cualquier build.
+
+<CardGrid cols={3}>
+  <Card title="Aumento de Daño">
+    - Incremento multiplicativo en toda la producción.
+    - Funciona tanto en físico como en mágico.
+    - 1,000 de Fervor = 66.7% de aumento.
+  </Card>
+  <Card title="Curación y Escudos">
+    - Aumenta toda la curación saliente.
+    - Fortalece la capacidad de los escudos.
+    - Vital para Sacerdotes y Paladines.
+  </Card>
+  <Card title="Reducción de Daño">
+    - Reduce el daño entrante.
+    - Se acumula con la armadura para una alta resistencia.
+    - El escalamiento lineal lo hace predecible.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Consejo de Optimización">
+Debido a que el Fervor proporciona reducción de daño y curación, generalmente es más seguro priorizar el Fervor sobre la Pen. de Armadura, a menos que busques estrictamente una build de "Cañón de Cristal" para incursiones de alto nivel.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Golpes Críticos y Bonificaciones de Maestría">
+
+Los golpes críticos en Farever pueden ser algo confusos. Cuando ves una "Bonificación Crítica del 150%", en realidad significa un aumento del 50% sobre un golpe normal, no un aumento del 150%. La probabilidad crítica base comienza baja y aumenta en un 1% por cada 12.5 puntos de Calificación Crítica.
+
+Generalmente, la Probabilidad Crítica es la prioridad más baja para los atacantes. Esto se debe a que cada 2% de Probabilidad Crítica solo equivale a una ganancia de daño promedio del 1% (asumiendo la bonificación estándar del 50%). A menos que tengas equipo específico como "Encaje de Espinas" o talentos que se activen con críticos, es mejor invertir en Fervor o Pen. de Armadura.
+
+| Estadística | Calificación para 1% | Ganancia de DPS Promedio por 100 Puntos |
+| :--- | :--- | :--- |
+| **Pen. Armadura** | 6.0 | ~2.7% (Contra 1,500 de Armadura) |
+| **Fervor** | 15.0 | ~6.6% (Multiplicador Plano) |
+| **Prob. Crítica** | 12.5 | ~4.0% (Asumiendo 50% de Bonificación) |
+
+<Callout type="tip" title="Sinergias de Maestría">
+Las estadísticas de Maestría (Física o Mágica) proporcionan aumentos multiplicativos directos. Revisa siempre tus beneficios activos; por ejemplo, algunas clases ganan un aumento de maestría del 15-25% a través de mejoras de habilidades o rotaciones específicas.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Prioridad de Estadísticas en el End-Game y Pruebas">
+
+Al enfrentarte a los jefes de nivel 20 en el meta actual de 2026, tu prioridad de estadísticas cambia. Contra enemigos con poca armadura (menos de 600), el Fervor y el Crítico son muy efectivos. Sin embargo, una vez que te enfrentas a jefes como Lady B con más de 1,500 de armadura, la Penetración de Armadura se convierte en tu estadística de daño más eficiente.
+
+<Steps>
+  <Step num="1" title="Atributos Primarios">
+    Asegúrate de que todas las piezas de equipo proporcionen el atributo primario de tu clase (Fuerza, Fe, etc.) para maximizar el escalamiento base.
+  </Step>
+  <Step num="2" title="Maestrías de Daño">
+    Céntrate en mejoras de habilidades y talentos que proporcionen aumentos porcentuales de daño planos (Maestría).
+  </Step>
+  <Step num="3" title="Fervor vs. Pen. de Armadura">
+    Equilibra el Fervor para el juego general. Cambia a equipo de Penetración de Armadura cuando te enfrentes a jefes con más de 1,500 de armadura para anular su reducción de daño del 40%.
+  </Step>
+  <Step num="4" title="Probabilidad Crítica">
+    Llena los espacios restantes con Calificación Crítica solo si tu build requiere activaciones críticas para enfriamientos de habilidades específicos.
+  </Step>
+</Steps>
+
+Para probar esto tú mismo, dirígete a una mazmorra de nivel 20 en modo Difícil. Registra tu daño con una sola habilidad (como Conquistar). Cambia una pieza de equipo de Fervor por una cantidad igual de equipo de Pen. de Armadura y observa el cambio. Contra jefes de alto nivel, notarás que la pieza de Pen. de Armadura a menudo resulta en números de un solo golpe más altos.
+
+<Callout type="info" title="El Punto de Inflexión">
+El punto de inflexión matemático donde la Penetración de Armadura comienza a superar significativamente al Fervor para el DPS puro es aproximadamente en la marca de los 1,050 de calificación total cuando se enfrenta a objetivos de alta defensa.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Lista de Verificación de Optimización">
+
+Usa esta lista para asegurarte de que tu personaje esté optimizado para las mecánicas de la **armadura de Farever** que se encuentran en el contenido avanzado.
+
+<Checklist
+  id="armor-optimization"
+  title="Lista de Verificación de Preparación para End-Game:"
+  items={[
+    "El arma coincide con el atributo de escalamiento primario (ej. Fe para Sacerdote)",
+    "La calificación de Penetración de Armadura es de al menos 300 para jefes de nivel 20",
+    "La calificación de Fervor es lo suficientemente alta para proporcionar al menos un 15% de reducción de daño",
+    "Los beneficios de Maestría activa se mantienen durante las rotaciones de combate",
+    "La Bonificación Crítica se potencia mediante talentos pasivos si usas una build de Críticos"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Funciona la Penetración de Armadura en los maniquíes de entrenamiento?",
+    answer: "No. Los maniquíes de entrenamiento en Farever tienen cero defensa de armadura. Dado que la Penetración de Armadura solo anula la armadura existente, no proporciona ningún beneficio contra objetivos sin defensa."
+  },
+  {
+    question: "¿Qué es mejor para un Sacerdote: Fervor o Pen. de Armadura?",
+    answer: "El Fervor es generalmente mejor para los Sacerdotes porque aumenta la curación y la creación de escudos además del daño. Sin embargo, para una build de daño puro contra jefes, la Pen. de Armadura es ligeramente más eficiente."
+  },
+  {
+    question: "¿Cuál es el límite máximo de Penetración de Armadura en Farever?",
+    answer: "El límite máximo es de 600 de calificación, lo que otorga un 100% de Penetración de Armadura. Invertir puntos más allá de esto no aumenta el daño contra los enemigos actuales de nivel 20."
+  },
+  {
+    question: "¿Cómo maneja la fórmula de armadura de Farever los rendimientos decrecientes?",
+    answer: "El juego utiliza un modificador de 2,285 en su fórmula de armadura. A medida que obtienes más armadura, el porcentaje de reducción de daño aumenta a un ritmo más lento, lo que hace que los valores de armadura extremadamente altos sean menos eficientes por punto."
+  }
+]} />
+
+</Section>

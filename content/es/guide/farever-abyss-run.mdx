@@ -1,0 +1,205 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Activity, Cpu } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Farever Abyss Run: Guía Completa de Estrategia para Mazmorras y Jefes 2026",
+  description: "Domina la carrera del abismo de Farever con nuestra guía completa. Aprende las mejores construcciones de clase, mecánicas de mazmorra, estrategias de jefe y tablas de botín para Siagarta 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Farever+Abyss+Run+Guide",
+  date: "2026-05-13",
+  author: "Equipo Wiki de Farever"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Carrera del abismo de Farever**: La actividad principal del juego final en Siagarta para botín y materiales de alto nivel.
+- **Requisito Principal**: Nivel recomendado 15+ con una configuración estable de habilidades de arma del **sistema de Arsenal**.
+- **Clase Superior**: **Guerrero** para estabilidad en solitario; **Clérigo** es esencial para carreras en grupo de alta dificultad.
+- **Mejor Estrategia**: Concéntrate en **bloqueos perfectos** para preservar la resistencia durante las fases intensas de los jefes.
+- **Prioridad de Botín**: Busca materiales de fabricación raros para trabajos de **Herrería** y **Alquimista**.
+</Callout>
+
+Farever, desarrollado por Shiro Games, ha irrumpido en el mundo de los RPG de acción desde su lanzamiento en Steam Early Access el 6 de mayo de 2026. A medida que los jugadores se adentran en el vibrante mundo abierto de Siagarta, la **carrera del abismo de Farever** ha surgido como el desafío definitivo para aquellos que buscan dominar los complejos sistemas de combate y progresión del juego. Ya sea que estés navegando por los acantilados de la Isla Skover o el denso follaje del Valle del Otoño Eterno, comprender cómo despejar eficientemente estas instancias de mazmorra de alto riesgo es vital para el crecimiento de tu personaje. Esta guía ofrece una inmersión profunda en las mecánicas de una **carrera del abismo de Farever** exitosa, cubriendo todo, desde la selección inicial de clase hasta el encadenamiento avanzado de habilidades de arma. Al dominar las estrategias aquí descritas, podrás asegurar el equipo más raro, mejorar tus trabajos de fabricación y prepararte para la ambiciosa hoja de ruta que Shiro Games ha planeado para el resto de 2026.
+
+<Section icon={Map} title="Comprendiendo las Mecánicas de la Carrera del Abismo de Farever">
+
+La **carrera del abismo de Farever** no es una única ubicación, sino una serie de despejes de mazmorras de alta intensidad y bucles de actividad mundial diseñados para poner a prueba el dominio de un jugador sobre el combate de acción. A diferencia de la exploración estándar en el mundo abierto de Siagarta, estas carreras requieren movimiento preciso, gestión de resistencia y una profunda comprensión de los patrones de ataque enemigos. Shiro Games ha diseñado estos encuentros para asegurar que la verticalidad (escalar, deslizarse y bucear) juegue un papel tan importante como tu producción de daño real.
+
+**Aspectos Destacados del Video:**
+- **Visión General del Acceso Anticipado**: Un vistazo a la versión de lanzamiento de Siagarta y sus regiones centrales.
+- **Ritmo de Combate**: Demostrando la importancia de bloquear y esquivar en tiempo real.
+- **Entradas a Mazmorras**: Cómo localizar y entrar en las primeras instancias importantes en Skover.
+
+<YouTubeEmbed videoId="87bzUaPaamQ" title="Farever | Acceso Anticipado | ¡YA DISPONIBLE!" />
+
+Para tener éxito en una carrera, primero debes estabilizar tu construcción. El juego actualmente soporta cuatro clases principales y más de 100 habilidades de arma. Tu "Arsenal" te permite llevar habilidades de varias armas a tu rotación principal, haciendo que la "construcción" sea más sobre tu elección de arma que solo tu clase inicial.
+
+<Callout type="tip" title="Consejo de Exploración">
+Antes de comenzar una carrera intensiva, usa tu planeador para explorar el área sobre la entrada de una mazmorra. Muchas instancias estilo "Abismo" en Farever esconden cofres secretos o atajos que solo son accesibles a través de plataformas verticales.
+</Callout>
+
+| Fase de la Carrera | Objetivo Principal | Mecánica Clave |
+|--------------------|--------------------|----------------|
+| **Entrada**        | Despejar campamentos externos | Agrupación de mobs / Gestión de AoE |
+| **Ascenso**        | Navegar obstáculos verticales | Planeo / Conservación de resistencia |
+| **Interior**       | Derrotar guardianes de élite | Bloqueo perfecto / Encadenamiento de habilidades |
+| **Jefe**           | Ejecutar al Jefe del Abismo | Reconocimiento de patrones / Sinergia de roles |
+
+</Section>
+
+<Section icon={Swords} title="Mejores Clases y Sinergia de Roles para las Carreras del Abismo">
+
+Elegir el personaje adecuado para una **carrera del abismo de Farever** depende en gran medida de si juegas solo o en un grupo cooperativo. Las cuatro clases de lanzamiento (Guerrero, Mago, Pícaro y Clérigo) aportan una utilidad única a un entorno de mazmorra. Mientras que el Guerrero es el más indulgente para los principiantes, el Pícaro ofrece el mayor potencial de daño explosivo para jugadores experimentados que pueden cronometrar sus esquivas perfectamente.
+
+<CardGrid cols={2}>
+  <Card title="La Vanguardia (Guerrero)">
+    - **Rol**: Tanque de primera línea / Luchador
+    - **Pros**: Alta durabilidad, fácil sincronización de bloqueo perfecto.
+    - **Mejor para**: Jugadores solitarios y líderes de grupo que necesitan mantener el aggro del jefe.
+  </Card>
+  <Card title="El Tejedor (Mago)">
+    - **Rol**: DPS a distancia / Control de masas
+    - **Pros**: Daño AoE masivo, juego seguro a distancia.
+    - **Mejor para**: Eliminar grandes oleadas de esbirros del "Abismo" rápidamente.
+  </Card>
+  <Card title="La Sombra (Pícaro)">
+    - **Rol**: DPS cuerpo a cuerpo de alta velocidad
+    - **Pros**: Movilidad excepcional, escalado de golpes críticos.
+    - **Mejor para**: Ventanas de daño específicas de jefes y limpieza rápida.
+  </Card>
+  <Card title="El Faro (Clérigo)">
+    - **Rol**: Soporte / Utilidad de equipo
+    - **Pros**: Curación esencial, mejoras defensivas.
+    - **Mejor para**: Carreras de alta dificultad donde la sostenibilidad es un problema importante.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Recomendación Meta">
+Para una configuración de dúo, la combinación de **Guerrero + Clérigo** sigue siendo la más estable para completar una **carrera del abismo de Farever** con un mínimo de muertes. El Guerrero proporciona la presión, mientras que el Clérigo asegura que la carrera no termine prematuramente debido a un solo error.
+</Callout>
+
+| Clase       | Comodidad en Solitario | Valor en Cooperativo | Dificultad | Arma Recomendada     |
+|-------------|-----------------------|---------------------|------------|----------------------|
+| **Guerrero** | ★★★★★                 | ★★★★☆               | Baja       | Espada a dos manos   |
+| **Mago**    | ★★★☆☆                 | ★★★★★               | Media      | Bastón de Hielo / Libro de Hechizos |
+| **Pícaro**  | ★★★☆☆                 | ★★★★☆               | Alta       | Dagas Gemelas        |
+| **Clérigo** | ★★☆☆☆                 | ★★★★★               | Media      | Cetro / Escudo       |
+
+</Section>
+
+<Section icon={Shield} title="El Sistema de Arsenal y Optimización del Equipo">
+
+En Farever, tu equipo es más que un simple palo de estadísticas. El **Sistema de Arsenal** es el corazón de cualquier estrategia de **carrera del abismo de Farever**. Cada arma que encuentras tiene un conjunto de movimientos único y cuatro habilidades específicas. Al colocar un arma en tu ranura de Arsenal, puedes usar sus habilidades incluso si no la empuñas activamente como tu arma principal. Esto permite construcciones "híbridas", como un Guerrero usando ralentizaciones de hielo estilo Mago para controlar el campo de batalla.
+
+<Callout type="warning" title="Advertencia sobre el Nivel de Arma">
+No ignores las armas de nivel inferior si tienen paquetes de habilidades superiores. Un Hacha "Cheese Moon" de Nivel 4 podría proporcionar una mejor utilidad para una carrera del Abismo que una espada básica de Nivel 10 debido a su habilidad de combo de boomerang.
+</Callout>
+
+### Tipos de Armas Esenciales para las Carreras del Abismo
+- **Escudos**: Vitales para la mecánica de "Bloqueo Perfecto" que reduce el daño a cero sin consumir resistencia.
+- **Arcos**: Excelentes para sacar enemigos individuales de peligrosos grupos del "Abismo" en el mundo abierto.
+- **Libros de Hechizos**: Necesarios para aplicar efectos de estado como Quemadura o Congelación, que pueden aturdir a amenazas de nivel de jefe.
+
+| Tipo de Arma  | Ejemplo de Habilidad Principal | Mejor Ajuste de Construcción | Estadística Primaria |
+|---------------|-------------------------------|-----------------------------|----------------------|
+| **Mandoble**  | Tajo Remolino                 | Guerrero / Berserker        | Fuerza               |
+| **Bastón de Hielo** | Pico Glacial                  | Mago / Control              | Poder de Hechizos    |
+| **Dagas Gemelas** | Paso Sombrío                  | Pícaro / Asesino            | Destreza             |
+| **Cetro**     | Explosión Radiante            | Clérigo / Soporte           | Espíritu             |
+
+</Section>
+
+<Section icon={Target} title="Guía Paso a Paso para Completar una Carrera del Abismo">
+
+Completar una **carrera del abismo de Farever** requiere un enfoque disciplinado. Entrar a una mazmorra sin un plan es la forma más rápida de perder tu progreso. Sigue estos pasos para asegurar una alta tasa de éxito en el juego final de Siagarta.
+
+<Steps>
+  <Step num="1" title="Preparación y Consumibles">
+    Visita a un **Cocinero** y un **Alquimista** en la ciudad local. Asegúrate de tener comida de regeneración de salud y pociones de restauración de resistencia. Revisa la durabilidad de tu arma; un arma rota durante una pelea de jefe es un fracaso garantizado.
+  </Step>
+  <Step num="2" title="El Acercamiento y la Atracción de Mobs">
+    No engages a toda la mazmorra a la vez. Usa un arco o un hechizo a distancia para atraer a 2-3 enemigos a la vez. En la **carrera del abismo de Farever**, los enemigos a menudo tienen mejoras "ominosas" que aumentan su daño si están cerca de otros aliados.
+  </Step>
+  <Step num="3" title="Navegando Peligros Verticales">
+    Muchas instancias del Abismo presentan secciones de plataformas. Usa tu carrera y doble salto para superar los huecos. Si te caes, a menudo sufres un daño significativo o reapareces al comienzo de la sección, perdiendo valiosas duraciones de mejoras.
+  </Step>
+  <Step num="4" title="El Encuentro con el Jefe">
+    Cada jefe tiene un medidor de "Rotura". Usa ataques pesados y habilidades de arma específicas para agotarlo. Una vez roto, el jefe recibe un 50% más de daño. Esta es tu ventana para usar tus habilidades de ráfaga de alto enfriamiento.
+  </Step>
+  <Step num="5" title="Extracción y Saqueo">
+    Después de que el jefe caiga, no te vayas sin más. Revisa las "Maravillas Ocultas" que suelen estar ubicadas detrás de la arena del jefe. Estas a menudo contienen los materiales raros necesarios para las recetas de **Herrería** de alto nivel.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Gestión de la Resistencia">
+Durante el Paso 4, nunca dejes que tu barra de resistencia llegue a cero. Si estás agotado, no puedes esquivar ni bloquear, lo que te deja completamente vulnerable a los ataques "Definitivos" del jefe.
+</Callout>
+
+</Section>
+
+<Section icon={Cpu} title="Requisitos del Sistema y Optimización del Rendimiento">
+
+Debido a que Farever es un título de Acceso Anticipado, el rendimiento puede fluctuar durante sesiones intensivas de **carrera del abismo de Farever**, especialmente cuando varios jugadores están lanzando hechizos simultáneamente. Asegurarse de que su PC cumpla con las especificaciones recomendadas es el primer paso para una experiencia fluida.
+
+| Componente | Requisito Mínimo | Recomendado (Listo para el Abismo) |
+|------------|------------------|------------------------------------|
+| **SO**     | Windows 10 de 64 bits | Windows 11 de 64 bits              |
+| **RAM**    | 16 GB            | 32 GB                              |
+| **GPU**    | RTX 3060 / RX 5600 XT | RTX 4060 / RX 7600                 |
+| **Almacenamiento** | 25 GB SSD        | 25 GB NVMe SSD                     |
+
+<Callout type="tip" title="Usuarios de Steam Deck">
+Si juegas en Steam Deck, bloquea tu framerate a 30 FPS y ajusta la "Calidad de Efectos" a Baja. Esto evita el tartamudeo durante las peleas de jefes con muchas partículas que se encuentran en el Abismo.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Recompensas y Lista de Verificación de Progresión">
+
+La razón principal para participar en una **carrera del abismo de Farever** es la progresión. Shiro Games ha implementado un profundo sistema de artesanía y trabajos donde los mejores objetos son creados por los jugadores utilizando botines exclusivos de las mazmorras.
+
+<Checklist
+  id="abyss-run-goals"
+  title="Lista de Verificación Post-Carrera:"
+  items={[
+    "Recoge al menos 5 Materiales Raros para tu Trabajo principal (ej., Lingotes de Hierro).",
+    "Busca caídas de armas de 'Arsenal' con modificadores de habilidad únicos.",
+    "Mejora tu arma principal en el Herrero usando fragmentos del Abismo.",
+    "Desbloquea al menos un nuevo punto de referencia de la región mediante la exploración vertical.",
+    "Contribuye al progreso del Gremio o del Evento Mundial si está activo."
+  ]}
+/>
+
+<Callout type="success" title="Perspectiva del Juego Final">
+La hoja de ruta de 2026 para Farever incluye nuevos niveles de "Abismo", incluyendo zonas PvPvE y mazmorras específicas de Gremio. Dominar las mecánicas de la carrera actual ahora te dará una ventaja significativa cuando se lancen estas actualizaciones.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes sobre la Carrera del Abismo de Farever">
+
+<FAQ items={[
+  {
+    question: "¿Con qué frecuencia puedo realizar una carrera del abismo de Farever?",
+    answer: "Actualmente, en Acceso Anticipado, no hay un límite estricto sobre cuántas carreras puedes hacer por día. Sin embargo, el botín de jefe de alto nivel a menudo tiene un bloqueo semanal para evitar una rápida inflación de equipo."
+  },
+  {
+    question: "¿Puedo completar una carrera del abismo en solitario como Clérigo?",
+    answer: "Sí, pero es significativamente más lento. Debes enfocar tu 'Arsenal' en habilidades de arma que causen daño, como las del Hacha o la Gran Espada, para compensar el menor DPS base del Clérigo."
+  },
+  {
+    question: "¿Cuál es la mejor manera de lidiar con los enemigos 'Ominosos' en una carrera?",
+    answer: "Los enemigos Ominosos deben ser controlados por la multitud de inmediato. Los Magos que usan hechizos de Hielo son los mejores para congelar estas amenazas mientras el resto del equipo se concentra en los esbirros más pequeños."
+  },
+  {
+    question: "¿La carrera del abismo de Farever escala con el número de jugadores?",
+    answer: "Sí. La salud y el daño de los enemigos aumentan por cada jugador en el grupo. Sin embargo, la calidad del botín también mejora, lo que hace que el juego en grupo sea más gratificante para materiales de alto nivel."
+  }
+]} />
+
+</Section>

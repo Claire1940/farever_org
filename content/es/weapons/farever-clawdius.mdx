@@ -1,0 +1,172 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Farever Clawdius: Guía de Jefe, Tácticas y Botín 2026",
+  description: "Domina la pelea contra el jefe Farever Clawdius con nuestra guía experta. Aprende patrones de ataque, las mejores construcciones de clase y cómo farmear botín raro en Siagarta en 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Farever+Clawdius+Boss+Guide",
+  date: "2026-05-12",
+  author: "Equipo Wiki de Farever"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Farever Clawdius**: Un encuentro de élite de alto nivel que se encuentra en las regiones costeras de Siagarta, conocido por su alta defensa física.
+- **Mecánica Clave**: Concéntrate en **Romper la Resistencia** para sortear el caparazón endurecido del jefe y realizar golpes críticos.
+- **Mejor Estrategia**: Usa un **Guerrero** para la presión frontal y un **Clérigo** para mitigar el daño masivo de golpe de área (AoE) del jefe.
+- **Consejo Crítico**: Presta atención a la fase de "Escudo de Burbuja"; detén todos los ataques para evitar un devastador contraataque de reflejo de daño.
+- **Mejor Botín**: Alta probabilidad de soltar la **Rótula de Cangrejo Gigante**, un escudo Raro esencial para construcciones de tanque de mitad de juego.
+</Callout>
+
+Farever ha irrumpido en el mundo de los juegos de rol de acción desde su lanzamiento en Acceso Anticipado el 6 de mayo de 2026. Desarrollado por Shiro Games, esta experiencia multijugador en línea desafía a los jugadores a explorar el vasto y vertical mundo de Siagarta. Entre los muchos peligros que acechan en las regiones hechas a mano, el encuentro conocido como Farever Clawdius se destaca como un hito significativo para los jugadores que progresan. Este jefe requiere más que solo estadísticas altas; exige una comprensión profunda del ritmo de combate de acción del juego, la gestión de la resistencia y el innovador sistema de Arsenal.
+
+Ya sea que enfrentes este desafío solo o con un grupo de amigos, comprender las mecánicas específicas de Clawdius es la diferencia entre una exitosa carrera de botín y un rápido viaje de regreso al punto de aparición más cercano. En esta guía completa, desglosaremos la ubicación del jefe, sus patrones de ataque mortales y las construcciones de clase más efectivas para asegurar tu victoria en el mundo en constante evolución de Farever.
+
+<Section icon={Map} title="Localizando a Clawdius en Siagarta">
+
+Encontrar el encuentro con Farever Clawdius requiere que los jugadores se aventuren en la subregión de la Isla Skover, un área costera conocida por sus traicioneros acantilados y cuevas submarinas ocultas. A diferencia de las actividades mundiales estándar, Clawdius es un jefe de élite que a menudo guarda cofres de alto valor o marca la entrada a mazmorras especializadas.
+
+**Puntos Destacados del Video:**
+- **Vista General Visual**: Observa el entorno de la Isla Skover y el diseño de la arena del jefe.
+- **Ritmo de Combate**: Observa el momento para bloqueos perfectos contra golpes de garra pesados.
+- **Revelación de Botín**: Un primer vistazo a los drops Raros únicos disponibles después de la pelea.
+
+<YouTubeEmbed videoId="87bzUaPaamQ" title="Farever | Acceso Anticipado | ¡YA DISPONIBLE!" />
+
+Para llegar a la arena, los jugadores deben utilizar las herramientas de movimiento vertical del juego. Deslizarse desde los picos de Ebral o usar los ganchos de agarre que se encuentran cerca de la costa son las rutas más eficientes. Asegúrate de que tu personaje tenga al menos Nivel 15 antes de intentar esta pelea, ya que la resistencia física del jefe escala significativamente con su nivel.
+
+| Característica de Ubicación | Descripción | Requisito |
+| :--- | :--- | :--- |
+| **Región Principal** | Isla Skover, Acantilados Costeros | Nivel 15+ Recomendado |
+| **Herramienta de Acceso** | Planeador o Gancho de Agarre | Dominio Básico de Exploración |
+| **Tiempo de Reaparición** | 20 Minutos después de la derrota | Instancia de Mundo Público/Compartido |
+| **Dificultad** | Élite / Jefe Menor | Solo (Difícil) / Cooperativo (Normal) |
+
+<Callout type="tip" title="Ventaja Ambiental">
+Usa las plataformas rocosas elevadas que rodean la arena. Las clases a distancia como el Mago pueden lanzar hechizos de forma segura desde estas alturas, aunque Clawdius aún puede alcanzarte con su ataque "Chorro de Agua" si permaneces estático por mucho tiempo.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mecánicas de Combate y Patrones de Ataque">
+
+La pelea contra Farever Clawdius es una prueba de paciencia y resistencia. El jefe utiliza una mecánica de "Caparazón Endurecido" que reduce el daño entrante en un 70% hasta que su barra de resistencia se agota. Comprender las señales visuales específicas de sus ataques es esencial para la supervivencia, especialmente para Pícaros y Guerreros enfocados en el combate cuerpo a cuerpo.
+
+<CardGrid cols={2}>
+  <Card title="Fase 1: La Fractura">
+    - **Golpe de Garra**: Ataque rápido y horizontal que puede ser esquivado o bloqueado.
+    - **Golpe de Tierra**: Daño de área (AoE) alto que requiere saltar o una sincronización perfecta.
+    - **Enfoque**: Agotar la barra de resistencia usando habilidades de armas pesadas.
+  </Card>
+  <Card title="Fase 2: El Núcleo Burbuja">
+    - **Escudo de Burbuja**: Refleja el 50% del daño entrante de vuelta al jugador.
+    - **Chorro de Agua**: Presión a distancia que apunta al jugador más lejano.
+    - **Enfoque**: Evitar atacar el escudo; esperar al estado "Expuesto".
+  </Card>
+</CardGrid>
+
+Clawdius es particularmente peligroso durante su estado "Enfurecido", que se activa una vez que su salud cae por debajo del 40%. Durante este tiempo, su velocidad de ataque aumenta y obtiene acceso al movimiento "Pinza Aplastante", un ataque de agarre que puede derribar instantáneamente a los Magos con poca salud.
+
+| Nombre de Ataque | Señal Visual | Mejor Respuesta | Tipo de Daño |
+| :--- | :--- | :--- | :--- |
+| **Ola Gigante** | Ojos Azules Brillantes | Corre detrás del jefe | Hielo / Mágico |
+| **Pinza Aplastante** | La garra derecha se ensancha | Rodar (Izquierda) | Físico |
+| **Niebla Marina** | La arena se vuelve brumosa | Quédate cerca de la luz del Clérigo | Estado (Lento) |
+| **Giro de Caparazón** | El jefe se retrae en su caparazón | Mantener distancia | AoE Físico |
+
+<Callout type="warning" title="Gestión de la Resistencia">
+No uses el botón de esquivar de forma repetitiva. En Farever, esquivar consume una cantidad significativa de resistencia. Si te quedas sin resistencia mientras Clawdius prepara su Giro de Caparazón, no podrás escapar de la zona de alto daño.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Mejores Construcciones y Estrategias de Clase">
+
+Derrotar a Farever Clawdius es significativamente más fácil cuando tu grupo está optimizado para el encuentro. El sistema de Arsenal te permite llevar habilidades de armas específicas a la pelea, independientemente de tu clase principal, proporcionando la flexibilidad necesaria para contrarrestar la alta defensa física del jefe.
+
+<Steps>
+  <Step num="1" title="La Línea Frontal (Guerrero)">
+    Equipa una Gran Espada a dos manos con la habilidad "Fractura de Armadura". Tu trabajo principal es mantenerte frente al jefe y mantener el aggro mientras usas bloqueos perfectos para ahorrar resistencia.
+  </Step>
+  <Step num="2" title="El Apoyo (Clérigo)">
+    Concéntrate en los hechizos "Escudo Radiante" y "Sustentación". Clawdius inflige un gran daño a través de los bloqueos, por lo que se requiere una curación constante para evitar que el Guerrero caiga.
+  </Step>
+  <Step num="3" title="El Daño (Mago/Pícaro)">
+    Los Magos deben usar bastones de Hielo para ralentizar las animaciones del jefe. Los Pícaros deben esperar la ventana "Expuesto" después de un Golpe de Tierra para desatar combos de daga de alto crítico.
+  </Step>
+</Steps>
+
+Para los jugadores en solitario, se recomienda el enfoque de **Híbrido de Arsenal**. Al colocar un Cetro en tu ranura de Arsenal, incluso un Guerrero puede acceder a hechizos de curación menores, que son vitales para sobrevivir la larga fase de agotamiento de resistencia de la pelea contra Clawdius.
+
+| Rol de Clase | Arma Recomendada | Habilidad Clave para Clawdius | Viabilidad en Solitario |
+| :--- | :--- | :--- | :--- |
+| **Guerrero** | Gran Espada / Hacha | Torbellino / Fractura | Alta |
+| **Mago** | Bastón de Hielo | Espina Glacial | Media |
+| **Pícaro** | Dagas Gemelas | Paso Sombrío | Media |
+| **Clérigo** | Cetro y Escudo | Égida Sagrada | Baja (Lento) |
+
+<Callout type="success" title="El Secreto del Arsenal">
+Intenta colocar un **Arco** en tu Arsenal para usar la habilidad "Disparo Chispeante". El daño de rayo ignora una parte de la armadura de caparazón del jefe, haciendo la primera fase mucho más rápida para todas las clases.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Tabla de Botín y Recompensas">
+
+La razón principal por la que los jugadores farmean a Farever Clawdius es por sus materiales de crafteo únicos y sus drops de equipo Raro. A partir de la actualización de mayo de 2026, el jefe es la fuente más confiable para la **Rótula de Cangrejo Gigante**, un escudo que proporciona el valor de bloqueo físico más alto para su rango de nivel.
+
+<Checklist
+  id="clawdius-loot"
+  title="Posibles Drops:"
+  items={[
+    "Rótula de Cangrejo Gigante (Escudo Raro)",
+    "Fragmento de Caparazón Endurecido (Material de Crafteo)",
+    "Perla de Siagarta (Moneda de Alto Valor)",
+    "Núcleo Infundido en Agua (Mejora de Arsenal)",
+    "Fragmento de Mapa de la Isla Skover"
+  ]}
+/>
+
+El **Fragmento de Caparazón Endurecido** es un componente crítico para el oficio de Herrero. Se utiliza para craftear el conjunto de "Armadura de Marea", que proporciona resistencia a los ataques basados en hielo y agua comunes en las regiones posteriores de Siagarta.
+
+| Nombre del Objeto | Rareza | Tasa de Drop | Uso Principal |
+| :--- | :--- | :--- | :--- |
+| **Rótula de Cangrejo Gigante** | Raro | ~10% | Construcciones de Tanque / Defensa |
+| **Caparazón Endurecido** | Poco Común | 100% | Recetas de Herrería |
+| **Esencia Oceánica** | Raro | ~5% | Mejoras de Habilidades de Arma |
+| **Silla de Montar de Jabalí** | Épico | ~1% | Cosmético / Movimiento |
+
+<Callout type="info" title="Escalado de Botín">
+En Farever, la calidad del botín escala ligeramente con el número de jugadores en tu grupo. Aunque el jefe tiene más salud en cooperativo, la probabilidad de ver un drop Raro como la Rótula de Cangrejo Gigante aumenta aproximadamente un 2% por cada jugador adicional.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas Frecuentes: Preguntas Comunes sobre Clawdius">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es el nivel mínimo para luchar contra Farever Clawdius?",
+    answer: "Aunque puedes encontrar al jefe tan pronto como en el Nivel 10, se recomienda encarecidamente tener al menos Nivel 15. La alta defensa física del jefe hace que sea muy difícil para los jugadores de nivel inferior agotar su barra de resistencia."
+  },
+  {
+    question: "¿Puedo derrotar a Clawdius en solitario como Mago?",
+    answer: "Sí, pero requiere un posicionamiento cuidadoso. Usa tus hechizos de Hielo para mantener al jefe a distancia y utiliza la verticalidad de la arena para evitar su ataque de Golpe de Tierra."
+  },
+  {
+    question: "¿Con qué frecuencia reaparece Clawdius?",
+    answer: "En la versión actual de Acceso Anticipado (mayo de 2026), Clawdius tiene un tiempo de reaparición de 20 minutos. Este es un jefe de mundo compartido, por lo que otros jugadores en tu instancia pueden derrotarlo antes de que llegues."
+  },
+  {
+    question: "¿El Escudo de Burbuja refleja el daño mágico?",
+    answer: "Sí, el Escudo de Burbuja refleja el 50% de todos los tipos de daño entrante, incluyendo el mágico y el físico. Debes dejar de atacar inmediatamente cuando aparezca el escudo azul."
+  }
+]} />
+
+</Section>
